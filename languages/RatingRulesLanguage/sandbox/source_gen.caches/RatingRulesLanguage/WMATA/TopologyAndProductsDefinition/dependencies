@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="RatingRulesLanguage.WMATA.TopologyAndProductsDefinition.map_TopologyDefinitionBlock" file="map_TopologyDefinitionBlock.xml" />
+</dependenciesRoot>
+

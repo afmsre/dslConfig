@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root>
+    <file name="ActionAspectDescriptorImpl.java">
+      <unit at="13,0,44,0" name="RatingRulesLanguage.actions.ActionAspectDescriptorImpl" />
+    </file>
+    <file name="QueriesGenerated.java">
+      <unit at="111,49,129,5" name="RatingRulesLanguage.actions.QueriesGenerated$5" />
+      <unit at="32,0,410,0" name="RatingRulesLanguage.actions.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/1904811872814253598">
+    <file name="QueriesGenerated.java">
+      <node id="1904811872814253599" at="135,200,136,93" concept="5" />
+      <node id="1904811872814253610" at="139,43,140,100" concept="6" />
+      <node id="1904811872814253655" at="146,100,147,31" concept="5" />
+      <node id="1904811872814253625" at="148,41,149,270" concept="1" />
+      <node id="8513976921143474318" at="150,49,151,272" concept="1" />
+      <node id="3210697320273834949" at="152,47,153,269" concept="1" />
+      <node id="4337705483005399198" at="154,48,155,271" concept="1" />
+      <node id="4337705483005394926" at="156,22,157,88" concept="10" />
+      <node id="1904811872814253757" at="158,15,159,209" concept="1" />
+      <node id="1904811872814253843" at="159,209,160,189" concept="6" />
+      <node id="1904811872814253623" at="162,59,163,28" concept="6" />
+      <node id="1904811872814253599" at="165,66,166,46" concept="6" />
+      <node id="1904811872814253599" at="169,43,170,49" concept="5" />
+      <node id="1904811872814253599" at="170,49,171,67" concept="5" />
+      <node id="1904811872814253599" at="171,67,172,94" concept="5" />
+      <node id="1904811872814253599" at="172,94,173,512" concept="6" />
+      <node id="1904811872814253599" at="178,5,179,18" concept="6" />
+      <node id="1904811872814296399" at="181,200,182,93" concept="5" />
+      <node id="1904811872814296409" at="185,43,186,100" concept="6" />
+      <node id="1904811872814296419" at="192,100,193,31" concept="5" />
+      <node id="642541832606714991" at="194,41,195,230" concept="5" />
+      <node id="642541832606752440" at="195,230,196,86" concept="1" />
+      <node id="1904811872814296424" at="196,86,197,37" concept="1" />
+      <node id="8513976921143479604" at="198,49,199,230" concept="5" />
+      <node id="8513976921143479610" at="199,230,200,86" concept="1" />
+      <node id="8513976921143479615" at="200,86,201,37" concept="1" />
+      <node id="4337705483005400061" at="202,47,203,228" concept="5" />
+      <node id="4337705483005400067" at="203,228,204,85" concept="1" />
+      <node id="4337705483005400072" at="204,85,205,36" concept="1" />
+      <node id="4337705483005406464" at="206,22,207,230" concept="5" />
+      <node id="4337705483005406470" at="207,230,208,85" concept="1" />
+      <node id="4337705483005406475" at="208,85,209,36" concept="1" />
+      <node id="8513976921143268796" at="210,15,211,208" concept="1" />
+      <node id="1904811872814296448" at="211,208,212,190" concept="6" />
+      <node id="1904811872814296417" at="214,59,215,28" concept="6" />
+      <node id="1904811872814296399" at="217,66,218,46" concept="6" />
+      <node id="1904811872814296399" at="221,43,222,49" concept="5" />
+      <node id="1904811872814296399" at="222,49,223,67" concept="5" />
+      <node id="1904811872814296399" at="223,67,224,94" concept="5" />
+      <node id="1904811872814296399" at="224,94,225,512" concept="6" />
+      <node id="1904811872814296399" at="230,5,231,18" concept="6" />
+      <node id="4337705483005398384" at="156,20,158,15" concept="0" />
+      <node id="1904811872814253599" at="139,0,142,0" concept="4" trace="compute#()Ljava/lang/Iterable;" />
+      <node id="1904811872814253599" at="162,0,165,0" concept="4" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1904811872814253599" at="165,0,168,0" concept="4" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1904811872814296399" at="185,0,188,0" concept="4" trace="compute#()Ljava/lang/Iterable;" />
+      <node id="1904811872814296399" at="214,0,217,0" concept="4" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1904811872814296399" at="217,0,220,0" concept="4" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4337705483005406462" at="206,20,210,15" concept="0" />
+      <node id="1904811872814253599" at="137,5,142,18" concept="5" />
+      <node id="1904811872814296399" at="183,5,188,18" concept="5" />
+      <node id="1904811872814253599" at="168,0,175,0" concept="4" trace="isEnabled#()Z" />
+      <node id="1904811872814296399" at="220,0,227,0" concept="4" trace="isEnabled#()Z" />
+      <node id="1904811872814253660" at="147,31,158,15" concept="3" />
+      <node id="1904811872814253599" at="146,0,162,0" concept="4" trace="doSubstitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1904811872814296422" at="193,31,210,15" concept="3" />
+      <node id="1904811872814296399" at="192,0,214,0" concept="4" trace="doSubstitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1904811872814253599" at="144,52,175,13" concept="1" />
+      <node id="1904811872814253599" at="143,37,176,9" concept="2" />
+      <node id="1904811872814253599" at="142,18,177,7" concept="3" />
+      <node id="1904811872814296399" at="190,52,227,13" concept="1" />
+      <node id="1904811872814296399" at="189,37,228,9" concept="2" />
+      <node id="1904811872814296399" at="188,18,229,7" concept="3" />
+      <node id="1904811872814253599" at="136,93,178,5" concept="0" />
+      <node id="1904811872814253599" at="136,93,178,5" concept="0" />
+      <node id="1904811872814253599" at="135,0,181,0" concept="9" trace="sideTransform_ActionsFactory_LogicalExpression_1904811872814253599#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
+      <node id="1904811872814296399" at="182,93,230,5" concept="0" />
+      <node id="1904811872814296399" at="182,93,230,5" concept="0" />
+      <node id="1904811872814296399" at="181,0,233,0" concept="9" trace="sideTransform_ActionsFactory_LogicalExpression_1904811872814296399#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
+      <scope id="1904811872814253599" at="139,43,140,100" />
+      <scope id="1904811872814253661" at="148,41,149,270" />
+      <scope id="8513976921143471483" at="150,49,151,272" />
+      <scope id="3210697320273834948" at="152,47,153,269" />
+      <scope id="4337705483005394925" at="154,48,155,271" />
+      <scope id="4337705483005398385" at="156,22,157,88" />
+      <scope id="1904811872814253622" at="162,59,163,28" />
+      <scope id="1904811872814253599" at="165,66,166,46" />
+      <scope id="1904811872814296399" at="185,43,186,100" />
+      <scope id="1904811872814296416" at="214,59,215,28" />
+      <scope id="1904811872814296399" at="217,66,218,46" />
+      <scope id="1904811872814253599" at="139,0,142,0" />
+      <scope id="1904811872814253599" at="162,0,165,0">
+        <var name="pattern" id="1904811872814253599" />
+      </scope>
+      <scope id="1904811872814253599" at="165,0,168,0">
+        <var name="pattern" id="1904811872814253599" />
+      </scope>
+      <scope id="1904811872814296399" at="185,0,188,0" />
+      <scope id="1904811872814296423" at="194,41,197,37">
+        <var name="andNode" id="642541832606714994" />
+      </scope>
+      <scope id="8513976921143476951" at="198,49,201,37">
+        <var name="andNode" id="8513976921143479605" />
+      </scope>
+      <scope id="4337705483005400060" at="202,47,205,36">
+        <var name="orNode" id="4337705483005400062" />
+      </scope>
+      <scope id="4337705483005406463" at="206,22,209,36">
+        <var name="orNode" id="4337705483005406465" />
+      </scope>
+      <scope id="1904811872814296399" at="214,0,217,0">
+        <var name="pattern" id="1904811872814296399" />
+      </scope>
+      <scope id="1904811872814296399" at="217,0,220,0">
+        <var name="pattern" id="1904811872814296399" />
+      </scope>
+      <scope id="1904811872814253599" at="169,43,173,512">
+        <var name="containingLink" id="1904811872814253599" />
+        <var name="parent" id="1904811872814253599" />
+        <var name="sourceNode" id="1904811872814253599" />
+      </scope>
+      <scope id="1904811872814296399" at="221,43,225,512">
+        <var name="containingLink" id="1904811872814296399" />
+        <var name="parent" id="1904811872814296399" />
+        <var name="sourceNode" id="1904811872814296399" />
+      </scope>
+      <scope id="1904811872814253599" at="168,0,175,0" />
+      <scope id="1904811872814296399" at="220,0,227,0" />
+      <scope id="1904811872814253608" at="146,100,160,189">
+        <var name="conjuction" id="1904811872814253656" />
+      </scope>
+      <scope id="1904811872814253599" at="146,0,162,0">
+        <var name="editorContext" id="1904811872814253599" />
+        <var name="pattern" id="1904811872814253599" />
+      </scope>
+      <scope id="1904811872814296407" at="192,100,212,190">
+        <var name="conjuction" id="1904811872814296420" />
+      </scope>
+      <scope id="1904811872814296399" at="192,0,214,0">
+        <var name="editorContext" id="1904811872814296399" />
+        <var name="pattern" id="1904811872814296399" />
+      </scope>
+      <scope id="1904811872814253599" at="144,52,175,13" />
+      <scope id="1904811872814253599" at="143,37,176,9" />
+      <scope id="1904811872814253599" at="143,37,176,9">
+        <var name="item" id="1904811872814253599" />
+      </scope>
+      <scope id="1904811872814296399" at="190,52,227,13" />
+      <scope id="1904811872814296399" at="189,37,228,9" />
+      <scope id="1904811872814296399" at="189,37,228,9">
+        <var name="item" id="1904811872814296399" />
+      </scope>
+      <scope id="1904811872814253599" at="137,5,177,7">
+        <var name="parameterObjects" id="1904811872814253599" />
+      </scope>
+      <scope id="1904811872814253599" at="136,93,178,5" />
+      <scope id="1904811872814253599" at="135,200,179,18">
+        <var name="result" id="1904811872814253599" />
+      </scope>
+      <scope id="1904811872814253599" at="135,0,181,0">
+        <var name="_context" id="1904811872814253599" />
+        <var name="operationContext" id="1904811872814253599" />
+      </scope>
+      <scope id="1904811872814296399" at="183,5,229,7">
+        <var name="parameterObjects" id="1904811872814296399" />
+      </scope>
+      <scope id="1904811872814296399" at="182,93,230,5" />
+      <scope id="1904811872814296399" at="181,200,231,18">
+        <var name="result" id="1904811872814296399" />
+      </scope>
+      <scope id="1904811872814296399" at="181,0,233,0">
+        <var name="_context" id="1904811872814296399" />
+        <var name="operationContext" id="1904811872814296399" />
+      </scope>
+      <unit id="1904811872814253599" at="138,46,142,7" name="RatingRulesLanguage.actions.QueriesGenerated$6" />
+      <unit id="1904811872814296399" at="184,46,188,7" name="RatingRulesLanguage.actions.QueriesGenerated$8" />
+      <unit id="1904811872814253599" at="145,55,175,11" name="RatingRulesLanguage.actions.QueriesGenerated$7" />
+      <unit id="1904811872814296399" at="191,55,227,11" name="RatingRulesLanguage.actions.QueriesGenerated$9" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/1966274290525720147">
+    <file name="QueriesGenerated.java">
+      <node id="1966274290525720148" at="33,214,34,93" concept="5" />
+      <node id="1966274290525720148" at="35,5,36,190" concept="5" />
+      <node id="1966274290525720148" at="36,190,37,62" concept="5" />
+      <node id="1966274290525727789" at="42,58,43,42" concept="6" />
+      <node id="1966274290525731557" at="51,98,52,167" concept="5" />
+      <node id="1966274290525732872" at="52,167,53,46" concept="6" />
+      <node id="1966274290525729689" at="55,61,56,48" concept="6" />
+      <node id="1966274290525720148" at="58,68,59,48" concept="6" />
+      <node id="1966274290525730793" at="61,64,62,40" concept="6" />
+      <node id="1966274290525720148" at="68,5,69,18" concept="6" />
+      <node id="1966274290525727545" at="42,0,45,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Z" />
+      <node id="1966274290525720148" at="55,0,58,0" concept="4" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1966274290525720148" at="58,0,61,0" concept="4" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1966274290525720148" at="61,0,64,0" concept="4" trace="getDescriptionText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1966274290525720148" at="51,0,55,0" concept="4" trace="createChildNode#(Ljava/lang/Object;Lorg/jetbrains/mps/openapi/model/SModel;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1966274290525722356" at="40,55,45,15" concept="6" />
+      <node id="1966274290525720148" at="40,0,47,0" concept="4" trace="compute#()Ljava/lang/Iterable;" />
+      <node id="1966274290525720148" at="38,133,47,20" concept="5" />
+      <node id="1966274290525720148" at="49,59,64,15" concept="1" />
+      <node id="1966274290525720148" at="48,34,65,11" concept="2" />
+      <node id="1966274290525720148" at="47,20,66,9" concept="3" />
+      <node id="1966274290525720148" at="37,62,67,7" concept="3" />
+      <node id="1966274290525720148" at="34,93,68,5" concept="0" />
+      <node id="1966274290525720148" at="34,93,68,5" concept="0" />
+      <node id="1966274290525720148" at="33,0,71,0" concept="9" trace="nodeSubstituteActionsBuilder_ActionsFactory_LogicalOperator_1966274290525720148#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/NodeSubstituteActionsFactoryContext;)Ljava/util/List;" />
+      <scope id="1966274290525727546" at="42,58,43,42" />
+      <scope id="1966274290525729348" at="55,61,56,48" />
+      <scope id="1966274290525720148" at="58,68,59,48" />
+      <scope id="1966274290525730411" at="61,64,62,40" />
+      <scope id="1966274290525722130" at="51,98,53,46">
+        <var name="newInitializedInstance" id="1966274290525731560" />
+      </scope>
+      <scope id="1966274290525727545" at="42,0,45,0">
+        <var name="it" id="1966274290525727545" />
+      </scope>
+      <scope id="1966274290525720148" at="55,0,58,0">
+        <var name="pattern" id="1966274290525720148" />
+      </scope>
+      <scope id="1966274290525720148" at="58,0,61,0">
+        <var name="pattern" id="1966274290525720148" />
+      </scope>
+      <scope id="1966274290525720148" at="61,0,64,0">
+        <var name="pattern" id="1966274290525720148" />
+      </scope>
+      <scope id="1966274290525720148" at="51,0,55,0">
+        <var name="model" id="1966274290525720148" />
+        <var name="parameterObject" id="1966274290525720148" />
+        <var name="pattern" id="1966274290525720148" />
+      </scope>
+      <scope id="1966274290525720148" at="40,55,45,15" />
+      <scope id="1966274290525720148" at="40,0,47,0" />
+      <scope id="1966274290525720148" at="49,59,64,15" />
+      <scope id="1966274290525720148" at="48,34,65,11" />
+      <scope id="1966274290525720148" at="48,34,65,11">
+        <var name="item" id="1966274290525720148" />
+      </scope>
+      <scope id="1966274290525720148" at="38,133,66,9">
+        <var name="queryResult" id="1966274290525720148" />
+      </scope>
+      <scope id="1966274290525720148" at="35,5,67,7">
+        <var name="childConcept" id="1966274290525720148" />
+        <var name="outputConcept" id="1966274290525720148" />
+      </scope>
+      <scope id="1966274290525720148" at="34,93,68,5" />
+      <scope id="1966274290525720148" at="33,214,69,18">
+        <var name="result" id="1966274290525720148" />
+      </scope>
+      <scope id="1966274290525720148" at="33,0,71,0">
+        <var name="_context" id="1966274290525720148" />
+        <var name="operationContext" id="1966274290525720148" />
+      </scope>
+      <unit id="1966274290525727545" at="41,252,45,13" name="RatingRulesLanguage.actions.QueriesGenerated$2" />
+      <unit id="1966274290525720148" at="39,53,47,9" name="RatingRulesLanguage.actions.QueriesGenerated$1" />
+      <unit id="1966274290525720148" at="50,57,64,13" name="RatingRulesLanguage.actions.QueriesGenerated$2" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/1966274290525733025">
+    <file name="LogicalOperatorFactory.java">
+      <node id="8513976921143610079" at="15,195,16,506" concept="1" />
+      <node id="8513976921143612681" at="16,506,17,508" concept="1" />
+      <node id="8513976921143609602" at="14,91,18,7" concept="3" />
+      <node id="1966274290525733026" at="14,0,20,0" concept="4" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="8513976921143609604" at="15,195,17,508" />
+      <scope id="1966274290525733026" at="14,91,18,7" />
+      <scope id="1966274290525733026" at="14,0,20,0">
+        <var name="enclosingNode" id="1966274290525733026" />
+        <var name="model" id="1966274290525733026" />
+        <var name="newNode" id="1966274290525733026" />
+        <var name="sampleNode" id="1966274290525733026" />
+      </scope>
+      <unit id="1966274290525733026" at="13,0,21,0" name="RatingRulesLanguage.actions.LogicalOperatorFactory$NodeFactory_1966274290525733026" />
+      <unit id="1966274290525733025" at="12,0,22,0" name="RatingRulesLanguage.actions.LogicalOperatorFactory" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/1966274290525735887">
+    <file name="QueriesGenerated.java">
+      <node id="1966274290525737723" at="112,94,113,265" concept="5" />
+      <node id="1966274290525738599" at="113,265,114,210" concept="6" />
+      <node id="1966274290525736707" at="132,209,133,199" concept="6" />
+      <node id="1966274290525736666" at="132,0,135,0" concept="9" trace="sideTransformHintSubstituteActionsBuilder_Precondition_LogicalExpression_1966274290525736666#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformPreconditionContext;)Z" />
+      <scope id="1966274290525736667" at="132,209,133,199" />
+      <scope id="1966274290525737617" at="112,94,114,210">
+        <var name="notNode" id="1966274290525737726" />
+      </scope>
+      <scope id="1966274290525736666" at="132,0,135,0">
+        <var name="_context" id="1966274290525736666" />
+        <var name="operationContext" id="1966274290525736666" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/2018270309120288989">
+    <file name="BaseUDNamedIDCriteriaDefinition_Factory.java">
+      <node id="2018270309120288995" at="15,91,16,51" concept="7" />
+      <node id="2018270309120288999" at="17,246,18,463" concept="1" />
+      <node id="2018270309120288997" at="16,51,19,7" concept="3" />
+      <node id="2018270309120288990" at="15,0,21,0" concept="4" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="2018270309120288998" at="17,246,18,463" />
+      <scope id="2018270309120288990" at="15,91,19,7" />
+      <scope id="2018270309120288990" at="15,0,21,0">
+        <var name="enclosingNode" id="2018270309120288990" />
+        <var name="model" id="2018270309120288990" />
+        <var name="newNode" id="2018270309120288990" />
+        <var name="sampleNode" id="2018270309120288990" />
+      </scope>
+      <unit id="2018270309120288990" at="14,0,22,0" name="RatingRulesLanguage.actions.BaseUDNamedIDCriteriaDefinition_Factory$NodeFactory_2018270309120288990" />
+      <unit id="2018270309120288989" at="13,0,23,0" name="RatingRulesLanguage.actions.BaseUDNamedIDCriteriaDefinition_Factory" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/3479341316304450021">
+    <file name="BaseUnaryOperatorFactory.java">
+      <node id="3479341316304450707" at="15,197,16,510" concept="1" />
+      <node id="3479341316304450095" at="14,91,17,7" concept="3" />
+      <node id="3479341316304450022" at="14,0,19,0" concept="4" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="3479341316304450096" at="15,197,16,510" />
+      <scope id="3479341316304450022" at="14,91,17,7" />
+      <scope id="3479341316304450022" at="14,0,19,0">
+        <var name="enclosingNode" id="3479341316304450022" />
+        <var name="model" id="3479341316304450022" />
+        <var name="newNode" id="3479341316304450022" />
+        <var name="sampleNode" id="3479341316304450022" />
+      </scope>
+      <unit id="3479341316304450022" at="13,0,20,0" name="RatingRulesLanguage.actions.BaseUnaryOperatorFactory$NodeFactory_3479341316304450022" />
+      <unit id="3479341316304450021" at="12,0,21,0" name="RatingRulesLanguage.actions.BaseUnaryOperatorFactory" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/3479341316310472409">
+    <file name="WeekDayFactory.java">
+      <node id="3479341316310472416" at="14,91,15,494" concept="1" />
+      <node id="3479341316310472410" at="14,0,17,0" concept="4" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="3479341316310472410" at="14,91,15,494" />
+      <scope id="3479341316310472410" at="14,0,17,0">
+        <var name="enclosingNode" id="3479341316310472410" />
+        <var name="model" id="3479341316310472410" />
+        <var name="newNode" id="3479341316310472410" />
+        <var name="sampleNode" id="3479341316310472410" />
+      </scope>
+      <unit id="3479341316310472410" at="13,0,18,0" name="RatingRulesLanguage.actions.WeekDayFactory$NodeFactory_3479341316310472410" />
+      <unit id="3479341316310472409" at="12,0,19,0" name="RatingRulesLanguage.actions.WeekDayFactory" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/3570604503179646506">
+    <file name="LocationCriteria_Factory.java">
+      <node id="3570604503179646512" at="16,91,17,27" concept="7" />
+      <node id="3570604503180301690" at="18,203,19,542" concept="1" />
+      <node id="3570604503180301400" at="20,7,21,0" concept="8" />
+      <node id="3570604503180301688" at="17,27,20,7" concept="3" />
+      <node id="3570604503179646507" at="16,0,23,0" concept="4" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="3570604503180301689" at="18,203,19,542" />
+      <scope id="3570604503179646507" at="16,91,21,0" />
+      <scope id="3570604503179646507" at="16,0,23,0">
+        <var name="enclosingNode" id="3570604503179646507" />
+        <var name="model" id="3570604503179646507" />
+        <var name="newNode" id="3570604503179646507" />
+        <var name="sampleNode" id="3570604503179646507" />
+      </scope>
+      <unit id="3570604503179646507" at="15,0,24,0" name="RatingRulesLanguage.actions.LocationCriteria_Factory$NodeFactory_3570604503179646507" />
+      <unit id="3570604503179646506" at="14,0,25,0" name="RatingRulesLanguage.actions.LocationCriteria_Factory" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/3570604503179829096">
+    <file name="RecurrenceCriteria_Factory.java">
+      <node id="3570604503179829102" at="16,91,17,43" concept="7" />
+      <node id="3570604503180304444" at="18,202,19,540" concept="1" />
+      <node id="3570604503180304438" at="20,7,21,0" concept="8" />
+      <node id="3570604503180304442" at="17,43,20,7" concept="3" />
+      <node id="3570604503179829097" at="16,0,23,0" concept="4" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="3570604503180304443" at="18,202,19,540" />
+      <scope id="3570604503179829097" at="16,91,21,0" />
+      <scope id="3570604503179829097" at="16,0,23,0">
+        <var name="enclosingNode" id="3570604503179829097" />
+        <var name="model" id="3570604503179829097" />
+        <var name="newNode" id="3570604503179829097" />
+        <var name="sampleNode" id="3570604503179829097" />
+      </scope>
+      <unit id="3570604503179829097" at="15,0,24,0" name="RatingRulesLanguage.actions.RecurrenceCriteria_Factory$NodeFactory_3570604503179829097" />
+      <unit id="3570604503179829096" at="14,0,25,0" name="RatingRulesLanguage.actions.RecurrenceCriteria_Factory" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/4337705483006125743">
+    <file name="QueriesGenerated.java">
+      <node id="4337705483006125744" at="383,189,384,93" concept="5" />
+      <node id="4337705483006125744" at="385,5,386,49" concept="5" />
+      <node id="4337705483006125744" at="388,121,389,69" concept="6" />
+      <node id="4337705483006125909" at="391,103,392,79" concept="1" />
+      <node id="4337705483006129322" at="392,79,393,200" concept="1" />
+      <node id="4337705483006131456" at="393,200,394,24" concept="6" />
+      <node id="4337705483006125744" at="400,84,401,37" concept="1" />
+      <node id="4337705483006125744" at="401,37,402,54" concept="6" />
+      <node id="4337705483006125744" at="406,5,407,18" concept="6" />
+      <node id="4337705483006125744" at="388,0,391,0" concept="4" trace="doExecute#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4337705483006125744" at="391,0,396,0" concept="4" trace="substitute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4337705483006125744" at="399,0,404,0" concept="4" trace="substitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4337705483006125744" at="397,50,404,11" concept="1" />
+      <node id="4337705483006125744" at="396,27,405,7" concept="2" />
+      <node id="4337705483006125744" at="386,49,396,27" concept="5" />
+      <node id="4337705483006125744" at="384,93,406,5" concept="0" />
+      <node id="4337705483006125744" at="383,0,409,0" concept="9" trace="sideTransform_ActionsFactory_RValue_4337705483006125744#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
+      <scope id="4337705483006125744" at="388,121,389,69" />
+      <scope id="4337705483006125744" at="400,84,402,54" />
+      <scope id="4337705483006125744" at="388,0,391,0">
+        <var name="editorContext" id="4337705483006125744" />
+        <var name="newChild" id="4337705483006125744" />
+        <var name="oldChild" id="4337705483006125744" />
+        <var name="parentNode" id="4337705483006125744" />
+      </scope>
+      <scope id="4337705483006125750" at="391,103,394,24" />
+      <scope id="4337705483006125744" at="391,0,396,0">
+        <var name="editorContext" id="4337705483006125744" />
+        <var name="pattern" id="4337705483006125744" />
+        <var name="result" id="4337705483006125744" />
+      </scope>
+      <scope id="4337705483006125744" at="399,0,404,0">
+        <var name="context" id="4337705483006125744" />
+        <var name="pattern" id="4337705483006125744" />
+      </scope>
+      <scope id="4337705483006125744" at="397,50,404,11" />
+      <scope id="4337705483006125744" at="396,27,405,7">
+        <var name="action" id="4337705483006125744" />
+      </scope>
+      <scope id="4337705483006125744" at="385,5,405,7">
+        <var name="lastPattern" id="4337705483006125744" />
+        <var name="list" id="4337705483006125744" />
+      </scope>
+      <scope id="4337705483006125744" at="383,189,407,18">
+        <var name="result" id="4337705483006125744" />
+      </scope>
+      <scope id="4337705483006125744" at="383,0,409,0">
+        <var name="_context" id="4337705483006125744" />
+        <var name="operationContext" id="4337705483006125744" />
+      </scope>
+      <unit id="4337705483006125744" at="398,53,404,9" name="RatingRulesLanguage.actions.QueriesGenerated$17" />
+      <unit id="4337705483006125744" at="387,278,396,7" name="RatingRulesLanguage.actions.QueriesGenerated$16" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/6459614163394534948">
+    <file name="QueriesGenerated.java">
+      <node id="6459614163394534980" at="71,211,72,93" concept="5" />
+      <node id="6459614163394534980" at="73,5,74,187" concept="5" />
+      <node id="6459614163394534980" at="74,187,75,62" concept="5" />
+      <node id="6459614163394535006" at="80,58,81,42" concept="6" />
+      <node id="6459614163394534986" at="89,98,90,167" concept="5" />
+      <node id="6459614163394534993" at="90,167,91,46" concept="6" />
+      <node id="6459614163394535015" at="93,61,94,48" concept="6" />
+      <node id="6459614163394534980" at="96,68,97,48" concept="6" />
+      <node id="6459614163394535021" at="99,64,100,40" concept="6" />
+      <node id="6459614163394534980" at="106,5,107,18" concept="6" />
+      <node id="6459614163394535004" at="80,0,83,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Z" />
+      <node id="6459614163394534980" at="93,0,96,0" concept="4" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6459614163394534980" at="96,0,99,0" concept="4" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6459614163394534980" at="99,0,102,0" concept="4" trace="getDescriptionText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6459614163394534980" at="89,0,93,0" concept="4" trace="createChildNode#(Ljava/lang/Object;Lorg/jetbrains/mps/openapi/model/SModel;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="6459614163394534997" at="78,55,83,15" concept="6" />
+      <node id="6459614163394534980" at="78,0,85,0" concept="4" trace="compute#()Ljava/lang/Iterable;" />
+      <node id="6459614163394534980" at="76,133,85,20" concept="5" />
+      <node id="6459614163394534980" at="87,59,102,15" concept="1" />
+      <node id="6459614163394534980" at="86,34,103,11" concept="2" />
+      <node id="6459614163394534980" at="85,20,104,9" concept="3" />
+      <node id="6459614163394534980" at="75,62,105,7" concept="3" />
+      <node id="6459614163394534980" at="72,93,106,5" concept="0" />
+      <node id="6459614163394534980" at="72,93,106,5" concept="0" />
+      <node id="6459614163394534980" at="71,0,109,0" concept="9" trace="nodeSubstituteActionsBuilder_ActionsFactory_BaseOperator_6459614163394534980#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/NodeSubstituteActionsFactoryContext;)Ljava/util/List;" />
+      <scope id="6459614163394535005" at="80,58,81,42" />
+      <scope id="6459614163394535014" at="93,61,94,48" />
+      <scope id="6459614163394534980" at="96,68,97,48" />
+      <scope id="6459614163394535020" at="99,64,100,40" />
+      <scope id="6459614163394534985" at="89,98,91,46">
+        <var name="newInitializedInstance" id="6459614163394534987" />
+      </scope>
+      <scope id="6459614163394535004" at="80,0,83,0">
+        <var name="it" id="6459614163394535004" />
+      </scope>
+      <scope id="6459614163394534980" at="93,0,96,0">
+        <var name="pattern" id="6459614163394534980" />
+      </scope>
+      <scope id="6459614163394534980" at="96,0,99,0">
+        <var name="pattern" id="6459614163394534980" />
+      </scope>
+      <scope id="6459614163394534980" at="99,0,102,0">
+        <var name="pattern" id="6459614163394534980" />
+      </scope>
+      <scope id="6459614163394534980" at="89,0,93,0">
+        <var name="model" id="6459614163394534980" />
+        <var name="parameterObject" id="6459614163394534980" />
+        <var name="pattern" id="6459614163394534980" />
+      </scope>
+      <scope id="6459614163394534980" at="78,55,83,15" />
+      <scope id="6459614163394534980" at="78,0,85,0" />
+      <scope id="6459614163394534980" at="87,59,102,15" />
+      <scope id="6459614163394534980" at="86,34,103,11" />
+      <scope id="6459614163394534980" at="86,34,103,11">
+        <var name="item" id="6459614163394534980" />
+      </scope>
+      <scope id="6459614163394534980" at="76,133,104,9">
+        <var name="queryResult" id="6459614163394534980" />
+      </scope>
+      <scope id="6459614163394534980" at="73,5,105,7">
+        <var name="childConcept" id="6459614163394534980" />
+        <var name="outputConcept" id="6459614163394534980" />
+      </scope>
+      <scope id="6459614163394534980" at="72,93,106,5" />
+      <scope id="6459614163394534980" at="71,211,107,18">
+        <var name="result" id="6459614163394534980" />
+      </scope>
+      <scope id="6459614163394534980" at="71,0,109,0">
+        <var name="_context" id="6459614163394534980" />
+        <var name="operationContext" id="6459614163394534980" />
+      </scope>
+      <unit id="6459614163394535004" at="79,249,83,13" name="RatingRulesLanguage.actions.QueriesGenerated$4" />
+      <unit id="6459614163394534980" at="77,53,85,9" name="RatingRulesLanguage.actions.QueriesGenerated$3" />
+      <unit id="6459614163394534980" at="88,57,102,13" name="RatingRulesLanguage.actions.QueriesGenerated$4" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/7337838296291441760">
+    <file name="SystemFunction_Factory.java">
+      <node id="7337838296291439468" at="13,91,14,308" concept="1" />
+      <node id="7337838296291441761" at="13,0,16,0" concept="4" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="7337838296291441761" at="13,91,14,308" />
+      <scope id="7337838296291441761" at="13,0,16,0">
+        <var name="enclosingNode" id="7337838296291441761" />
+        <var name="model" id="7337838296291441761" />
+        <var name="newNode" id="7337838296291441761" />
+        <var name="sampleNode" id="7337838296291441761" />
+      </scope>
+      <unit id="7337838296291441761" at="12,0,17,0" name="RatingRulesLanguage.actions.SystemFunction_Factory$NodeFactory_7337838296291441761" />
+      <unit id="7337838296291441760" at="11,0,18,0" name="RatingRulesLanguage.actions.SystemFunction_Factory" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/7337838296292365469">
+    <file name="BaseAssignmentOperatorFactory.java">
+      <node id="7337838296292366091" at="15,202,16,513" concept="1" />
+      <node id="7337838296292370466" at="16,513,17,515" concept="1" />
+      <node id="7337838296292365686" at="14,91,18,7" concept="3" />
+      <node id="7337838296292365470" at="14,0,20,0" concept="4" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="7337838296292365687" at="15,202,17,515" />
+      <scope id="7337838296292365470" at="14,91,18,7" />
+      <scope id="7337838296292365470" at="14,0,20,0">
+        <var name="enclosingNode" id="7337838296292365470" />
+        <var name="model" id="7337838296292365470" />
+        <var name="newNode" id="7337838296292365470" />
+        <var name="sampleNode" id="7337838296292365470" />
+      </scope>
+      <unit id="7337838296292365470" at="13,0,21,0" name="RatingRulesLanguage.actions.BaseAssignmentOperatorFactory$NodeFactory_7337838296292365470" />
+      <unit id="7337838296292365469" at="12,0,22,0" name="RatingRulesLanguage.actions.BaseAssignmentOperatorFactory" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/7337838296293113114">
+    <file name="BaseOperatorFactory.java">
+      <node id="7337838296293113694" at="15,192,16,503" concept="1" />
+      <node id="7337838296293115611" at="16,503,17,505" concept="1" />
+      <node id="7337838296293113331" at="14,91,18,7" concept="3" />
+      <node id="7337838296293113115" at="14,0,20,0" concept="4" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="7337838296293113332" at="15,192,17,505" />
+      <scope id="7337838296293113115" at="14,91,18,7" />
+      <scope id="7337838296293113115" at="14,0,20,0">
+        <var name="enclosingNode" id="7337838296293113115" />
+        <var name="model" id="7337838296293113115" />
+        <var name="newNode" id="7337838296293113115" />
+        <var name="sampleNode" id="7337838296293113115" />
+      </scope>
+      <unit id="7337838296293113115" at="13,0,21,0" name="RatingRulesLanguage.actions.BaseOperatorFactory$NodeFactory_7337838296293113115" />
+      <unit id="7337838296293113114" at="12,0,22,0" name="RatingRulesLanguage.actions.BaseOperatorFactory" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/7337838296293209913">
+    <file name="QueriesGenerated.java">
+      <node id="4337705483005508643" at="259,189,260,93" concept="5" />
+      <node id="4337705483005508649" at="263,43,264,116" concept="6" />
+      <node id="4337705483005508659" at="270,100,271,31" concept="5" />
+      <node id="4337705483005508664" at="272,39,273,279" concept="1" />
+      <node id="4337705483005508680" at="274,47,275,281" concept="1" />
+      <node id="4337705483005508688" at="276,46,277,283" concept="1" />
+      <node id="4337705483005508700" at="278,47,279,285" concept="1" />
+      <node id="4337705483005544984" at="280,46,281,280" concept="1" />
+      <node id="4337705483005545575" at="282,47,283,282" concept="1" />
+      <node id="4337705483005546229" at="284,46,285,283" concept="1" />
+      <node id="4337705483005546946" at="286,47,287,285" concept="1" />
+      <node id="4337705483005508712" at="288,22,289,88" concept="10" />
+      <node id="4337705483005536604" at="290,15,291,0" concept="8" />
+      <node id="4337705483005537214" at="291,0,292,0" concept="8" />
+      <node id="4337705483005508718" at="292,0,293,209" concept="1" />
+      <node id="4337705483005508724" at="293,209,294,189" concept="6" />
+      <node id="4337705483005508730" at="296,59,297,28" concept="6" />
+      <node id="4337705483005508643" at="299,66,300,46" concept="6" />
+      <node id="4337705483005508643" at="303,43,304,49" concept="5" />
+      <node id="4337705483005508643" at="304,49,305,67" concept="5" />
+      <node id="4337705483005508643" at="305,67,306,94" concept="5" />
+      <node id="4337705483005508643" at="306,94,307,506" concept="6" />
+      <node id="4337705483005508643" at="312,5,313,18" concept="6" />
+      <node id="4337705483005508732" at="315,189,316,93" concept="5" />
+      <node id="4337705483005508738" at="319,43,320,116" concept="6" />
+      <node id="4337705483005508747" at="326,100,327,31" concept="5" />
+      <node id="4337705483005508752" at="328,39,329,236" concept="5" />
+      <node id="4337705483005508758" at="329,236,330,83" concept="1" />
+      <node id="4337705483005508763" at="330,83,331,34" concept="1" />
+      <node id="4337705483005508773" at="332,47,333,238" concept="5" />
+      <node id="4337705483005508779" at="333,238,334,83" concept="1" />
+      <node id="4337705483005508784" at="334,83,335,34" concept="1" />
+      <node id="4337705483005508794" at="336,46,337,240" concept="5" />
+      <node id="4337705483005508800" at="337,240,338,83" concept="1" />
+      <node id="4337705483005508805" at="338,83,339,34" concept="1" />
+      <node id="4337705483005579900" at="340,47,341,242" concept="5" />
+      <node id="4337705483005579906" at="341,242,342,83" concept="1" />
+      <node id="4337705483005579911" at="342,83,343,34" concept="1" />
+      <node id="4337705483005566320" at="344,46,345,237" concept="5" />
+      <node id="4337705483005566326" at="345,237,346,83" concept="1" />
+      <node id="4337705483005566331" at="346,83,347,34" concept="1" />
+      <node id="4337705483005580930" at="348,47,349,239" concept="5" />
+      <node id="4337705483005580936" at="349,239,350,83" concept="1" />
+      <node id="4337705483005580941" at="350,83,351,34" concept="1" />
+      <node id="4337705483005581565" at="352,46,353,240" concept="5" />
+      <node id="4337705483005581571" at="353,240,354,83" concept="1" />
+      <node id="4337705483005581576" at="354,83,355,34" concept="1" />
+      <node id="4337705483005508815" at="356,22,357,242" concept="5" />
+      <node id="4337705483005508821" at="357,242,358,83" concept="1" />
+      <node id="4337705483005508826" at="358,83,359,34" concept="1" />
+      <node id="4337705483005508830" at="360,15,361,208" concept="1" />
+      <node id="4337705483005508836" at="361,208,362,190" concept="6" />
+      <node id="4337705483005508842" at="364,59,365,28" concept="6" />
+      <node id="4337705483005508732" at="367,66,368,46" concept="6" />
+      <node id="4337705483005508732" at="371,43,372,49" concept="5" />
+      <node id="4337705483005508732" at="372,49,373,67" concept="5" />
+      <node id="4337705483005508732" at="373,67,374,94" concept="5" />
+      <node id="4337705483005508732" at="374,94,375,506" concept="6" />
+      <node id="4337705483005508732" at="380,5,381,18" concept="6" />
+      <node id="4337705483005508710" at="288,20,290,15" concept="0" />
+      <node id="4337705483005508643" at="263,0,266,0" concept="4" trace="compute#()Ljava/lang/Iterable;" />
+      <node id="4337705483005508643" at="296,0,299,0" concept="4" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4337705483005508643" at="299,0,302,0" concept="4" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4337705483005508732" at="319,0,322,0" concept="4" trace="compute#()Ljava/lang/Iterable;" />
+      <node id="4337705483005508732" at="364,0,367,0" concept="4" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4337705483005508732" at="367,0,370,0" concept="4" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4337705483005508813" at="356,20,360,15" concept="0" />
+      <node id="4337705483005508643" at="261,5,266,18" concept="5" />
+      <node id="4337705483005508732" at="317,5,322,18" concept="5" />
+      <node id="4337705483005508643" at="302,0,309,0" concept="4" trace="isEnabled#()Z" />
+      <node id="4337705483005508732" at="370,0,377,0" concept="4" trace="isEnabled#()Z" />
+      <node id="4337705483005508662" at="271,31,290,15" concept="3" />
+      <node id="4337705483005508643" at="270,0,296,0" concept="4" trace="doSubstitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4337705483005508750" at="327,31,360,15" concept="3" />
+      <node id="4337705483005508732" at="326,0,364,0" concept="4" trace="doSubstitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4337705483005508643" at="268,52,309,13" concept="1" />
+      <node id="4337705483005508643" at="267,37,310,9" concept="2" />
+      <node id="4337705483005508643" at="266,18,311,7" concept="3" />
+      <node id="4337705483005508643" at="260,93,312,5" concept="0" />
+      <node id="4337705483005508643" at="260,93,312,5" concept="0" />
+      <node id="4337705483005508732" at="324,52,377,13" concept="1" />
+      <node id="4337705483005508732" at="323,37,378,9" concept="2" />
+      <node id="4337705483005508643" at="259,0,315,0" concept="9" trace="sideTransform_ActionsFactory_RValue_4337705483005508643#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
+      <node id="4337705483005508732" at="322,18,379,7" concept="3" />
+      <node id="4337705483005508732" at="316,93,380,5" concept="0" />
+      <node id="4337705483005508732" at="316,93,380,5" concept="0" />
+      <node id="4337705483005508732" at="315,0,383,0" concept="9" trace="sideTransform_ActionsFactory_RValue_4337705483005508732#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
+      <scope id="4337705483005508643" at="263,43,264,116" />
+      <scope id="4337705483005508663" at="272,39,273,279" />
+      <scope id="4337705483005508679" at="274,47,275,281" />
+      <scope id="4337705483005508687" at="276,46,277,283" />
+      <scope id="4337705483005508699" at="278,47,279,285" />
+      <scope id="4337705483005544983" at="280,46,281,280" />
+      <scope id="4337705483005545574" at="282,47,283,282" />
+      <scope id="4337705483005546228" at="284,46,285,283" />
+      <scope id="4337705483005546945" at="286,47,287,285" />
+      <scope id="4337705483005508711" at="288,22,289,88" />
+      <scope id="4337705483005508729" at="296,59,297,28" />
+      <scope id="4337705483005508643" at="299,66,300,46" />
+      <scope id="4337705483005508732" at="319,43,320,116" />
+      <scope id="4337705483005508841" at="364,59,365,28" />
+      <scope id="4337705483005508732" at="367,66,368,46" />
+      <scope id="4337705483005508643" at="263,0,266,0" />
+      <scope id="4337705483005508643" at="296,0,299,0">
+        <var name="pattern" id="4337705483005508643" />
+      </scope>
+      <scope id="4337705483005508643" at="299,0,302,0">
+        <var name="pattern" id="4337705483005508643" />
+      </scope>
+      <scope id="4337705483005508732" at="319,0,322,0" />
+      <scope id="4337705483005508751" at="328,39,331,34">
+        <var name="node" id="4337705483005508753" />
+      </scope>
+      <scope id="4337705483005508772" at="332,47,335,34">
+        <var name="node" id="4337705483005508774" />
+      </scope>
+      <scope id="4337705483005508793" at="336,46,339,34">
+        <var name="node" id="4337705483005508795" />
+      </scope>
+      <scope id="4337705483005579899" at="340,47,343,34">
+        <var name="node" id="4337705483005579901" />
+      </scope>
+      <scope id="4337705483005566319" at="344,46,347,34">
+        <var name="node" id="4337705483005566321" />
+      </scope>
+      <scope id="4337705483005580929" at="348,47,351,34">
+        <var name="node" id="4337705483005580931" />
+      </scope>
+      <scope id="4337705483005581564" at="352,46,355,34">
+        <var name="node" id="4337705483005581566" />
+      </scope>
+      <scope id="4337705483005508814" at="356,22,359,34">
+        <var name="node" id="4337705483005508816" />
+      </scope>
+      <scope id="4337705483005508732" at="364,0,367,0">
+        <var name="pattern" id="4337705483005508732" />
+      </scope>
+      <scope id="4337705483005508732" at="367,0,370,0">
+        <var name="pattern" id="4337705483005508732" />
+      </scope>
+      <scope id="4337705483005508643" at="303,43,307,506">
+        <var name="containingLink" id="4337705483005508643" />
+        <var name="parent" id="4337705483005508643" />
+        <var name="sourceNode" id="4337705483005508643" />
+      </scope>
+      <scope id="4337705483005508732" at="371,43,375,506">
+        <var name="containingLink" id="4337705483005508732" />
+        <var name="parent" id="4337705483005508732" />
+        <var name="sourceNode" id="4337705483005508732" />
+      </scope>
+      <scope id="4337705483005508643" at="302,0,309,0" />
+      <scope id="4337705483005508732" at="370,0,377,0" />
+      <scope id="4337705483005508658" at="270,100,294,189">
+        <var name="conjuction" id="4337705483005508660" />
+      </scope>
+      <scope id="4337705483005508643" at="270,0,296,0">
+        <var name="editorContext" id="4337705483005508643" />
+        <var name="pattern" id="4337705483005508643" />
+      </scope>
+      <scope id="4337705483005508746" at="326,100,362,190">
+        <var name="conjuction" id="4337705483005508748" />
+      </scope>
+      <scope id="4337705483005508732" at="326,0,364,0">
+        <var name="editorContext" id="4337705483005508732" />
+        <var name="pattern" id="4337705483005508732" />
+      </scope>
+      <scope id="4337705483005508643" at="268,52,309,13" />
+      <scope id="4337705483005508643" at="267,37,310,9" />
+      <scope id="4337705483005508643" at="267,37,310,9">
+        <var name="item" id="4337705483005508643" />
+      </scope>
+      <scope id="4337705483005508643" at="261,5,311,7">
+        <var name="parameterObjects" id="4337705483005508643" />
+      </scope>
+      <scope id="4337705483005508643" at="260,93,312,5" />
+      <scope id="4337705483005508732" at="324,52,377,13" />
+      <scope id="4337705483005508643" at="259,189,313,18">
+        <var name="result" id="4337705483005508643" />
+      </scope>
+      <scope id="4337705483005508732" at="323,37,378,9" />
+      <scope id="4337705483005508732" at="323,37,378,9">
+        <var name="item" id="4337705483005508732" />
+      </scope>
+      <scope id="4337705483005508643" at="259,0,315,0">
+        <var name="_context" id="4337705483005508643" />
+        <var name="operationContext" id="4337705483005508643" />
+      </scope>
+      <scope id="4337705483005508732" at="317,5,379,7">
+        <var name="parameterObjects" id="4337705483005508732" />
+      </scope>
+      <scope id="4337705483005508732" at="316,93,380,5" />
+      <scope id="4337705483005508732" at="315,189,381,18">
+        <var name="result" id="4337705483005508732" />
+      </scope>
+      <scope id="4337705483005508732" at="315,0,383,0">
+        <var name="_context" id="4337705483005508732" />
+        <var name="operationContext" id="4337705483005508732" />
+      </scope>
+      <unit id="4337705483005508643" at="262,46,266,7" name="RatingRulesLanguage.actions.QueriesGenerated$12" />
+      <unit id="4337705483005508732" at="318,46,322,7" name="RatingRulesLanguage.actions.QueriesGenerated$14" />
+      <unit id="4337705483005508643" at="269,55,309,11" name="RatingRulesLanguage.actions.QueriesGenerated$13" />
+      <unit id="4337705483005508732" at="325,55,377,11" name="RatingRulesLanguage.actions.QueriesGenerated$15" />
+    </file>
+  </root>
+  <root nodeRef="r:d1d9aee3-de8c-410b-b09d-b27d161617f1(RatingRulesLanguage.actions)/8513976921143617513">
+    <file name="QueriesGenerated.java">
+      <node id="8513976921143617514" at="233,200,234,93" concept="5" />
+      <node id="8513976921143617514" at="235,5,236,49" concept="5" />
+      <node id="8513976921143617514" at="238,121,239,69" concept="6" />
+      <node id="8513976921143617618" at="241,103,242,79" concept="1" />
+      <node id="8513976921143618269" at="242,79,243,200" concept="1" />
+      <node id="8513976921143620033" at="243,200,244,24" concept="6" />
+      <node id="8513976921143617514" at="250,84,251,37" concept="1" />
+      <node id="8513976921143617514" at="251,37,252,54" concept="6" />
+      <node id="8513976921143617514" at="256,5,257,18" concept="6" />
+      <node id="8513976921143617514" at="238,0,241,0" concept="4" trace="doExecute#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8513976921143617514" at="241,0,246,0" concept="4" trace="substitute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8513976921143617514" at="249,0,254,0" concept="4" trace="substitute#(Ljetbrains/mps/openapi/editor/EditorContext;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8513976921143617514" at="247,50,254,11" concept="1" />
+      <node id="8513976921143617514" at="246,27,255,7" concept="2" />
+      <node id="8513976921143617514" at="236,49,246,27" concept="5" />
+      <node id="8513976921143617514" at="234,93,256,5" concept="0" />
+      <node id="8513976921143617514" at="233,0,259,0" concept="9" trace="sideTransform_ActionsFactory_LogicalExpression_8513976921143617514#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/SideTransformActionsBuilderContext;)Ljava/util/List;" />
+      <scope id="8513976921143617514" at="238,121,239,69" />
+      <scope id="8513976921143617514" at="250,84,252,54" />
+      <scope id="8513976921143617514" at="238,0,241,0">
+        <var name="editorContext" id="8513976921143617514" />
+        <var name="newChild" id="8513976921143617514" />
+        <var name="oldChild" id="8513976921143617514" />
+        <var name="parentNode" id="8513976921143617514" />
+      </scope>
+      <scope id="8513976921143617524" at="241,103,244,24" />
+      <scope id="8513976921143617514" at="241,0,246,0">
+        <var name="editorContext" id="8513976921143617514" />
+        <var name="pattern" id="8513976921143617514" />
+        <var name="result" id="8513976921143617514" />
+      </scope>
+      <scope id="8513976921143617514" at="249,0,254,0">
+        <var name="context" id="8513976921143617514" />
+        <var name="pattern" id="8513976921143617514" />
+      </scope>
+      <scope id="8513976921143617514" at="247,50,254,11" />
+      <scope id="8513976921143617514" at="246,27,255,7">
+        <var name="action" id="8513976921143617514" />
+      </scope>
+      <scope id="8513976921143617514" at="235,5,255,7">
+        <var name="lastPattern" id="8513976921143617514" />
+        <var name="list" id="8513976921143617514" />
+      </scope>
+      <scope id="8513976921143617514" at="233,200,257,18">
+        <var name="result" id="8513976921143617514" />
+      </scope>
+      <scope id="8513976921143617514" at="233,0,259,0">
+        <var name="_context" id="8513976921143617514" />
+        <var name="operationContext" id="8513976921143617514" />
+      </scope>
+      <unit id="8513976921143617514" at="248,53,254,9" name="RatingRulesLanguage.actions.QueriesGenerated$11" />
+      <unit id="8513976921143617514" at="237,281,246,7" name="RatingRulesLanguage.actions.QueriesGenerated$10" />
+    </file>
+  </root>
+</debug-info>
+

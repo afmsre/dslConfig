@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="RatingRulesLanguage.plugin.ImportDataFromFileGroup_ActionGroup" file="ImportDataFromFileGroup_ActionGroup.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.Throwable" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
+    <classNode extendsClassName="jetbrains.mps.plugins.actions.GeneratedActionGroup" />
+  </dependency>
+  <dependency className="RatingRulesLanguage.plugin.ImportFareMatrixAction_Action" file="ImportFareMatrixAction_Action.java">
+    <classNode dependClassName="com.intellij.openapi.actionSystem.AnActionEvent" />
+    <classNode dependClassName="java.io.File" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="javax.swing.Icon" />
+    <classNode dependClassName="javax.swing.JFileChooser" />
+    <classNode dependClassName="javax.swing.JOptionPane" />
+    <classNode dependClassName="javax.swing.filechooser.FileNameExtensionFilter" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode extendsClassName="jetbrains.mps.workbench.action.BaseAction" />
+  </dependency>
+  <dependency className="RatingRulesLanguage.plugin.RatingRulesLanguage_ApplicationPlugin" file="RatingRulesLanguage_ApplicationPlugin.java">
+    <classNode dependClassName="RatingRulesLanguage.plugin.ImportDataFromFileGroup_ActionGroup" />
+    <classNode dependClassName="RatingRulesLanguage.plugin.ImportFareMatrixAction_Action" />
+    <classNode dependClassName="com.intellij.openapi.extensions.PluginId" />
+    <classNode dependClassName="jetbrains.mps.ide.actions.ModelNewActions_ActionGroup" />
+    <classNode extendsClassName="jetbrains.mps.plugins.applicationplugins.BaseApplicationPlugin" />
+  </dependency>
+  <dependency className="RatingRulesLanguage.plugin.WorkerClass" file="WorkerClass.java" />
+  <dependency className="RatingRulesLanguage.plugin.startup" file="startup.properties" />
+</dependenciesRoot>
+

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root nodeRef="r:73935a95-b607-411b-a863-e411569bf3cb(RatingRulesLanguage.plugin)/6036339615132670412">
+    <file name="WorkerClass.java">
+      <unit id="6036339615132670412" at="6,0,8,0" name="RatingRulesLanguage.plugin.WorkerClass" />
+    </file>
+  </root>
+  <root nodeRef="r:73935a95-b607-411b-a863-e411569bf3cb(RatingRulesLanguage.plugin)/7337838296293876671">
+    <file name="ImportDataFromFileGroup_ActionGroup.java">
+      <node id="7337838296293876671" at="10,0,11,0" concept="9" trace="LOG" />
+      <node id="7337838296293876671" at="11,0,12,0" concept="9" trace="ID" />
+      <node id="7337838296293876671" at="12,48,13,41" concept="10" />
+      <node id="7337838296293876671" at="13,41,14,30" concept="1" />
+      <node id="7337838296293876671" at="14,30,15,25" concept="1" />
+      <node id="7337838296294346780" at="16,9,17,62" concept="1" />
+      <node id="7337838296294046118" at="17,62,18,117" concept="1" />
+      <node id="7337838296294346788" at="18,117,19,62" concept="1" />
+      <node id="7337838296293876671" at="20,27,21,39" concept="1" />
+      <node id="7337838296293876671" at="15,25,22,5" concept="11" />
+      <node id="7337838296293876671" at="12,0,24,0" concept="0" trace="ImportDataFromFileGroup_ActionGroup#()V" />
+      <scope id="7337838296293876671" at="20,0,21,39">
+        <var name="t" id="7337838296293876671" />
+      </scope>
+      <scope id="7337838296293876671" at="20,27,21,39" />
+      <scope id="7337838296293876671" at="16,9,19,62" />
+      <scope id="7337838296293876671" at="12,48,22,5" />
+      <scope id="7337838296293876671" at="12,0,24,0" />
+      <unit id="7337838296293876671" at="9,0,25,0" name="RatingRulesLanguage.plugin.ImportDataFromFileGroup_ActionGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:73935a95-b607-411b-a863-e411569bf3cb(RatingRulesLanguage.plugin)/7337838296293876675">
+    <file name="ImportFareMatrixAction_Action.java">
+      <node id="7337838296293876675" at="16,0,17,0" concept="9" trace="ICON" />
+      <node id="7337838296293876675" at="17,42,18,89" concept="10" />
+      <node id="7337838296293876675" at="18,89,19,34" concept="1" />
+      <node id="7337838296293876675" at="19,34,20,40" concept="1" />
+      <node id="7337838296293876675" at="23,32,24,16" concept="6" />
+      <node id="7337838296294253463" at="27,87,28,16" concept="6" />
+      <node id="7337838296293876675" at="31,89,32,85" concept="1" />
+      <node id="7337838296294036873" at="35,96,36,77" concept="1" />
+      <node id="6036339615132685929" at="36,77,37,50" concept="5" />
+      <node id="6036339615132721883" at="37,50,38,0" concept="8" />
+      <node id="6036339615132715325" at="38,0,39,92" concept="5" />
+      <node id="6036339615132720299" at="39,92,40,38" concept="1" />
+      <node id="6036339615132721710" at="40,38,41,0" concept="8" />
+      <node id="6036339615132689326" at="41,0,42,50" concept="5" />
+      <node id="6036339615132711852" at="43,48,44,53" concept="5" />
+      <node id="6036339615132714532" at="44,53,45,80" concept="1" />
+      <node id="4337705483005089025" at="48,84,49,0" concept="8" />
+      <node id="4337705483005077583" at="48,0,51,0" concept="4" trace="ParseInputMatrixFile#(Ljava/io/File;Lcom/intellij/openapi/actionSystem/AnActionEvent;)V" />
+      <node id="7337838296293876675" at="22,0,26,0" concept="4" trace="isDumbAware#()Z" />
+      <node id="7337838296293876675" at="26,0,30,0" concept="4" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="7337838296293876675" at="30,0,34,0" concept="4" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="6036339615132691655" at="42,50,46,5" concept="3" />
+      <node id="7337838296293876675" at="17,0,22,0" concept="0" trace="ImportFareMatrixAction_Action#()V" />
+      <node id="7337838296293876675" at="34,0,48,0" concept="4" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <scope id="7337838296293876675" at="23,32,24,16" />
+      <scope id="7337838296294253200" at="27,87,28,16" />
+      <scope id="7337838296293876675" at="31,89,32,85" />
+      <scope id="4337705483005077585" at="48,84,49,0" />
+      <scope id="6036339615132691657" at="43,48,45,80">
+        <var name="inputFile" id="6036339615132711853" />
+      </scope>
+      <scope id="7337838296293876675" at="17,42,20,40" />
+      <scope id="4337705483005077583" at="48,0,51,0">
+        <var name="event" id="4337705483005077583" />
+        <var name="inputFile" id="6036339615132714316" />
+      </scope>
+      <scope id="7337838296293876675" at="22,0,26,0" />
+      <scope id="7337838296293876675" at="26,0,30,0">
+        <var name="_params" id="7337838296293876675" />
+        <var name="event" id="7337838296293876675" />
+      </scope>
+      <scope id="7337838296293876675" at="30,0,34,0">
+        <var name="_params" id="7337838296293876675" />
+        <var name="event" id="7337838296293876675" />
+      </scope>
+      <scope id="7337838296293876675" at="17,0,22,0" />
+      <scope id="7337838296293876675" at="35,96,46,5">
+        <var name="fileChooser" id="6036339615132685930" />
+        <var name="filter" id="6036339615132715326" />
+        <var name="retVal" id="6036339615132689329" />
+      </scope>
+      <scope id="7337838296293876675" at="34,0,48,0">
+        <var name="_params" id="7337838296293876675" />
+        <var name="event" id="7337838296293876675" />
+      </scope>
+      <unit id="7337838296293876675" at="15,0,52,0" name="RatingRulesLanguage.plugin.ImportFareMatrixAction_Action" />
+    </file>
+  </root>
+  <root nodeRef="r:73935a95-b607-411b-a863-e411569bf3cb(RatingRulesLanguage.plugin)/9058819057482478178">
+    <file name="RatingRulesLanguage_ApplicationPlugin.java">
+      <node id="9058819057482478178" at="10,0,11,0" concept="2" trace="myId" />
+      <node id="9058819057482478178" at="13,27,14,16" concept="6" />
+      <node id="9058819057482478178" at="16,30,17,30" concept="7" />
+      <node id="9058819057482478178" at="17,30,18,51" concept="1" />
+      <node id="9058819057482478178" at="18,51,19,14" concept="7" />
+      <node id="9058819057482478178" at="19,14,20,56" concept="1" />
+      <node id="9058819057482478178" at="22,37,23,105" concept="1" />
+      <node id="9058819057482478178" at="11,0,13,0" concept="0" trace="RatingRulesLanguage_ApplicationPlugin#()V" />
+      <node id="9058819057482478178" at="13,0,16,0" concept="4" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="9058819057482478178" at="22,0,25,0" concept="4" trace="adjustRegularGroups#()V" />
+      <node id="9058819057482478178" at="16,0,22,0" concept="4" trace="createGroups#()V" />
+      <scope id="9058819057482478178" at="11,50,11,50" />
+      <scope id="9058819057482478178" at="13,27,14,16" />
+      <scope id="9058819057482478178" at="22,37,23,105" />
+      <scope id="9058819057482478178" at="11,0,13,0" />
+      <scope id="9058819057482478178" at="13,0,16,0" />
+      <scope id="9058819057482478178" at="22,0,25,0" />
+      <scope id="9058819057482478178" at="16,30,20,56" />
+      <scope id="9058819057482478178" at="16,0,22,0" />
+      <unit id="9058819057482478178" at="9,0,26,0" name="RatingRulesLanguage.plugin.RatingRulesLanguage_ApplicationPlugin" />
+    </file>
+    <file name="startup.properties">
+      <unit id="9058819057482478178" at="1,0,5,0" name="RatingRulesLanguage.plugin.startup" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <root nodeRef="r:a044788a-c431-4f54-a1fb-7c682b995e36(RatingRulesLanguage.WMATA.RatingRulesScript)/7337838296293876560">
+    <file name="map_RulesEngineScript.xml">
+      <unit id="7337838296293876560" at="1,0,28,16" name="RatingRulesLanguage.WMATA.RatingRulesScript.map_RulesEngineScript" />
+    </file>
+  </root>
+</debug-info>
+

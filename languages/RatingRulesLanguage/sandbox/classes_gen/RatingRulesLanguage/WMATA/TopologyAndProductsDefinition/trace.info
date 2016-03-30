@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <root nodeRef="r:d3904097-2074-42d4-be94-84770d3094c4(RatingRulesLanguage.WMATA.TopologyAndProductsDefinition)/825930707367703608">
+    <file name="map_TopologyDefinitionBlock.xml">
+      <unit id="825930707367703608" at="1,0,38,16" name="RatingRulesLanguage.WMATA.TopologyAndProductsDefinition.map_TopologyDefinitionBlock" />
+    </file>
+  </root>
+</debug-info>
+

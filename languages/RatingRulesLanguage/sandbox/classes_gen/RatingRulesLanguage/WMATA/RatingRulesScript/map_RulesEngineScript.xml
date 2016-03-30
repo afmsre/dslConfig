@@ -1,0 +1,28 @@
+<?xml version = "1.0"?>
+
+<Configuration>
+  
+  <Info />
+  <Data>
+    
+    <TransitDomainGroups>
+      
+      <Group Name="WMATA Transit Bus" Owner="WMATA Transit">
+          
+          </Group>
+      <Group Name="Zone 1" Owner="WMATA Transit">
+          
+          </Group>
+      <Group Name="Zone 2" Owner="WMATA Transit">
+          
+          </Group>
+      
+    </TransitDomainGroups>
+    
+    
+    <FareProducts>
+        
+        </FareProducts>
+  </Data>
+  
+</Configuration>

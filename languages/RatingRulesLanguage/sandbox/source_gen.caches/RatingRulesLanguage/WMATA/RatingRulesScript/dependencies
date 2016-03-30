@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="RatingRulesLanguage.WMATA.RatingRulesScript.map_RulesEngineScript" file="map_RulesEngineScript.xml" />
+</dependenciesRoot>
+

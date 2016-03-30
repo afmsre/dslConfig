@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<Configuration xmlns="http://afms.accenture.com/rules-engine-configuration.xsd">
+  <Info Version="87" ActivationDate="2016-01-09" Published="2016-01-09T13:10:21.837" SPID="20:WMATATransit" />
+  <Data>
+    <!--Service Providers-->
+    <ServcieProviders>
+      <ServiceProvider ID="1" Name="WMATA Transit" />
+      <ServiceProvider ID="2" Name="WMATA Parking" />
+    </ServcieProviders>
+    <!--Modes Of Transport-->
+    <ModesOfTransport>
+      <Mode ID="1" Name="Bus" />
+      <Mode ID="2" Name="Subway" />
+      <Mode ID="3" Name="Train" />
+    </ModesOfTransport>
+    <!--Transit Domain Groups-->
+    <TransitDomainGroups></TransitDomainGroups>
+    <!--Recurrances-->
+    <Recurrances></Recurrances>
+    <!--Concessions-->
+    <Concessions></Concessions>
+    <!--FareProducts-->
+    <FareProducts></FareProducts>
+    <!--Non-pass Products-->
+    <NonPassProducts></NonPassProducts>
+    <!--Transfer Agreements-->
+    <TransferAgreements></TransferAgreements>
+    <!--Fares-->
+    <Fares></Fares>
+    <!--Point to Point Fares-->
+    <PointToPointFares></PointToPointFares>
+    <!--Pricing Formulas and Functions-->
+    <Pricing></Pricing>
+  </Data>
+  <EOD></EOD>
+  <AppConfig></AppConfig>
+</Configuration>

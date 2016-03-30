@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="QueriesGenerated.java">
+      <unit at="13,0,52,0" name="RatingRulesLanguage.generator.template.main.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:a1c8acd3-c5b3-40df-9c6b-fd770515464a(RatingRulesLanguage.generator.template.main@generator)/2216024742564300213">
+    <file name="QueriesGenerated.java">
+      <node id="2216024742564318154" at="27,112,28,197" concept="0" />
+      <node id="2216024742564321924" at="30,112,31,175" concept="0" />
+      <node id="2216024742564328050" at="33,112,34,197" concept="0" />
+      <node id="2216024742564329476" at="36,112,37,175" concept="0" />
+      <node id="2216024742564306303" at="45,120,46,528" concept="0" />
+      <node id="2216024742564306465" at="48,120,49,533" concept="0" />
+      <scope id="2216024742564307334" at="27,112,28,197" />
+      <scope id="2216024742564307624" at="30,112,31,175" />
+      <scope id="2216024742564307914" at="33,112,34,197" />
+      <scope id="2216024742564308204" at="36,112,37,175" />
+      <scope id="2216024742564306297" at="45,120,46,528" />
+      <scope id="2216024742564306459" at="48,120,49,533" />
+    </file>
+  </root>
+  <root nodeRef="r:a1c8acd3-c5b3-40df-9c6b-fd770515464a(RatingRulesLanguage.generator.template.main@generator)/5221595865650698053">
+    <file name="QueriesGenerated.java">
+      <node id="770722398716181406" at="15,111,16,197" concept="0" />
+      <node id="770722398716194005" at="18,111,19,175" concept="0" />
+      <node id="770722398716197104" at="21,111,22,197" concept="0" />
+      <node id="770722398716198489" at="24,111,25,175" concept="0" />
+      <node id="770722398716180156" at="39,119,40,354" concept="0" />
+      <node id="770722398716173902" at="42,119,43,359" concept="0" />
+      <scope id="770722398716180893" at="15,111,16,197" />
+      <scope id="770722398716181355" at="18,111,19,175" />
+      <scope id="770722398716196707" at="21,111,22,197" />
+      <scope id="770722398716197011" at="24,111,25,175" />
+      <scope id="770722398716180150" at="39,119,40,354" />
+      <scope id="770722398716173896" at="42,119,43,359" />
+    </file>
+  </root>
+</debug-info>
+

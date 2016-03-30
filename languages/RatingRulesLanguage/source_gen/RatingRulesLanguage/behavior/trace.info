@@ -1,0 +1,2536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root>
+    <file name="Actions_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.Actions_BehaviorDescriptor" />
+    </file>
+    <file name="AndNL_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.AndNL_BehaviorDescriptor" />
+    </file>
+    <file name="And_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.And_BehaviorDescriptor" />
+    </file>
+    <file name="AssignmentOperator_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.AssignmentOperator_BehaviorDescriptor" />
+    </file>
+    <file name="BaseAction_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.BaseAction_BehaviorDescriptor" />
+    </file>
+    <file name="BaseAssignmentOperator_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.BaseAssignmentOperator_BehaviorDescriptor" />
+    </file>
+    <file name="BaseAttributeType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseAttributeType_BehaviorDescriptor" />
+    </file>
+    <file name="BaseCollectionOfConcepts_BehaviorDescriptor.java">
+      <unit at="13,0,22,0" name="RatingRulesLanguage.behavior.BaseCollectionOfConcepts_BehaviorDescriptor" />
+    </file>
+    <file name="BaseConceptOrgCollectionBlock_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseConceptOrgCollectionBlock_BehaviorDescriptor" />
+    </file>
+    <file name="BaseConceptOrgCollectionWithUniqueID_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseConceptOrgCollectionWithUniqueID_BehaviorDescriptor" />
+    </file>
+    <file name="BaseConstant_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.BaseConstant_BehaviorDescriptor" />
+    </file>
+    <file name="BaseCriteriaDeclaration_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.BaseCriteriaDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="BaseCriteriaExpression_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseCriteriaExpression_BehaviorDescriptor" />
+    </file>
+    <file name="BaseDataType_BehaviorDescriptor.java">
+      <unit at="15,0,27,0" name="RatingRulesLanguage.behavior.BaseDataType_BehaviorDescriptor" />
+    </file>
+    <file name="BaseFloatFunctionDefinition_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseFloatFunctionDefinition_BehaviorDescriptor" />
+    </file>
+    <file name="BaseNamedFunction_BehaviorDescriptor.java">
+      <unit at="13,0,25,0" name="RatingRulesLanguage.behavior.BaseNamedFunction_BehaviorDescriptor" />
+    </file>
+    <file name="BaseNumericFunctionDef_BehaviorDescriptor.java">
+      <unit at="14,0,26,0" name="RatingRulesLanguage.behavior.BaseNumericFunctionDef_BehaviorDescriptor" />
+    </file>
+    <file name="BaseOccurencePatternCriteriaExpression_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseOccurencePatternCriteriaExpression_BehaviorDescriptor" />
+    </file>
+    <file name="BaseOperator_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.BaseOperator_BehaviorDescriptor" />
+    </file>
+    <file name="BaseProductDataType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseProductDataType_BehaviorDescriptor" />
+    </file>
+    <file name="BaseReferenceConcept_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.BaseReferenceConcept_BehaviorDescriptor" />
+    </file>
+    <file name="BaseRootNamedConceptOrg_BehaviorDescriptor.java">
+      <unit at="15,0,27,0" name="RatingRulesLanguage.behavior.BaseRootNamedConceptOrg_BehaviorDescriptor" />
+    </file>
+    <file name="BaseSystemDefinedCriteriaFunction_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseSystemDefinedCriteriaFunction_BehaviorDescriptor" />
+    </file>
+    <file name="BaseSystemDefinedLocationRelatedCriteriaFunction_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseSystemDefinedLocationRelatedCriteriaFunction_BehaviorDescriptor" />
+    </file>
+    <file name="BaseSystemDefinedTransferRelatedCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseSystemDefinedTransferRelatedCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="BaseUDNamedCriteriaDeclaration_BehaviorDescriptor.java">
+      <unit at="13,0,25,0" name="RatingRulesLanguage.behavior.BaseUDNamedCriteriaDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="BaseUDNamedIDCriteriaDefinition_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseUDNamedIDCriteriaDefinition_BehaviorDescriptor" />
+    </file>
+    <file name="BaseUDTCriteriaRef_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BaseUDTCriteriaRef_BehaviorDescriptor" />
+    </file>
+    <file name="BaseUnaryOperator_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.BaseUnaryOperator_BehaviorDescriptor" />
+    </file>
+    <file name="BaseVarDataType_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.BaseVarDataType_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="14,0,158,0" name="RatingRulesLanguage.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="BooleanType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.BooleanType_BehaviorDescriptor" />
+    </file>
+    <file name="ConcessionDeclaration_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConcessionDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="ConcessionSelectionCriteriaDef_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConcessionSelectionCriteriaDef_BehaviorDescriptor" />
+    </file>
+    <file name="ConcessionSelectionCriterias_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConcessionSelectionCriterias_BehaviorDescriptor" />
+    </file>
+    <file name="ConcessionType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConcessionType_BehaviorDescriptor" />
+    </file>
+    <file name="Concessions_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.Concessions_BehaviorDescriptor" />
+    </file>
+    <file name="ConstantFloatValue_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConstantFloatValue_BehaviorDescriptor" />
+    </file>
+    <file name="ConstantFloatVarDeclaration_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConstantFloatVarDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="ConstantPointToPointFareMatrixValue_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConstantPointToPointFareMatrixValue_BehaviorDescriptor" />
+    </file>
+    <file name="ConstantPointToPointVarDeclaration_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConstantPointToPointVarDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="ConstantTypedVarDeclaration_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConstantTypedVarDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="ConstantVarDeclaration_BehaviorDescriptor.java">
+      <unit at="13,0,25,0" name="RatingRulesLanguage.behavior.ConstantVarDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="ConstantVarReference_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConstantVarReference_BehaviorDescriptor" />
+    </file>
+    <file name="ConstantsDeclarationBlock_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConstantsDeclarationBlock_BehaviorDescriptor" />
+    </file>
+    <file name="CreateTransferProductAction_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.CreateTransferProductAction_BehaviorDescriptor" />
+    </file>
+    <file name="CrtAgeVerificationCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.CrtAgeVerificationCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="CrtEPurseGreatesThanValueCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.CrtEPurseGreatesThanValueCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="CrtLifespanValidationCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.CrtLifespanValidationCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="CrtLocationEqualsCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.CrtLocationEqualsCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="CrtMOTEqualsCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.CrtMOTEqualsCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="CrtRouteEqualsCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.CrtRouteEqualsCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="CrtServiceProviderEqualsCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.CrtServiceProviderEqualsCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="CrtTapIsOfTypeCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.CrtTapIsOfTypeCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="CrtTapTransferCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.CrtTapTransferCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="DivisionNLOperator_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.DivisionNLOperator_BehaviorDescriptor" />
+    </file>
+    <file name="DivisionOperator_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.DivisionOperator_BehaviorDescriptor" />
+    </file>
+    <file name="ElementVarType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ElementVarType_BehaviorDescriptor" />
+    </file>
+    <file name="FareRuleDefinition_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.FareRuleDefinition_BehaviorDescriptor" />
+    </file>
+    <file name="FareRuleType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.FareRuleType_BehaviorDescriptor" />
+    </file>
+    <file name="FareRulesDefinitionBlock_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.FareRulesDefinitionBlock_BehaviorDescriptor" />
+    </file>
+    <file name="FloatFarePriceCalculationFct_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.FloatFarePriceCalculationFct_BehaviorDescriptor" />
+    </file>
+    <file name="FloatUDTFarePriceCalculationFct_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.FloatUDTFarePriceCalculationFct_BehaviorDescriptor" />
+    </file>
+    <file name="FloatVarType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.FloatVarType_BehaviorDescriptor" />
+    </file>
+    <file name="GenerateTransactionAction_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.GenerateTransactionAction_BehaviorDescriptor" />
+    </file>
+    <file name="IntType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.IntType_BehaviorDescriptor" />
+    </file>
+    <file name="LValue_BehaviorDescriptor.java">
+      <unit at="13,0,25,0" name="RatingRulesLanguage.behavior.LValue_BehaviorDescriptor" />
+    </file>
+    <file name="LimitedPassbackCheckCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.LimitedPassbackCheckCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="LocationDeclaration_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.LocationDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="LocationGroupCriteras_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.LocationGroupCriteras_BehaviorDescriptor" />
+    </file>
+    <file name="LocationGroupCriteriaDef_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.LocationGroupCriteriaDef_BehaviorDescriptor" />
+    </file>
+    <file name="LocationReference_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.LocationReference_BehaviorDescriptor" />
+    </file>
+    <file name="LocationType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.LocationType_BehaviorDescriptor" />
+    </file>
+    <file name="Locations_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.Locations_BehaviorDescriptor" />
+    </file>
+    <file name="LogicalExpression_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.LogicalExpression_BehaviorDescriptor" />
+    </file>
+    <file name="LogicalOperator_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.LogicalOperator_BehaviorDescriptor" />
+    </file>
+    <file name="MOTReference_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.MOTReference_BehaviorDescriptor" />
+    </file>
+    <file name="MOTType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.MOTType_BehaviorDescriptor" />
+    </file>
+    <file name="MediaTypeEqualsCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.MediaTypeEqualsCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="MinusNLOperator_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.MinusNLOperator_BehaviorDescriptor" />
+    </file>
+    <file name="MinusOperator_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.MinusOperator_BehaviorDescriptor" />
+    </file>
+    <file name="ModOfTransportation_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ModOfTransportation_BehaviorDescriptor" />
+    </file>
+    <file name="ModesOfTransportation_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ModesOfTransportation_BehaviorDescriptor" />
+    </file>
+    <file name="MultiplyNLOperator_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.MultiplyNLOperator_BehaviorDescriptor" />
+    </file>
+    <file name="MultiplyOperator_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.MultiplyOperator_BehaviorDescriptor" />
+    </file>
+    <file name="NameIDPairTypedVarDeclaration_BehaviorDescriptor.java">
+      <unit at="14,0,26,0" name="RatingRulesLanguage.behavior.NameIDPairTypedVarDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="Not_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.Not_BehaviorDescriptor" />
+    </file>
+    <file name="NumericVarType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.NumericVarType_BehaviorDescriptor" />
+    </file>
+    <file name="OrNL_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.OrNL_BehaviorDescriptor" />
+    </file>
+    <file name="Or_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.Or_BehaviorDescriptor" />
+    </file>
+    <file name="ParenthisizedExpression_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ParenthisizedExpression_BehaviorDescriptor" />
+    </file>
+    <file name="PlusNLOperator_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.PlusNLOperator_BehaviorDescriptor" />
+    </file>
+    <file name="PlusOperator_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.PlusOperator_BehaviorDescriptor" />
+    </file>
+    <file name="PointToPointDataDefinitoinBlock_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.PointToPointDataDefinitoinBlock_BehaviorDescriptor" />
+    </file>
+    <file name="PointToPointDataType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.PointToPointDataType_BehaviorDescriptor" />
+    </file>
+    <file name="PointToPointFareMatrixVarType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.PointToPointFareMatrixVarType_BehaviorDescriptor" />
+    </file>
+    <file name="PontToPointFarePriceFuction_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.PontToPointFarePriceFuction_BehaviorDescriptor" />
+    </file>
+    <file name="ProductAttribute_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ProductAttribute_BehaviorDescriptor" />
+    </file>
+    <file name="ProductAttributes_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ProductAttributes_BehaviorDescriptor" />
+    </file>
+    <file name="ProductDeclaration_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ProductDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="ProductFamilyDeclaration_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ProductFamilyDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="ProductFamilyType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ProductFamilyType_BehaviorDescriptor" />
+    </file>
+    <file name="ProductInstanceAttribute_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ProductInstanceAttribute_BehaviorDescriptor" />
+    </file>
+    <file name="ProductInstanceAttributes_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ProductInstanceAttributes_BehaviorDescriptor" />
+    </file>
+    <file name="ProductSelectionCriteriaDef_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ProductSelectionCriteriaDef_BehaviorDescriptor" />
+    </file>
+    <file name="ProductSelectionCriterias_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ProductSelectionCriterias_BehaviorDescriptor" />
+    </file>
+    <file name="ProductType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ProductType_BehaviorDescriptor" />
+    </file>
+    <file name="ProductsDefinitionBlock_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ProductsDefinitionBlock_BehaviorDescriptor" />
+    </file>
+    <file name="RValue_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.RValue_BehaviorDescriptor" />
+    </file>
+    <file name="RecurrenceCriteriaDef_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.RecurrenceCriteriaDef_BehaviorDescriptor" />
+    </file>
+    <file name="RecurrencesCriterias_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.RecurrencesCriterias_BehaviorDescriptor" />
+    </file>
+    <file name="RefConcessionCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.RefConcessionCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="RefLocationGroupCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.RefLocationGroupCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="RefProductSelectionCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.RefProductSelectionCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="RefRecurrenceCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.RefRecurrenceCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="RefTransferAgreementSelectionCriteria_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.RefTransferAgreementSelectionCriteria_BehaviorDescriptor" />
+    </file>
+    <file name="ReturnOperator_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ReturnOperator_BehaviorDescriptor" />
+    </file>
+    <file name="RouteReference_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.RouteReference_BehaviorDescriptor" />
+    </file>
+    <file name="RouteType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.RouteType_BehaviorDescriptor" />
+    </file>
+    <file name="Route_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.Route_BehaviorDescriptor" />
+    </file>
+    <file name="Routes_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.Routes_BehaviorDescriptor" />
+    </file>
+    <file name="RulesEngineScript_BehaviorDescriptor.java">
+      <unit at="14,0,26,0" name="RatingRulesLanguage.behavior.RulesEngineScript_BehaviorDescriptor" />
+    </file>
+    <file name="SPReference_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.SPReference_BehaviorDescriptor" />
+    </file>
+    <file name="ServiceProviderType_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ServiceProviderType_BehaviorDescriptor" />
+    </file>
+    <file name="ServiceProvider_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ServiceProvider_BehaviorDescriptor" />
+    </file>
+    <file name="ServiceProviders_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.ServiceProviders_BehaviorDescriptor" />
+    </file>
+    <file name="SystemFunction_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.SystemFunction_BehaviorDescriptor" />
+    </file>
+    <file name="TierRounding_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.TierRounding_BehaviorDescriptor" />
+    </file>
+    <file name="TimeInterval_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.TimeInterval_BehaviorDescriptor" />
+    </file>
+    <file name="TimeIntervals_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.TimeIntervals_BehaviorDescriptor" />
+    </file>
+    <file name="TopologyDefinitionBlock_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.TopologyDefinitionBlock_BehaviorDescriptor" />
+    </file>
+    <file name="TransferAgreementSelectionCriteriaDef_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.TransferAgreementSelectionCriteriaDef_BehaviorDescriptor" />
+    </file>
+    <file name="TransferAgreementSelectionCriterias_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.TransferAgreementSelectionCriterias_BehaviorDescriptor" />
+    </file>
+    <file name="UDCReference_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.UDCReference_BehaviorDescriptor" />
+    </file>
+    <file name="UDFReference_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.UDFReference_BehaviorDescriptor" />
+    </file>
+    <file name="UDTFunctionsDefinitionBlock_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.UDTFunctionsDefinitionBlock_BehaviorDescriptor" />
+    </file>
+    <file name="UserDefinedCriteriasBlock_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.UserDefinedCriteriasBlock_BehaviorDescriptor" />
+    </file>
+    <file name="UsesConcept_BehaviorDescriptor.java">
+      <unit at="12,0,21,0" name="RatingRulesLanguage.behavior.UsesConcept_BehaviorDescriptor" />
+    </file>
+    <file name="Variable_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.Variable_BehaviorDescriptor" />
+    </file>
+    <file name="WeekDay_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.WeekDay_BehaviorDescriptor" />
+    </file>
+    <file name="WeeklyOccurencePattern_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.WeeklyOccurencePattern_BehaviorDescriptor" />
+    </file>
+    <file name="YearlyDateOccurencePattern_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.YearlyDateOccurencePattern_BehaviorDescriptor" />
+    </file>
+    <file name="YearlyOccurrencePattern_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.YearlyOccurrencePattern_BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/1687171190894891078">
+    <file name="BaseConceptOrgCollectionBlock_Behavior.java">
+      <unit id="1687171190894891078" at="10,0,13,0" name="RatingRulesLanguage.behavior.BaseConceptOrgCollectionBlock_Behavior" />
+    </file>
+    <file name="BaseConceptOrgCollectionBlock__BehaviorDescriptor.java">
+      <node id="1687171190894891078" at="20,0,21,0" concept="8" trace="CONCEPT" />
+      <node id="1687171190894891078" at="21,0,22,0" concept="8" trace="REGISTRY" />
+      <node id="1687171190894891078" at="24,0,25,0" concept="8" trace="BH_METHODS" />
+      <node id="1687171190894891078" at="30,67,31,20" concept="10" />
+      <node id="1687171190894891078" at="35,114,36,21" concept="1" />
+      <node id="1687171190894891078" at="40,114,41,49" concept="4" />
+      <node id="1687171190894891078" at="42,26,43,56" concept="12" />
+      <node id="1687171190894891078" at="46,14,47,58" concept="12" />
+      <node id="1687171190894891078" at="52,128,53,49" concept="4" />
+      <node id="1687171190894891078" at="54,26,55,56" concept="12" />
+      <node id="1687171190894891078" at="58,14,59,58" concept="12" />
+      <node id="1687171190894891078" at="65,48,66,22" concept="5" />
+      <node id="1687171190894891078" at="71,40,72,19" concept="5" />
+      <node id="1687171190894891078" at="26,0,28,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1687171190894891078" at="30,0,33,0" concept="0" trace="BaseConceptOrgCollectionBlock__BehaviorDescriptor#()V" />
+      <node id="1687171190894891078" at="41,49,44,5" concept="2" />
+      <node id="1687171190894891078" at="53,49,56,5" concept="2" />
+      <node id="1687171190894891078" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="1687171190894891078" at="44,5,48,5" concept="11" />
+      <node id="1687171190894891078" at="56,5,60,5" concept="11" />
+      <node id="1687171190894891078" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="1687171190894891078" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="1687171190894891078" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="1687171190894891078" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="1687171190894891078" at="26,63,26,63" />
+      <scope id="1687171190894891078" at="30,67,31,20" />
+      <scope id="1687171190894891078" at="35,114,36,21" />
+      <scope id="1687171190894891078" at="42,26,43,56" />
+      <scope id="1687171190894891078" at="46,14,47,58" />
+      <scope id="1687171190894891078" at="54,26,55,56" />
+      <scope id="1687171190894891078" at="58,14,59,58" />
+      <scope id="1687171190894891078" at="65,48,66,22" />
+      <scope id="1687171190894891078" at="71,40,72,19" />
+      <scope id="1687171190894891078" at="26,0,28,0">
+        <var name="__thisNode__" id="1687171190894891078" />
+      </scope>
+      <scope id="1687171190894891078" at="30,0,33,0" />
+      <scope id="1687171190894891078" at="34,0,38,0">
+        <var name="constructor" id="1687171190894891078" />
+        <var name="node" id="1687171190894891078" />
+        <var name="parameters" id="1687171190894891078" />
+      </scope>
+      <scope id="1687171190894891078" at="63,0,68,0" />
+      <scope id="1687171190894891078" at="69,0,74,0" />
+      <scope id="1687171190894891078" at="40,114,48,5">
+        <var name="methodIndex" id="1687171190894891078" />
+      </scope>
+      <scope id="1687171190894891078" at="52,128,60,5">
+        <var name="methodIndex" id="1687171190894891078" />
+      </scope>
+      <scope id="1687171190894891078" at="39,0,50,0">
+        <var name="method" id="1687171190894891078" />
+        <var name="node" id="1687171190894891078" />
+        <var name="parameters" id="1687171190894891078" />
+      </scope>
+      <scope id="1687171190894891078" at="51,0,62,0">
+        <var name="concept" id="1687171190894891078" />
+        <var name="method" id="1687171190894891078" />
+        <var name="parameters" id="1687171190894891078" />
+      </scope>
+      <unit id="1687171190894891078" at="19,0,75,0" name="RatingRulesLanguage.behavior.BaseConceptOrgCollectionBlock__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/1687171190894892335">
+    <file name="BaseRootNamedConceptOrg_Behavior.java">
+      <unit id="1687171190894892335" at="10,0,13,0" name="RatingRulesLanguage.behavior.BaseRootNamedConceptOrg_Behavior" />
+    </file>
+    <file name="BaseRootNamedConceptOrg__BehaviorDescriptor.java">
+      <node id="1687171190894892335" at="20,0,21,0" concept="8" trace="CONCEPT" />
+      <node id="1687171190894892335" at="21,0,22,0" concept="8" trace="REGISTRY" />
+      <node id="1687171190894892335" at="24,0,25,0" concept="8" trace="BH_METHODS" />
+      <node id="1687171190894892335" at="30,61,31,20" concept="10" />
+      <node id="1687171190894892335" at="35,114,36,21" concept="1" />
+      <node id="1687171190894892335" at="40,114,41,49" concept="4" />
+      <node id="1687171190894892335" at="42,26,43,56" concept="12" />
+      <node id="1687171190894892335" at="46,14,47,58" concept="12" />
+      <node id="1687171190894892335" at="52,128,53,49" concept="4" />
+      <node id="1687171190894892335" at="54,26,55,56" concept="12" />
+      <node id="1687171190894892335" at="58,14,59,58" concept="12" />
+      <node id="1687171190894892335" at="65,48,66,22" concept="5" />
+      <node id="1687171190894892335" at="71,40,72,19" concept="5" />
+      <node id="1687171190894892335" at="26,0,28,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1687171190894892335" at="30,0,33,0" concept="0" trace="BaseRootNamedConceptOrg__BehaviorDescriptor#()V" />
+      <node id="1687171190894892335" at="41,49,44,5" concept="2" />
+      <node id="1687171190894892335" at="53,49,56,5" concept="2" />
+      <node id="1687171190894892335" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="1687171190894892335" at="44,5,48,5" concept="11" />
+      <node id="1687171190894892335" at="56,5,60,5" concept="11" />
+      <node id="1687171190894892335" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="1687171190894892335" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="1687171190894892335" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="1687171190894892335" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="1687171190894892335" at="26,63,26,63" />
+      <scope id="1687171190894892335" at="30,61,31,20" />
+      <scope id="1687171190894892335" at="35,114,36,21" />
+      <scope id="1687171190894892335" at="42,26,43,56" />
+      <scope id="1687171190894892335" at="46,14,47,58" />
+      <scope id="1687171190894892335" at="54,26,55,56" />
+      <scope id="1687171190894892335" at="58,14,59,58" />
+      <scope id="1687171190894892335" at="65,48,66,22" />
+      <scope id="1687171190894892335" at="71,40,72,19" />
+      <scope id="1687171190894892335" at="26,0,28,0">
+        <var name="__thisNode__" id="1687171190894892335" />
+      </scope>
+      <scope id="1687171190894892335" at="30,0,33,0" />
+      <scope id="1687171190894892335" at="34,0,38,0">
+        <var name="constructor" id="1687171190894892335" />
+        <var name="node" id="1687171190894892335" />
+        <var name="parameters" id="1687171190894892335" />
+      </scope>
+      <scope id="1687171190894892335" at="63,0,68,0" />
+      <scope id="1687171190894892335" at="69,0,74,0" />
+      <scope id="1687171190894892335" at="40,114,48,5">
+        <var name="methodIndex" id="1687171190894892335" />
+      </scope>
+      <scope id="1687171190894892335" at="52,128,60,5">
+        <var name="methodIndex" id="1687171190894892335" />
+      </scope>
+      <scope id="1687171190894892335" at="39,0,50,0">
+        <var name="method" id="1687171190894892335" />
+        <var name="node" id="1687171190894892335" />
+        <var name="parameters" id="1687171190894892335" />
+      </scope>
+      <scope id="1687171190894892335" at="51,0,62,0">
+        <var name="concept" id="1687171190894892335" />
+        <var name="method" id="1687171190894892335" />
+        <var name="parameters" id="1687171190894892335" />
+      </scope>
+      <unit id="1687171190894892335" at="19,0,75,0" name="RatingRulesLanguage.behavior.BaseRootNamedConceptOrg__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/2018270309120273828">
+    <file name="ConcessionSelectionCriterias_Behavior.java">
+      <unit id="2018270309120273828" at="10,0,13,0" name="RatingRulesLanguage.behavior.ConcessionSelectionCriterias_Behavior" />
+    </file>
+    <file name="ConcessionSelectionCriterias__BehaviorDescriptor.java">
+      <node id="2018270309120273828" at="20,0,21,0" concept="8" trace="CONCEPT" />
+      <node id="2018270309120273828" at="21,0,22,0" concept="8" trace="REGISTRY" />
+      <node id="2018270309120273828" at="24,0,25,0" concept="8" trace="BH_METHODS" />
+      <node id="2018270309120273828" at="30,66,31,20" concept="10" />
+      <node id="2018270309120273828" at="35,114,36,21" concept="1" />
+      <node id="2018270309120273828" at="40,114,41,49" concept="4" />
+      <node id="2018270309120273828" at="42,26,43,56" concept="12" />
+      <node id="2018270309120273828" at="46,14,47,58" concept="12" />
+      <node id="2018270309120273828" at="52,128,53,49" concept="4" />
+      <node id="2018270309120273828" at="54,26,55,56" concept="12" />
+      <node id="2018270309120273828" at="58,14,59,58" concept="12" />
+      <node id="2018270309120273828" at="65,48,66,22" concept="5" />
+      <node id="2018270309120273828" at="71,40,72,19" concept="5" />
+      <node id="2018270309120273828" at="26,0,28,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2018270309120273828" at="30,0,33,0" concept="0" trace="ConcessionSelectionCriterias__BehaviorDescriptor#()V" />
+      <node id="2018270309120273828" at="41,49,44,5" concept="2" />
+      <node id="2018270309120273828" at="53,49,56,5" concept="2" />
+      <node id="2018270309120273828" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="2018270309120273828" at="44,5,48,5" concept="11" />
+      <node id="2018270309120273828" at="56,5,60,5" concept="11" />
+      <node id="2018270309120273828" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="2018270309120273828" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2018270309120273828" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="2018270309120273828" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="2018270309120273828" at="26,63,26,63" />
+      <scope id="2018270309120273828" at="30,66,31,20" />
+      <scope id="2018270309120273828" at="35,114,36,21" />
+      <scope id="2018270309120273828" at="42,26,43,56" />
+      <scope id="2018270309120273828" at="46,14,47,58" />
+      <scope id="2018270309120273828" at="54,26,55,56" />
+      <scope id="2018270309120273828" at="58,14,59,58" />
+      <scope id="2018270309120273828" at="65,48,66,22" />
+      <scope id="2018270309120273828" at="71,40,72,19" />
+      <scope id="2018270309120273828" at="26,0,28,0">
+        <var name="__thisNode__" id="2018270309120273828" />
+      </scope>
+      <scope id="2018270309120273828" at="30,0,33,0" />
+      <scope id="2018270309120273828" at="34,0,38,0">
+        <var name="constructor" id="2018270309120273828" />
+        <var name="node" id="2018270309120273828" />
+        <var name="parameters" id="2018270309120273828" />
+      </scope>
+      <scope id="2018270309120273828" at="63,0,68,0" />
+      <scope id="2018270309120273828" at="69,0,74,0" />
+      <scope id="2018270309120273828" at="40,114,48,5">
+        <var name="methodIndex" id="2018270309120273828" />
+      </scope>
+      <scope id="2018270309120273828" at="52,128,60,5">
+        <var name="methodIndex" id="2018270309120273828" />
+      </scope>
+      <scope id="2018270309120273828" at="39,0,50,0">
+        <var name="method" id="2018270309120273828" />
+        <var name="node" id="2018270309120273828" />
+        <var name="parameters" id="2018270309120273828" />
+      </scope>
+      <scope id="2018270309120273828" at="51,0,62,0">
+        <var name="concept" id="2018270309120273828" />
+        <var name="method" id="2018270309120273828" />
+        <var name="parameters" id="2018270309120273828" />
+      </scope>
+      <unit id="2018270309120273828" at="19,0,75,0" name="RatingRulesLanguage.behavior.ConcessionSelectionCriterias__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/2018270309120290023">
+    <file name="BaseConceptOrgCollectionWithUniqueID_Behavior.java">
+      <node id="2018270309120290023" at="13,75,14,105" concept="5" />
+      <node id="2018270309120290023" at="13,0,16,0" concept="9" trace="call_GetNewID_2018270309120290442#(Lorg/jetbrains/mps/openapi/model/SNode;)I" />
+      <scope id="2018270309120290023" at="13,75,14,105" />
+      <scope id="2018270309120290023" at="13,0,16,0">
+        <var name="__thisNode__" id="2018270309120290023" />
+      </scope>
+      <unit id="2018270309120290023" at="11,0,17,0" name="RatingRulesLanguage.behavior.BaseConceptOrgCollectionWithUniqueID_Behavior" />
+    </file>
+    <file name="BaseConceptOrgCollectionWithUniqueID__BehaviorDescriptor.java">
+      <node id="2018270309120290023" at="25,0,26,0" concept="8" trace="CONCEPT" />
+      <node id="2018270309120290023" at="26,0,27,0" concept="8" trace="REGISTRY" />
+      <node id="2018270309120290023" at="28,0,29,0" concept="8" trace="GetNewID_id1K2lyszPiUa" />
+      <node id="2018270309120290023" at="30,0,31,0" concept="8" trace="BH_METHODS" />
+      <node id="2018270309120273832" at="32,63,33,178" concept="1" />
+      <node id="2018270309120290446" at="36,78,37,351" concept="1" />
+      <node id="2018270309120290456" at="37,351,38,182" concept="5" />
+      <node id="2018270309120290023" at="41,74,42,20" concept="10" />
+      <node id="2018270309120290023" at="46,114,47,21" concept="1" />
+      <node id="2018270309120290023" at="51,114,52,49" concept="4" />
+      <node id="2018270309120290023" at="53,26,54,56" concept="12" />
+      <node id="2018270309120290023" at="57,13,58,60" concept="5" />
+      <node id="2018270309120290023" at="59,14,60,58" concept="12" />
+      <node id="2018270309120290023" at="65,128,66,49" concept="4" />
+      <node id="2018270309120290023" at="67,26,68,56" concept="12" />
+      <node id="2018270309120290023" at="71,14,72,58" concept="12" />
+      <node id="2018270309120290023" at="78,48,79,22" concept="5" />
+      <node id="2018270309120290023" at="84,40,85,19" concept="5" />
+      <node id="2018270309120290023" at="32,0,35,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2018270309120290023" at="41,0,44,0" concept="0" trace="BaseConceptOrgCollectionWithUniqueID__BehaviorDescriptor#()V" />
+      <node id="2018270309120290023" at="52,49,55,5" concept="2" />
+      <node id="2018270309120290023" at="66,49,69,5" concept="2" />
+      <node id="2018270309120290023" at="36,0,40,0" concept="9" trace="GetNewID_id1K2lyszPiUa#(Lorg/jetbrains/mps/openapi/model/SNode;)I" />
+      <node id="2018270309120290023" at="45,0,49,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="2018270309120290023" at="69,5,73,5" concept="11" />
+      <node id="2018270309120290023" at="76,0,81,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="2018270309120290023" at="82,0,87,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2018270309120290023" at="55,5,61,5" concept="11" />
+      <node id="2018270309120290023" at="64,0,75,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="2018270309120290023" at="50,0,63,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="2018270309120290023" at="32,63,33,178" />
+      <scope id="2018270309120290023" at="41,74,42,20" />
+      <scope id="2018270309120290023" at="46,114,47,21" />
+      <scope id="2018270309120290023" at="53,26,54,56" />
+      <scope id="2018270309120290023" at="57,13,58,60" />
+      <scope id="2018270309120290023" at="59,14,60,58" />
+      <scope id="2018270309120290023" at="67,26,68,56" />
+      <scope id="2018270309120290023" at="71,14,72,58" />
+      <scope id="2018270309120290023" at="78,48,79,22" />
+      <scope id="2018270309120290023" at="84,40,85,19" />
+      <scope id="2018270309120290445" at="36,78,38,182" />
+      <scope id="2018270309120290023" at="32,0,35,0">
+        <var name="__thisNode__" id="2018270309120290023" />
+      </scope>
+      <scope id="2018270309120290023" at="41,0,44,0" />
+      <scope id="2018270309120290023" at="36,0,40,0">
+        <var name="__thisNode__" id="2018270309120290023" />
+      </scope>
+      <scope id="2018270309120290023" at="45,0,49,0">
+        <var name="constructor" id="2018270309120290023" />
+        <var name="node" id="2018270309120290023" />
+        <var name="parameters" id="2018270309120290023" />
+      </scope>
+      <scope id="2018270309120290023" at="76,0,81,0" />
+      <scope id="2018270309120290023" at="82,0,87,0" />
+      <scope id="2018270309120290023" at="65,128,73,5">
+        <var name="methodIndex" id="2018270309120290023" />
+      </scope>
+      <scope id="2018270309120290023" at="51,114,61,5">
+        <var name="methodIndex" id="2018270309120290023" />
+      </scope>
+      <scope id="2018270309120290023" at="64,0,75,0">
+        <var name="concept" id="2018270309120290023" />
+        <var name="method" id="2018270309120290023" />
+        <var name="parameters" id="2018270309120290023" />
+      </scope>
+      <scope id="2018270309120290023" at="50,0,63,0">
+        <var name="method" id="2018270309120290023" />
+        <var name="node" id="2018270309120290023" />
+        <var name="parameters" id="2018270309120290023" />
+      </scope>
+      <unit id="2018270309120290023" at="24,0,88,0" name="RatingRulesLanguage.behavior.BaseConceptOrgCollectionWithUniqueID__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/2749889671822931489">
+    <file name="RecurrenceCriteriaDef_Behavior.java">
+      <unit id="2749889671822931489" at="10,0,13,0" name="RatingRulesLanguage.behavior.RecurrenceCriteriaDef_Behavior" />
+    </file>
+    <file name="RecurrenceCriteriaDef__BehaviorDescriptor.java">
+      <node id="2749889671822931489" at="21,0,22,0" concept="8" trace="CONCEPT" />
+      <node id="2749889671822931489" at="22,0,23,0" concept="8" trace="REGISTRY" />
+      <node id="2749889671822931489" at="25,0,26,0" concept="8" trace="BH_METHODS" />
+      <node id="2749889671823031203" at="27,63,28,96" concept="6" />
+      <node id="2749889671822931514" at="28,96,29,181" concept="1" />
+      <node id="7337838296291825852" at="29,181,30,182" concept="1" />
+      <node id="2749889671823031784" at="30,182,31,0" concept="7" />
+      <node id="2749889671823003484" at="31,0,32,0" concept="7" />
+      <node id="2749889671822931489" at="36,59,37,20" concept="10" />
+      <node id="2749889671822931489" at="41,114,42,21" concept="1" />
+      <node id="2749889671822931489" at="46,114,47,49" concept="4" />
+      <node id="2749889671822931489" at="48,26,49,56" concept="12" />
+      <node id="2749889671822931489" at="52,14,53,58" concept="12" />
+      <node id="2749889671822931489" at="58,128,59,49" concept="4" />
+      <node id="2749889671822931489" at="60,26,61,56" concept="12" />
+      <node id="2749889671822931489" at="64,14,65,58" concept="12" />
+      <node id="2749889671822931489" at="71,48,72,22" concept="5" />
+      <node id="2749889671822931489" at="77,40,78,19" concept="5" />
+      <node id="2749889671822931489" at="36,0,39,0" concept="0" trace="RecurrenceCriteriaDef__BehaviorDescriptor#()V" />
+      <node id="2749889671822931489" at="47,49,50,5" concept="2" />
+      <node id="2749889671822931489" at="59,49,62,5" concept="2" />
+      <node id="2749889671822931489" at="40,0,44,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="2749889671822931489" at="50,5,54,5" concept="11" />
+      <node id="2749889671822931489" at="62,5,66,5" concept="11" />
+      <node id="2749889671822931489" at="69,0,74,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="2749889671822931489" at="75,0,80,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2749889671822931489" at="27,0,34,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2749889671822931489" at="45,0,56,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="2749889671822931489" at="57,0,68,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="2749889671822931489" at="36,59,37,20" />
+      <scope id="2749889671822931489" at="41,114,42,21" />
+      <scope id="2749889671822931489" at="48,26,49,56" />
+      <scope id="2749889671822931489" at="52,14,53,58" />
+      <scope id="2749889671822931489" at="60,26,61,56" />
+      <scope id="2749889671822931489" at="64,14,65,58" />
+      <scope id="2749889671822931489" at="71,48,72,22" />
+      <scope id="2749889671822931489" at="77,40,78,19" />
+      <scope id="2749889671822931489" at="36,0,39,0" />
+      <scope id="2749889671822931489" at="40,0,44,0">
+        <var name="constructor" id="2749889671822931489" />
+        <var name="node" id="2749889671822931489" />
+        <var name="parameters" id="2749889671822931489" />
+      </scope>
+      <scope id="2749889671822931489" at="27,63,32,0" />
+      <scope id="2749889671822931489" at="69,0,74,0" />
+      <scope id="2749889671822931489" at="75,0,80,0" />
+      <scope id="2749889671822931489" at="27,0,34,0">
+        <var name="__thisNode__" id="2749889671822931489" />
+      </scope>
+      <scope id="2749889671822931489" at="46,114,54,5">
+        <var name="methodIndex" id="2749889671822931489" />
+      </scope>
+      <scope id="2749889671822931489" at="58,128,66,5">
+        <var name="methodIndex" id="2749889671822931489" />
+      </scope>
+      <scope id="2749889671822931489" at="45,0,56,0">
+        <var name="method" id="2749889671822931489" />
+        <var name="node" id="2749889671822931489" />
+        <var name="parameters" id="2749889671822931489" />
+      </scope>
+      <scope id="2749889671822931489" at="57,0,68,0">
+        <var name="concept" id="2749889671822931489" />
+        <var name="method" id="2749889671822931489" />
+        <var name="parameters" id="2749889671822931489" />
+      </scope>
+      <unit id="2749889671822931489" at="20,0,81,0" name="RatingRulesLanguage.behavior.RecurrenceCriteriaDef__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/2749889671822932941">
+    <file name="ProductSelectionCriteriaDef_Behavior.java">
+      <unit id="2749889671822932941" at="10,0,13,0" name="RatingRulesLanguage.behavior.ProductSelectionCriteriaDef_Behavior" />
+    </file>
+    <file name="ProductSelectionCriteriaDef__BehaviorDescriptor.java">
+      <node id="2749889671822932941" at="20,0,21,0" concept="8" trace="CONCEPT" />
+      <node id="2749889671822932941" at="21,0,22,0" concept="8" trace="REGISTRY" />
+      <node id="2749889671822932941" at="24,0,25,0" concept="8" trace="BH_METHODS" />
+      <node id="2749889671822932941" at="30,65,31,20" concept="10" />
+      <node id="2749889671822932941" at="35,114,36,21" concept="1" />
+      <node id="2749889671822932941" at="40,114,41,49" concept="4" />
+      <node id="2749889671822932941" at="42,26,43,56" concept="12" />
+      <node id="2749889671822932941" at="46,14,47,58" concept="12" />
+      <node id="2749889671822932941" at="52,128,53,49" concept="4" />
+      <node id="2749889671822932941" at="54,26,55,56" concept="12" />
+      <node id="2749889671822932941" at="58,14,59,58" concept="12" />
+      <node id="2749889671822932941" at="65,48,66,22" concept="5" />
+      <node id="2749889671822932941" at="71,40,72,19" concept="5" />
+      <node id="2749889671822932941" at="26,0,28,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2749889671822932941" at="30,0,33,0" concept="0" trace="ProductSelectionCriteriaDef__BehaviorDescriptor#()V" />
+      <node id="2749889671822932941" at="41,49,44,5" concept="2" />
+      <node id="2749889671822932941" at="53,49,56,5" concept="2" />
+      <node id="2749889671822932941" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="2749889671822932941" at="44,5,48,5" concept="11" />
+      <node id="2749889671822932941" at="56,5,60,5" concept="11" />
+      <node id="2749889671822932941" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="2749889671822932941" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2749889671822932941" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="2749889671822932941" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="2749889671822932941" at="26,63,26,63" />
+      <scope id="2749889671822932941" at="30,65,31,20" />
+      <scope id="2749889671822932941" at="35,114,36,21" />
+      <scope id="2749889671822932941" at="42,26,43,56" />
+      <scope id="2749889671822932941" at="46,14,47,58" />
+      <scope id="2749889671822932941" at="54,26,55,56" />
+      <scope id="2749889671822932941" at="58,14,59,58" />
+      <scope id="2749889671822932941" at="65,48,66,22" />
+      <scope id="2749889671822932941" at="71,40,72,19" />
+      <scope id="2749889671822932941" at="26,0,28,0">
+        <var name="__thisNode__" id="2749889671822932941" />
+      </scope>
+      <scope id="2749889671822932941" at="30,0,33,0" />
+      <scope id="2749889671822932941" at="34,0,38,0">
+        <var name="constructor" id="2749889671822932941" />
+        <var name="node" id="2749889671822932941" />
+        <var name="parameters" id="2749889671822932941" />
+      </scope>
+      <scope id="2749889671822932941" at="63,0,68,0" />
+      <scope id="2749889671822932941" at="69,0,74,0" />
+      <scope id="2749889671822932941" at="40,114,48,5">
+        <var name="methodIndex" id="2749889671822932941" />
+      </scope>
+      <scope id="2749889671822932941" at="52,128,60,5">
+        <var name="methodIndex" id="2749889671822932941" />
+      </scope>
+      <scope id="2749889671822932941" at="39,0,50,0">
+        <var name="method" id="2749889671822932941" />
+        <var name="node" id="2749889671822932941" />
+        <var name="parameters" id="2749889671822932941" />
+      </scope>
+      <scope id="2749889671822932941" at="51,0,62,0">
+        <var name="concept" id="2749889671822932941" />
+        <var name="method" id="2749889671822932941" />
+        <var name="parameters" id="2749889671822932941" />
+      </scope>
+      <unit id="2749889671822932941" at="19,0,75,0" name="RatingRulesLanguage.behavior.ProductSelectionCriteriaDef__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/2933584340894114323">
+    <file name="ProductDeclaration_Behavior.java">
+      <unit id="2933584340894114323" at="10,0,13,0" name="RatingRulesLanguage.behavior.ProductDeclaration_Behavior" />
+    </file>
+    <file name="ProductDeclaration__BehaviorDescriptor.java">
+      <node id="2933584340894114323" at="22,0,23,0" concept="8" trace="CONCEPT" />
+      <node id="2933584340894114323" at="23,0,24,0" concept="8" trace="REGISTRY" />
+      <node id="2933584340894114323" at="26,0,27,0" concept="8" trace="BH_METHODS" />
+      <node id="2933584340894114327" at="28,63,29,348" concept="1" />
+      <node id="2933584340894114323" at="33,56,34,20" concept="10" />
+      <node id="2933584340894114323" at="38,114,39,21" concept="1" />
+      <node id="2933584340894114323" at="43,114,44,49" concept="4" />
+      <node id="2933584340894114323" at="45,26,46,56" concept="12" />
+      <node id="2933584340894114323" at="49,14,50,58" concept="12" />
+      <node id="2933584340894114323" at="55,128,56,49" concept="4" />
+      <node id="2933584340894114323" at="57,26,58,56" concept="12" />
+      <node id="2933584340894114323" at="61,14,62,58" concept="12" />
+      <node id="2933584340894114323" at="68,48,69,22" concept="5" />
+      <node id="2933584340894114323" at="74,40,75,19" concept="5" />
+      <node id="2933584340894114323" at="28,0,31,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2933584340894114323" at="33,0,36,0" concept="0" trace="ProductDeclaration__BehaviorDescriptor#()V" />
+      <node id="2933584340894114323" at="44,49,47,5" concept="2" />
+      <node id="2933584340894114323" at="56,49,59,5" concept="2" />
+      <node id="2933584340894114323" at="37,0,41,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="2933584340894114323" at="47,5,51,5" concept="11" />
+      <node id="2933584340894114323" at="59,5,63,5" concept="11" />
+      <node id="2933584340894114323" at="66,0,71,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="2933584340894114323" at="72,0,77,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2933584340894114323" at="42,0,53,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="2933584340894114323" at="54,0,65,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="2933584340894114323" at="28,63,29,348" />
+      <scope id="2933584340894114323" at="33,56,34,20" />
+      <scope id="2933584340894114323" at="38,114,39,21" />
+      <scope id="2933584340894114323" at="45,26,46,56" />
+      <scope id="2933584340894114323" at="49,14,50,58" />
+      <scope id="2933584340894114323" at="57,26,58,56" />
+      <scope id="2933584340894114323" at="61,14,62,58" />
+      <scope id="2933584340894114323" at="68,48,69,22" />
+      <scope id="2933584340894114323" at="74,40,75,19" />
+      <scope id="2933584340894114323" at="28,0,31,0">
+        <var name="__thisNode__" id="2933584340894114323" />
+      </scope>
+      <scope id="2933584340894114323" at="33,0,36,0" />
+      <scope id="2933584340894114323" at="37,0,41,0">
+        <var name="constructor" id="2933584340894114323" />
+        <var name="node" id="2933584340894114323" />
+        <var name="parameters" id="2933584340894114323" />
+      </scope>
+      <scope id="2933584340894114323" at="66,0,71,0" />
+      <scope id="2933584340894114323" at="72,0,77,0" />
+      <scope id="2933584340894114323" at="43,114,51,5">
+        <var name="methodIndex" id="2933584340894114323" />
+      </scope>
+      <scope id="2933584340894114323" at="55,128,63,5">
+        <var name="methodIndex" id="2933584340894114323" />
+      </scope>
+      <scope id="2933584340894114323" at="42,0,53,0">
+        <var name="method" id="2933584340894114323" />
+        <var name="node" id="2933584340894114323" />
+        <var name="parameters" id="2933584340894114323" />
+      </scope>
+      <scope id="2933584340894114323" at="54,0,65,0">
+        <var name="concept" id="2933584340894114323" />
+        <var name="method" id="2933584340894114323" />
+        <var name="parameters" id="2933584340894114323" />
+      </scope>
+      <unit id="2933584340894114323" at="21,0,78,0" name="RatingRulesLanguage.behavior.ProductDeclaration__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/2933584340894369635">
+    <file name="ProductFamilyDeclaration_Behavior.java">
+      <unit id="2933584340894369635" at="10,0,13,0" name="RatingRulesLanguage.behavior.ProductFamilyDeclaration_Behavior" />
+    </file>
+    <file name="ProductFamilyDeclaration__BehaviorDescriptor.java">
+      <node id="2933584340894369635" at="22,0,23,0" concept="8" trace="CONCEPT" />
+      <node id="2933584340894369635" at="23,0,24,0" concept="8" trace="REGISTRY" />
+      <node id="2933584340894369635" at="26,0,27,0" concept="8" trace="BH_METHODS" />
+      <node id="2933584340894369639" at="28,63,29,354" concept="1" />
+      <node id="2933584340894369635" at="33,62,34,20" concept="10" />
+      <node id="2933584340894369635" at="38,114,39,21" concept="1" />
+      <node id="2933584340894369635" at="43,114,44,49" concept="4" />
+      <node id="2933584340894369635" at="45,26,46,56" concept="12" />
+      <node id="2933584340894369635" at="49,14,50,58" concept="12" />
+      <node id="2933584340894369635" at="55,128,56,49" concept="4" />
+      <node id="2933584340894369635" at="57,26,58,56" concept="12" />
+      <node id="2933584340894369635" at="61,14,62,58" concept="12" />
+      <node id="2933584340894369635" at="68,48,69,22" concept="5" />
+      <node id="2933584340894369635" at="74,40,75,19" concept="5" />
+      <node id="2933584340894369635" at="28,0,31,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2933584340894369635" at="33,0,36,0" concept="0" trace="ProductFamilyDeclaration__BehaviorDescriptor#()V" />
+      <node id="2933584340894369635" at="44,49,47,5" concept="2" />
+      <node id="2933584340894369635" at="56,49,59,5" concept="2" />
+      <node id="2933584340894369635" at="37,0,41,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="2933584340894369635" at="47,5,51,5" concept="11" />
+      <node id="2933584340894369635" at="59,5,63,5" concept="11" />
+      <node id="2933584340894369635" at="66,0,71,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="2933584340894369635" at="72,0,77,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2933584340894369635" at="42,0,53,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="2933584340894369635" at="54,0,65,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="2933584340894369635" at="28,63,29,354" />
+      <scope id="2933584340894369635" at="33,62,34,20" />
+      <scope id="2933584340894369635" at="38,114,39,21" />
+      <scope id="2933584340894369635" at="45,26,46,56" />
+      <scope id="2933584340894369635" at="49,14,50,58" />
+      <scope id="2933584340894369635" at="57,26,58,56" />
+      <scope id="2933584340894369635" at="61,14,62,58" />
+      <scope id="2933584340894369635" at="68,48,69,22" />
+      <scope id="2933584340894369635" at="74,40,75,19" />
+      <scope id="2933584340894369635" at="28,0,31,0">
+        <var name="__thisNode__" id="2933584340894369635" />
+      </scope>
+      <scope id="2933584340894369635" at="33,0,36,0" />
+      <scope id="2933584340894369635" at="37,0,41,0">
+        <var name="constructor" id="2933584340894369635" />
+        <var name="node" id="2933584340894369635" />
+        <var name="parameters" id="2933584340894369635" />
+      </scope>
+      <scope id="2933584340894369635" at="66,0,71,0" />
+      <scope id="2933584340894369635" at="72,0,77,0" />
+      <scope id="2933584340894369635" at="43,114,51,5">
+        <var name="methodIndex" id="2933584340894369635" />
+      </scope>
+      <scope id="2933584340894369635" at="55,128,63,5">
+        <var name="methodIndex" id="2933584340894369635" />
+      </scope>
+      <scope id="2933584340894369635" at="42,0,53,0">
+        <var name="method" id="2933584340894369635" />
+        <var name="node" id="2933584340894369635" />
+        <var name="parameters" id="2933584340894369635" />
+      </scope>
+      <scope id="2933584340894369635" at="54,0,65,0">
+        <var name="concept" id="2933584340894369635" />
+        <var name="method" id="2933584340894369635" />
+        <var name="parameters" id="2933584340894369635" />
+      </scope>
+      <unit id="2933584340894369635" at="21,0,78,0" name="RatingRulesLanguage.behavior.ProductFamilyDeclaration__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/2933584340895947336">
+    <file name="LocationReference_Behavior.java">
+      <unit id="2933584340895947336" at="10,0,13,0" name="RatingRulesLanguage.behavior.LocationReference_Behavior" />
+    </file>
+    <file name="LocationReference__BehaviorDescriptor.java">
+      <node id="2933584340895947336" at="20,0,21,0" concept="8" trace="CONCEPT" />
+      <node id="2933584340895947336" at="21,0,22,0" concept="8" trace="REGISTRY" />
+      <node id="2933584340895947336" at="24,0,25,0" concept="8" trace="BH_METHODS" />
+      <node id="2933584340895947336" at="30,55,31,20" concept="10" />
+      <node id="2933584340895947336" at="35,114,36,21" concept="1" />
+      <node id="2933584340895947336" at="40,114,41,49" concept="4" />
+      <node id="2933584340895947336" at="42,26,43,56" concept="12" />
+      <node id="2933584340895947336" at="46,14,47,58" concept="12" />
+      <node id="2933584340895947336" at="52,128,53,49" concept="4" />
+      <node id="2933584340895947336" at="54,26,55,56" concept="12" />
+      <node id="2933584340895947336" at="58,14,59,58" concept="12" />
+      <node id="2933584340895947336" at="65,48,66,22" concept="5" />
+      <node id="2933584340895947336" at="71,40,72,19" concept="5" />
+      <node id="2933584340895947336" at="26,0,28,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2933584340895947336" at="30,0,33,0" concept="0" trace="LocationReference__BehaviorDescriptor#()V" />
+      <node id="2933584340895947336" at="41,49,44,5" concept="2" />
+      <node id="2933584340895947336" at="53,49,56,5" concept="2" />
+      <node id="2933584340895947336" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="2933584340895947336" at="44,5,48,5" concept="11" />
+      <node id="2933584340895947336" at="56,5,60,5" concept="11" />
+      <node id="2933584340895947336" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="2933584340895947336" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2933584340895947336" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="2933584340895947336" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="2933584340895947336" at="26,63,26,63" />
+      <scope id="2933584340895947336" at="30,55,31,20" />
+      <scope id="2933584340895947336" at="35,114,36,21" />
+      <scope id="2933584340895947336" at="42,26,43,56" />
+      <scope id="2933584340895947336" at="46,14,47,58" />
+      <scope id="2933584340895947336" at="54,26,55,56" />
+      <scope id="2933584340895947336" at="58,14,59,58" />
+      <scope id="2933584340895947336" at="65,48,66,22" />
+      <scope id="2933584340895947336" at="71,40,72,19" />
+      <scope id="2933584340895947336" at="26,0,28,0">
+        <var name="__thisNode__" id="2933584340895947336" />
+      </scope>
+      <scope id="2933584340895947336" at="30,0,33,0" />
+      <scope id="2933584340895947336" at="34,0,38,0">
+        <var name="constructor" id="2933584340895947336" />
+        <var name="node" id="2933584340895947336" />
+        <var name="parameters" id="2933584340895947336" />
+      </scope>
+      <scope id="2933584340895947336" at="63,0,68,0" />
+      <scope id="2933584340895947336" at="69,0,74,0" />
+      <scope id="2933584340895947336" at="40,114,48,5">
+        <var name="methodIndex" id="2933584340895947336" />
+      </scope>
+      <scope id="2933584340895947336" at="52,128,60,5">
+        <var name="methodIndex" id="2933584340895947336" />
+      </scope>
+      <scope id="2933584340895947336" at="39,0,50,0">
+        <var name="method" id="2933584340895947336" />
+        <var name="node" id="2933584340895947336" />
+        <var name="parameters" id="2933584340895947336" />
+      </scope>
+      <scope id="2933584340895947336" at="51,0,62,0">
+        <var name="concept" id="2933584340895947336" />
+        <var name="method" id="2933584340895947336" />
+        <var name="parameters" id="2933584340895947336" />
+      </scope>
+      <unit id="2933584340895947336" at="19,0,75,0" name="RatingRulesLanguage.behavior.LocationReference__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/3479341316303634750">
+    <file name="FareRuleDefinition_Behavior.java">
+      <unit id="3479341316303634750" at="10,0,13,0" name="RatingRulesLanguage.behavior.FareRuleDefinition_Behavior" />
+    </file>
+    <file name="FareRuleDefinition__BehaviorDescriptor.java">
+      <node id="3479341316303634750" at="23,0,24,0" concept="8" trace="CONCEPT" />
+      <node id="3479341316303634750" at="24,0,25,0" concept="8" trace="REGISTRY" />
+      <node id="3479341316303634750" at="27,0,28,0" concept="8" trace="BH_METHODS" />
+      <node id="3479341316303635017" at="29,63,30,349" concept="1" />
+      <node id="3479341316307295068" at="30,349,31,377" concept="1" />
+      <node id="3479341316307297208" at="31,377,32,348" concept="1" />
+      <node id="3479341316307433462" at="32,348,33,528" concept="1" />
+      <node id="3479341316303634750" at="37,56,38,20" concept="10" />
+      <node id="3479341316303634750" at="42,114,43,21" concept="1" />
+      <node id="3479341316303634750" at="47,114,48,49" concept="4" />
+      <node id="3479341316303634750" at="49,26,50,56" concept="12" />
+      <node id="3479341316303634750" at="53,14,54,58" concept="12" />
+      <node id="3479341316303634750" at="59,128,60,49" concept="4" />
+      <node id="3479341316303634750" at="61,26,62,56" concept="12" />
+      <node id="3479341316303634750" at="65,14,66,58" concept="12" />
+      <node id="3479341316303634750" at="72,48,73,22" concept="5" />
+      <node id="3479341316303634750" at="78,40,79,19" concept="5" />
+      <node id="3479341316303634750" at="37,0,40,0" concept="0" trace="FareRuleDefinition__BehaviorDescriptor#()V" />
+      <node id="3479341316303634750" at="48,49,51,5" concept="2" />
+      <node id="3479341316303634750" at="60,49,63,5" concept="2" />
+      <node id="3479341316303634750" at="41,0,45,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="3479341316303634750" at="51,5,55,5" concept="11" />
+      <node id="3479341316303634750" at="63,5,67,5" concept="11" />
+      <node id="3479341316303634750" at="70,0,75,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="3479341316303634750" at="76,0,81,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3479341316303634750" at="29,0,35,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3479341316303634750" at="46,0,57,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="3479341316303634750" at="58,0,69,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="3479341316303634750" at="37,56,38,20" />
+      <scope id="3479341316303634750" at="42,114,43,21" />
+      <scope id="3479341316303634750" at="49,26,50,56" />
+      <scope id="3479341316303634750" at="53,14,54,58" />
+      <scope id="3479341316303634750" at="61,26,62,56" />
+      <scope id="3479341316303634750" at="65,14,66,58" />
+      <scope id="3479341316303634750" at="72,48,73,22" />
+      <scope id="3479341316303634750" at="78,40,79,19" />
+      <scope id="3479341316303634750" at="37,0,40,0" />
+      <scope id="3479341316303634750" at="29,63,33,528" />
+      <scope id="3479341316303634750" at="41,0,45,0">
+        <var name="constructor" id="3479341316303634750" />
+        <var name="node" id="3479341316303634750" />
+        <var name="parameters" id="3479341316303634750" />
+      </scope>
+      <scope id="3479341316303634750" at="70,0,75,0" />
+      <scope id="3479341316303634750" at="76,0,81,0" />
+      <scope id="3479341316303634750" at="29,0,35,0">
+        <var name="__thisNode__" id="3479341316303634750" />
+      </scope>
+      <scope id="3479341316303634750" at="47,114,55,5">
+        <var name="methodIndex" id="3479341316303634750" />
+      </scope>
+      <scope id="3479341316303634750" at="59,128,67,5">
+        <var name="methodIndex" id="3479341316303634750" />
+      </scope>
+      <scope id="3479341316303634750" at="46,0,57,0">
+        <var name="method" id="3479341316303634750" />
+        <var name="node" id="3479341316303634750" />
+        <var name="parameters" id="3479341316303634750" />
+      </scope>
+      <scope id="3479341316303634750" at="58,0,69,0">
+        <var name="concept" id="3479341316303634750" />
+        <var name="method" id="3479341316303634750" />
+        <var name="parameters" id="3479341316303634750" />
+      </scope>
+      <unit id="3479341316303634750" at="22,0,82,0" name="RatingRulesLanguage.behavior.FareRuleDefinition__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/3479341316304468015">
+    <file name="BaseNumericFunctionDef_Behavior.java">
+      <unit id="3479341316304468015" at="10,0,13,0" name="RatingRulesLanguage.behavior.BaseNumericFunctionDef_Behavior" />
+    </file>
+    <file name="BaseNumericFunctionDef__BehaviorDescriptor.java">
+      <node id="3479341316304468015" at="20,0,21,0" concept="8" trace="CONCEPT" />
+      <node id="3479341316304468015" at="21,0,22,0" concept="8" trace="REGISTRY" />
+      <node id="3479341316304468015" at="24,0,25,0" concept="8" trace="BH_METHODS" />
+      <node id="3479341316304468015" at="30,60,31,20" concept="10" />
+      <node id="3479341316304468015" at="35,114,36,21" concept="1" />
+      <node id="3479341316304468015" at="40,114,41,49" concept="4" />
+      <node id="3479341316304468015" at="42,26,43,56" concept="12" />
+      <node id="3479341316304468015" at="46,14,47,58" concept="12" />
+      <node id="3479341316304468015" at="52,128,53,49" concept="4" />
+      <node id="3479341316304468015" at="54,26,55,56" concept="12" />
+      <node id="3479341316304468015" at="58,14,59,58" concept="12" />
+      <node id="3479341316304468015" at="65,48,66,22" concept="5" />
+      <node id="3479341316304468015" at="71,40,72,19" concept="5" />
+      <node id="3479341316304468015" at="26,0,28,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3479341316304468015" at="30,0,33,0" concept="0" trace="BaseNumericFunctionDef__BehaviorDescriptor#()V" />
+      <node id="3479341316304468015" at="41,49,44,5" concept="2" />
+      <node id="3479341316304468015" at="53,49,56,5" concept="2" />
+      <node id="3479341316304468015" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="3479341316304468015" at="44,5,48,5" concept="11" />
+      <node id="3479341316304468015" at="56,5,60,5" concept="11" />
+      <node id="3479341316304468015" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="3479341316304468015" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3479341316304468015" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="3479341316304468015" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="3479341316304468015" at="26,63,26,63" />
+      <scope id="3479341316304468015" at="30,60,31,20" />
+      <scope id="3479341316304468015" at="35,114,36,21" />
+      <scope id="3479341316304468015" at="42,26,43,56" />
+      <scope id="3479341316304468015" at="46,14,47,58" />
+      <scope id="3479341316304468015" at="54,26,55,56" />
+      <scope id="3479341316304468015" at="58,14,59,58" />
+      <scope id="3479341316304468015" at="65,48,66,22" />
+      <scope id="3479341316304468015" at="71,40,72,19" />
+      <scope id="3479341316304468015" at="26,0,28,0">
+        <var name="__thisNode__" id="3479341316304468015" />
+      </scope>
+      <scope id="3479341316304468015" at="30,0,33,0" />
+      <scope id="3479341316304468015" at="34,0,38,0">
+        <var name="constructor" id="3479341316304468015" />
+        <var name="node" id="3479341316304468015" />
+        <var name="parameters" id="3479341316304468015" />
+      </scope>
+      <scope id="3479341316304468015" at="63,0,68,0" />
+      <scope id="3479341316304468015" at="69,0,74,0" />
+      <scope id="3479341316304468015" at="40,114,48,5">
+        <var name="methodIndex" id="3479341316304468015" />
+      </scope>
+      <scope id="3479341316304468015" at="52,128,60,5">
+        <var name="methodIndex" id="3479341316304468015" />
+      </scope>
+      <scope id="3479341316304468015" at="39,0,50,0">
+        <var name="method" id="3479341316304468015" />
+        <var name="node" id="3479341316304468015" />
+        <var name="parameters" id="3479341316304468015" />
+      </scope>
+      <scope id="3479341316304468015" at="51,0,62,0">
+        <var name="concept" id="3479341316304468015" />
+        <var name="method" id="3479341316304468015" />
+        <var name="parameters" id="3479341316304468015" />
+      </scope>
+      <unit id="3479341316304468015" at="19,0,75,0" name="RatingRulesLanguage.behavior.BaseNumericFunctionDef__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/3479341316307293368">
+    <file name="BaseFloatFunctionDefinition_Behavior.java">
+      <unit id="3479341316307293368" at="10,0,13,0" name="RatingRulesLanguage.behavior.BaseFloatFunctionDefinition_Behavior" />
+    </file>
+    <file name="BaseFloatFunctionDefinition__BehaviorDescriptor.java">
+      <node id="3479341316307293368" at="22,0,23,0" concept="8" trace="CONCEPT" />
+      <node id="3479341316307293368" at="23,0,24,0" concept="8" trace="REGISTRY" />
+      <node id="3479341316307293368" at="26,0,27,0" concept="8" trace="BH_METHODS" />
+      <node id="3479341316307293372" at="28,63,29,350" concept="1" />
+      <node id="3479341316307293368" at="33,65,34,20" concept="10" />
+      <node id="3479341316307293368" at="38,114,39,21" concept="1" />
+      <node id="3479341316307293368" at="43,114,44,49" concept="4" />
+      <node id="3479341316307293368" at="45,26,46,56" concept="12" />
+      <node id="3479341316307293368" at="49,14,50,58" concept="12" />
+      <node id="3479341316307293368" at="55,128,56,49" concept="4" />
+      <node id="3479341316307293368" at="57,26,58,56" concept="12" />
+      <node id="3479341316307293368" at="61,14,62,58" concept="12" />
+      <node id="3479341316307293368" at="68,48,69,22" concept="5" />
+      <node id="3479341316307293368" at="74,40,75,19" concept="5" />
+      <node id="3479341316307293368" at="28,0,31,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3479341316307293368" at="33,0,36,0" concept="0" trace="BaseFloatFunctionDefinition__BehaviorDescriptor#()V" />
+      <node id="3479341316307293368" at="44,49,47,5" concept="2" />
+      <node id="3479341316307293368" at="56,49,59,5" concept="2" />
+      <node id="3479341316307293368" at="37,0,41,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="3479341316307293368" at="47,5,51,5" concept="11" />
+      <node id="3479341316307293368" at="59,5,63,5" concept="11" />
+      <node id="3479341316307293368" at="66,0,71,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="3479341316307293368" at="72,0,77,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3479341316307293368" at="42,0,53,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="3479341316307293368" at="54,0,65,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="3479341316307293368" at="28,63,29,350" />
+      <scope id="3479341316307293368" at="33,65,34,20" />
+      <scope id="3479341316307293368" at="38,114,39,21" />
+      <scope id="3479341316307293368" at="45,26,46,56" />
+      <scope id="3479341316307293368" at="49,14,50,58" />
+      <scope id="3479341316307293368" at="57,26,58,56" />
+      <scope id="3479341316307293368" at="61,14,62,58" />
+      <scope id="3479341316307293368" at="68,48,69,22" />
+      <scope id="3479341316307293368" at="74,40,75,19" />
+      <scope id="3479341316307293368" at="28,0,31,0">
+        <var name="__thisNode__" id="3479341316307293368" />
+      </scope>
+      <scope id="3479341316307293368" at="33,0,36,0" />
+      <scope id="3479341316307293368" at="37,0,41,0">
+        <var name="constructor" id="3479341316307293368" />
+        <var name="node" id="3479341316307293368" />
+        <var name="parameters" id="3479341316307293368" />
+      </scope>
+      <scope id="3479341316307293368" at="66,0,71,0" />
+      <scope id="3479341316307293368" at="72,0,77,0" />
+      <scope id="3479341316307293368" at="43,114,51,5">
+        <var name="methodIndex" id="3479341316307293368" />
+      </scope>
+      <scope id="3479341316307293368" at="55,128,63,5">
+        <var name="methodIndex" id="3479341316307293368" />
+      </scope>
+      <scope id="3479341316307293368" at="42,0,53,0">
+        <var name="method" id="3479341316307293368" />
+        <var name="node" id="3479341316307293368" />
+        <var name="parameters" id="3479341316307293368" />
+      </scope>
+      <scope id="3479341316307293368" at="54,0,65,0">
+        <var name="concept" id="3479341316307293368" />
+        <var name="method" id="3479341316307293368" />
+        <var name="parameters" id="3479341316307293368" />
+      </scope>
+      <unit id="3479341316307293368" at="21,0,78,0" name="RatingRulesLanguage.behavior.BaseFloatFunctionDefinition__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/3479341316307836195">
+    <file name="UDFReference_Behavior.java">
+      <unit id="3479341316307836195" at="10,0,13,0" name="RatingRulesLanguage.behavior.UDFReference_Behavior" />
+    </file>
+    <file name="UDFReference__BehaviorDescriptor.java">
+      <node id="3479341316307836195" at="20,0,21,0" concept="8" trace="CONCEPT" />
+      <node id="3479341316307836195" at="21,0,22,0" concept="8" trace="REGISTRY" />
+      <node id="3479341316307836195" at="24,0,25,0" concept="8" trace="BH_METHODS" />
+      <node id="3479341316307836195" at="30,50,31,20" concept="10" />
+      <node id="3479341316307836195" at="35,114,36,21" concept="1" />
+      <node id="3479341316307836195" at="40,114,41,49" concept="4" />
+      <node id="3479341316307836195" at="42,26,43,56" concept="12" />
+      <node id="3479341316307836195" at="46,14,47,58" concept="12" />
+      <node id="3479341316307836195" at="52,128,53,49" concept="4" />
+      <node id="3479341316307836195" at="54,26,55,56" concept="12" />
+      <node id="3479341316307836195" at="58,14,59,58" concept="12" />
+      <node id="3479341316307836195" at="65,48,66,22" concept="5" />
+      <node id="3479341316307836195" at="71,40,72,19" concept="5" />
+      <node id="3479341316307836195" at="26,0,28,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3479341316307836195" at="30,0,33,0" concept="0" trace="UDFReference__BehaviorDescriptor#()V" />
+      <node id="3479341316307836195" at="41,49,44,5" concept="2" />
+      <node id="3479341316307836195" at="53,49,56,5" concept="2" />
+      <node id="3479341316307836195" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="3479341316307836195" at="44,5,48,5" concept="11" />
+      <node id="3479341316307836195" at="56,5,60,5" concept="11" />
+      <node id="3479341316307836195" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="3479341316307836195" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3479341316307836195" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="3479341316307836195" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="3479341316307836195" at="26,63,26,63" />
+      <scope id="3479341316307836195" at="30,50,31,20" />
+      <scope id="3479341316307836195" at="35,114,36,21" />
+      <scope id="3479341316307836195" at="42,26,43,56" />
+      <scope id="3479341316307836195" at="46,14,47,58" />
+      <scope id="3479341316307836195" at="54,26,55,56" />
+      <scope id="3479341316307836195" at="58,14,59,58" />
+      <scope id="3479341316307836195" at="65,48,66,22" />
+      <scope id="3479341316307836195" at="71,40,72,19" />
+      <scope id="3479341316307836195" at="26,0,28,0">
+        <var name="__thisNode__" id="3479341316307836195" />
+      </scope>
+      <scope id="3479341316307836195" at="30,0,33,0" />
+      <scope id="3479341316307836195" at="34,0,38,0">
+        <var name="constructor" id="3479341316307836195" />
+        <var name="node" id="3479341316307836195" />
+        <var name="parameters" id="3479341316307836195" />
+      </scope>
+      <scope id="3479341316307836195" at="63,0,68,0" />
+      <scope id="3479341316307836195" at="69,0,74,0" />
+      <scope id="3479341316307836195" at="40,114,48,5">
+        <var name="methodIndex" id="3479341316307836195" />
+      </scope>
+      <scope id="3479341316307836195" at="52,128,60,5">
+        <var name="methodIndex" id="3479341316307836195" />
+      </scope>
+      <scope id="3479341316307836195" at="39,0,50,0">
+        <var name="method" id="3479341316307836195" />
+        <var name="node" id="3479341316307836195" />
+        <var name="parameters" id="3479341316307836195" />
+      </scope>
+      <scope id="3479341316307836195" at="51,0,62,0">
+        <var name="concept" id="3479341316307836195" />
+        <var name="method" id="3479341316307836195" />
+        <var name="parameters" id="3479341316307836195" />
+      </scope>
+      <unit id="3479341316307836195" at="19,0,75,0" name="RatingRulesLanguage.behavior.UDFReference__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/3479341316307971218">
+    <file name="UDCReference_Behavior.java">
+      <unit id="3479341316307971218" at="10,0,13,0" name="RatingRulesLanguage.behavior.UDCReference_Behavior" />
+    </file>
+    <file name="UDCReference__BehaviorDescriptor.java">
+      <node id="3479341316307971218" at="20,0,21,0" concept="8" trace="CONCEPT" />
+      <node id="3479341316307971218" at="21,0,22,0" concept="8" trace="REGISTRY" />
+      <node id="3479341316307971218" at="24,0,25,0" concept="8" trace="BH_METHODS" />
+      <node id="3479341316307971218" at="30,50,31,20" concept="10" />
+      <node id="3479341316307971218" at="35,114,36,21" concept="1" />
+      <node id="3479341316307971218" at="40,114,41,49" concept="4" />
+      <node id="3479341316307971218" at="42,26,43,56" concept="12" />
+      <node id="3479341316307971218" at="46,14,47,58" concept="12" />
+      <node id="3479341316307971218" at="52,128,53,49" concept="4" />
+      <node id="3479341316307971218" at="54,26,55,56" concept="12" />
+      <node id="3479341316307971218" at="58,14,59,58" concept="12" />
+      <node id="3479341316307971218" at="65,48,66,22" concept="5" />
+      <node id="3479341316307971218" at="71,40,72,19" concept="5" />
+      <node id="3479341316307971218" at="26,0,28,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3479341316307971218" at="30,0,33,0" concept="0" trace="UDCReference__BehaviorDescriptor#()V" />
+      <node id="3479341316307971218" at="41,49,44,5" concept="2" />
+      <node id="3479341316307971218" at="53,49,56,5" concept="2" />
+      <node id="3479341316307971218" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="3479341316307971218" at="44,5,48,5" concept="11" />
+      <node id="3479341316307971218" at="56,5,60,5" concept="11" />
+      <node id="3479341316307971218" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="3479341316307971218" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3479341316307971218" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="3479341316307971218" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="3479341316307971218" at="26,63,26,63" />
+      <scope id="3479341316307971218" at="30,50,31,20" />
+      <scope id="3479341316307971218" at="35,114,36,21" />
+      <scope id="3479341316307971218" at="42,26,43,56" />
+      <scope id="3479341316307971218" at="46,14,47,58" />
+      <scope id="3479341316307971218" at="54,26,55,56" />
+      <scope id="3479341316307971218" at="58,14,59,58" />
+      <scope id="3479341316307971218" at="65,48,66,22" />
+      <scope id="3479341316307971218" at="71,40,72,19" />
+      <scope id="3479341316307971218" at="26,0,28,0">
+        <var name="__thisNode__" id="3479341316307971218" />
+      </scope>
+      <scope id="3479341316307971218" at="30,0,33,0" />
+      <scope id="3479341316307971218" at="34,0,38,0">
+        <var name="constructor" id="3479341316307971218" />
+        <var name="node" id="3479341316307971218" />
+        <var name="parameters" id="3479341316307971218" />
+      </scope>
+      <scope id="3479341316307971218" at="63,0,68,0" />
+      <scope id="3479341316307971218" at="69,0,74,0" />
+      <scope id="3479341316307971218" at="40,114,48,5">
+        <var name="methodIndex" id="3479341316307971218" />
+      </scope>
+      <scope id="3479341316307971218" at="52,128,60,5">
+        <var name="methodIndex" id="3479341316307971218" />
+      </scope>
+      <scope id="3479341316307971218" at="39,0,50,0">
+        <var name="method" id="3479341316307971218" />
+        <var name="node" id="3479341316307971218" />
+        <var name="parameters" id="3479341316307971218" />
+      </scope>
+      <scope id="3479341316307971218" at="51,0,62,0">
+        <var name="concept" id="3479341316307971218" />
+        <var name="method" id="3479341316307971218" />
+        <var name="parameters" id="3479341316307971218" />
+      </scope>
+      <unit id="3479341316307971218" at="19,0,75,0" name="RatingRulesLanguage.behavior.UDCReference__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/3479341316311031779">
+    <file name="WeekDay_Behavior.java">
+      <unit id="3479341316311031779" at="10,0,13,0" name="RatingRulesLanguage.behavior.WeekDay_Behavior" />
+    </file>
+    <file name="WeekDay__BehaviorDescriptor.java">
+      <node id="3479341316311031779" at="21,0,22,0" concept="8" trace="CONCEPT" />
+      <node id="3479341316311031779" at="22,0,23,0" concept="8" trace="REGISTRY" />
+      <node id="3479341316311031779" at="25,0,26,0" concept="8" trace="BH_METHODS" />
+      <node id="3479341316311031783" at="27,63,28,172" concept="1" />
+      <node id="3479341316311031779" at="32,45,33,20" concept="10" />
+      <node id="3479341316311031779" at="37,114,38,21" concept="1" />
+      <node id="3479341316311031779" at="42,114,43,49" concept="4" />
+      <node id="3479341316311031779" at="44,26,45,56" concept="12" />
+      <node id="3479341316311031779" at="48,14,49,58" concept="12" />
+      <node id="3479341316311031779" at="54,128,55,49" concept="4" />
+      <node id="3479341316311031779" at="56,26,57,56" concept="12" />
+      <node id="3479341316311031779" at="60,14,61,58" concept="12" />
+      <node id="3479341316311031779" at="67,48,68,22" concept="5" />
+      <node id="3479341316311031779" at="73,40,74,19" concept="5" />
+      <node id="3479341316311031779" at="27,0,30,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3479341316311031779" at="32,0,35,0" concept="0" trace="WeekDay__BehaviorDescriptor#()V" />
+      <node id="3479341316311031779" at="43,49,46,5" concept="2" />
+      <node id="3479341316311031779" at="55,49,58,5" concept="2" />
+      <node id="3479341316311031779" at="36,0,40,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="3479341316311031779" at="46,5,50,5" concept="11" />
+      <node id="3479341316311031779" at="58,5,62,5" concept="11" />
+      <node id="3479341316311031779" at="65,0,70,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="3479341316311031779" at="71,0,76,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3479341316311031779" at="41,0,52,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="3479341316311031779" at="53,0,64,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="3479341316311031779" at="27,63,28,172" />
+      <scope id="3479341316311031779" at="32,45,33,20" />
+      <scope id="3479341316311031779" at="37,114,38,21" />
+      <scope id="3479341316311031779" at="44,26,45,56" />
+      <scope id="3479341316311031779" at="48,14,49,58" />
+      <scope id="3479341316311031779" at="56,26,57,56" />
+      <scope id="3479341316311031779" at="60,14,61,58" />
+      <scope id="3479341316311031779" at="67,48,68,22" />
+      <scope id="3479341316311031779" at="73,40,74,19" />
+      <scope id="3479341316311031779" at="27,0,30,0">
+        <var name="__thisNode__" id="3479341316311031779" />
+      </scope>
+      <scope id="3479341316311031779" at="32,0,35,0" />
+      <scope id="3479341316311031779" at="36,0,40,0">
+        <var name="constructor" id="3479341316311031779" />
+        <var name="node" id="3479341316311031779" />
+        <var name="parameters" id="3479341316311031779" />
+      </scope>
+      <scope id="3479341316311031779" at="65,0,70,0" />
+      <scope id="3479341316311031779" at="71,0,76,0" />
+      <scope id="3479341316311031779" at="42,114,50,5">
+        <var name="methodIndex" id="3479341316311031779" />
+      </scope>
+      <scope id="3479341316311031779" at="54,128,62,5">
+        <var name="methodIndex" id="3479341316311031779" />
+      </scope>
+      <scope id="3479341316311031779" at="41,0,52,0">
+        <var name="method" id="3479341316311031779" />
+        <var name="node" id="3479341316311031779" />
+        <var name="parameters" id="3479341316311031779" />
+      </scope>
+      <scope id="3479341316311031779" at="53,0,64,0">
+        <var name="concept" id="3479341316311031779" />
+        <var name="method" id="3479341316311031779" />
+        <var name="parameters" id="3479341316311031779" />
+      </scope>
+      <unit id="3479341316311031779" at="20,0,77,0" name="RatingRulesLanguage.behavior.WeekDay__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/3479341316311450718">
+    <file name="ConstantTypedVarDeclaration_Behavior.java">
+      <unit id="3479341316311450718" at="10,0,13,0" name="RatingRulesLanguage.behavior.ConstantTypedVarDeclaration_Behavior" />
+    </file>
+    <file name="ConstantTypedVarDeclaration__BehaviorDescriptor.java">
+      <node id="3479341316311450718" at="20,0,21,0" concept="8" trace="CONCEPT" />
+      <node id="3479341316311450718" at="21,0,22,0" concept="8" trace="REGISTRY" />
+      <node id="3479341316311450718" at="24,0,25,0" concept="8" trace="BH_METHODS" />
+      <node id="3479341316311450718" at="30,65,31,20" concept="10" />
+      <node id="3479341316311450718" at="35,114,36,21" concept="1" />
+      <node id="3479341316311450718" at="40,114,41,49" concept="4" />
+      <node id="3479341316311450718" at="42,26,43,56" concept="12" />
+      <node id="3479341316311450718" at="46,14,47,58" concept="12" />
+      <node id="3479341316311450718" at="52,128,53,49" concept="4" />
+      <node id="3479341316311450718" at="54,26,55,56" concept="12" />
+      <node id="3479341316311450718" at="58,14,59,58" concept="12" />
+      <node id="3479341316311450718" at="65,48,66,22" concept="5" />
+      <node id="3479341316311450718" at="71,40,72,19" concept="5" />
+      <node id="3479341316311450718" at="26,0,28,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3479341316311450718" at="30,0,33,0" concept="0" trace="ConstantTypedVarDeclaration__BehaviorDescriptor#()V" />
+      <node id="3479341316311450718" at="41,49,44,5" concept="2" />
+      <node id="3479341316311450718" at="53,49,56,5" concept="2" />
+      <node id="3479341316311450718" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="3479341316311450718" at="44,5,48,5" concept="11" />
+      <node id="3479341316311450718" at="56,5,60,5" concept="11" />
+      <node id="3479341316311450718" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="3479341316311450718" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3479341316311450718" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="3479341316311450718" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="3479341316311450718" at="26,63,26,63" />
+      <scope id="3479341316311450718" at="30,65,31,20" />
+      <scope id="3479341316311450718" at="35,114,36,21" />
+      <scope id="3479341316311450718" at="42,26,43,56" />
+      <scope id="3479341316311450718" at="46,14,47,58" />
+      <scope id="3479341316311450718" at="54,26,55,56" />
+      <scope id="3479341316311450718" at="58,14,59,58" />
+      <scope id="3479341316311450718" at="65,48,66,22" />
+      <scope id="3479341316311450718" at="71,40,72,19" />
+      <scope id="3479341316311450718" at="26,0,28,0">
+        <var name="__thisNode__" id="3479341316311450718" />
+      </scope>
+      <scope id="3479341316311450718" at="30,0,33,0" />
+      <scope id="3479341316311450718" at="34,0,38,0">
+        <var name="constructor" id="3479341316311450718" />
+        <var name="node" id="3479341316311450718" />
+        <var name="parameters" id="3479341316311450718" />
+      </scope>
+      <scope id="3479341316311450718" at="63,0,68,0" />
+      <scope id="3479341316311450718" at="69,0,74,0" />
+      <scope id="3479341316311450718" at="40,114,48,5">
+        <var name="methodIndex" id="3479341316311450718" />
+      </scope>
+      <scope id="3479341316311450718" at="52,128,60,5">
+        <var name="methodIndex" id="3479341316311450718" />
+      </scope>
+      <scope id="3479341316311450718" at="39,0,50,0">
+        <var name="method" id="3479341316311450718" />
+        <var name="node" id="3479341316311450718" />
+        <var name="parameters" id="3479341316311450718" />
+      </scope>
+      <scope id="3479341316311450718" at="51,0,62,0">
+        <var name="concept" id="3479341316311450718" />
+        <var name="method" id="3479341316311450718" />
+        <var name="parameters" id="3479341316311450718" />
+      </scope>
+      <unit id="3479341316311450718" at="19,0,75,0" name="RatingRulesLanguage.behavior.ConstantTypedVarDeclaration__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/3570604503179352832">
+    <file name="ConcessionSelectionCriteriaDef_Behavior.java">
+      <unit id="3570604503179352832" at="10,0,13,0" name="RatingRulesLanguage.behavior.ConcessionSelectionCriteriaDef_Behavior" />
+    </file>
+    <file name="ConcessionSelectionCriteriaDef__BehaviorDescriptor.java">
+      <node id="3570604503179352832" at="21,0,22,0" concept="8" trace="CONCEPT" />
+      <node id="3570604503179352832" at="22,0,23,0" concept="8" trace="REGISTRY" />
+      <node id="3570604503179352832" at="25,0,26,0" concept="8" trace="BH_METHODS" />
+      <node id="3570604503179352840" at="27,63,28,36" concept="6" />
+      <node id="3479341316313296093" at="28,36,29,175" concept="1" />
+      <node id="2018270309120280545" at="29,175,30,0" concept="7" />
+      <node id="3570604503179352832" at="34,68,35,20" concept="10" />
+      <node id="3570604503179352832" at="39,114,40,21" concept="1" />
+      <node id="3570604503179352832" at="44,114,45,49" concept="4" />
+      <node id="3570604503179352832" at="46,26,47,56" concept="12" />
+      <node id="3570604503179352832" at="50,14,51,58" concept="12" />
+      <node id="3570604503179352832" at="56,128,57,49" concept="4" />
+      <node id="3570604503179352832" at="58,26,59,56" concept="12" />
+      <node id="3570604503179352832" at="62,14,63,58" concept="12" />
+      <node id="3570604503179352832" at="69,48,70,22" concept="5" />
+      <node id="3570604503179352832" at="75,40,76,19" concept="5" />
+      <node id="3570604503179352832" at="34,0,37,0" concept="0" trace="ConcessionSelectionCriteriaDef__BehaviorDescriptor#()V" />
+      <node id="3570604503179352832" at="45,49,48,5" concept="2" />
+      <node id="3570604503179352832" at="57,49,60,5" concept="2" />
+      <node id="3570604503179352832" at="38,0,42,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="3570604503179352832" at="48,5,52,5" concept="11" />
+      <node id="3570604503179352832" at="60,5,64,5" concept="11" />
+      <node id="3570604503179352832" at="27,0,32,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3570604503179352832" at="67,0,72,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="3570604503179352832" at="73,0,78,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3570604503179352832" at="43,0,54,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="3570604503179352832" at="55,0,66,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="3570604503179352832" at="34,68,35,20" />
+      <scope id="3570604503179352832" at="39,114,40,21" />
+      <scope id="3570604503179352832" at="46,26,47,56" />
+      <scope id="3570604503179352832" at="50,14,51,58" />
+      <scope id="3570604503179352832" at="58,26,59,56" />
+      <scope id="3570604503179352832" at="62,14,63,58" />
+      <scope id="3570604503179352832" at="69,48,70,22" />
+      <scope id="3570604503179352832" at="75,40,76,19" />
+      <scope id="3570604503179352832" at="27,63,30,0" />
+      <scope id="3570604503179352832" at="34,0,37,0" />
+      <scope id="3570604503179352832" at="38,0,42,0">
+        <var name="constructor" id="3570604503179352832" />
+        <var name="node" id="3570604503179352832" />
+        <var name="parameters" id="3570604503179352832" />
+      </scope>
+      <scope id="3570604503179352832" at="27,0,32,0">
+        <var name="__thisNode__" id="3570604503179352832" />
+      </scope>
+      <scope id="3570604503179352832" at="67,0,72,0" />
+      <scope id="3570604503179352832" at="73,0,78,0" />
+      <scope id="3570604503179352832" at="44,114,52,5">
+        <var name="methodIndex" id="3570604503179352832" />
+      </scope>
+      <scope id="3570604503179352832" at="56,128,64,5">
+        <var name="methodIndex" id="3570604503179352832" />
+      </scope>
+      <scope id="3570604503179352832" at="43,0,54,0">
+        <var name="method" id="3570604503179352832" />
+        <var name="node" id="3570604503179352832" />
+        <var name="parameters" id="3570604503179352832" />
+      </scope>
+      <scope id="3570604503179352832" at="55,0,66,0">
+        <var name="concept" id="3570604503179352832" />
+        <var name="method" id="3570604503179352832" />
+        <var name="parameters" id="3570604503179352832" />
+      </scope>
+      <unit id="3570604503179352832" at="20,0,79,0" name="RatingRulesLanguage.behavior.ConcessionSelectionCriteriaDef__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/3570604503180268064">
+    <file name="BaseUDNamedCriteriaDeclaration_Behavior.java">
+      <unit id="3570604503180268064" at="10,0,13,0" name="RatingRulesLanguage.behavior.BaseUDNamedCriteriaDeclaration_Behavior" />
+    </file>
+    <file name="BaseUDNamedCriteriaDeclaration__BehaviorDescriptor.java">
+      <node id="3570604503180268064" at="22,0,23,0" concept="8" trace="CONCEPT" />
+      <node id="3570604503180268064" at="23,0,24,0" concept="8" trace="REGISTRY" />
+      <node id="3570604503180268064" at="26,0,27,0" concept="8" trace="BH_METHODS" />
+      <node id="3479341316307972205" at="28,63,29,349" concept="1" />
+      <node id="3570604503180268064" at="33,68,34,20" concept="10" />
+      <node id="3570604503180268064" at="38,114,39,21" concept="1" />
+      <node id="3570604503180268064" at="43,114,44,49" concept="4" />
+      <node id="3570604503180268064" at="45,26,46,56" concept="12" />
+      <node id="3570604503180268064" at="49,14,50,58" concept="12" />
+      <node id="3570604503180268064" at="55,128,56,49" concept="4" />
+      <node id="3570604503180268064" at="57,26,58,56" concept="12" />
+      <node id="3570604503180268064" at="61,14,62,58" concept="12" />
+      <node id="3570604503180268064" at="68,48,69,22" concept="5" />
+      <node id="3570604503180268064" at="74,40,75,19" concept="5" />
+      <node id="3570604503180268064" at="28,0,31,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3570604503180268064" at="33,0,36,0" concept="0" trace="BaseUDNamedCriteriaDeclaration__BehaviorDescriptor#()V" />
+      <node id="3570604503180268064" at="44,49,47,5" concept="2" />
+      <node id="3570604503180268064" at="56,49,59,5" concept="2" />
+      <node id="3570604503180268064" at="37,0,41,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="3570604503180268064" at="47,5,51,5" concept="11" />
+      <node id="3570604503180268064" at="59,5,63,5" concept="11" />
+      <node id="3570604503180268064" at="66,0,71,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="3570604503180268064" at="72,0,77,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3570604503180268064" at="42,0,53,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="3570604503180268064" at="54,0,65,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="3570604503180268064" at="28,63,29,349" />
+      <scope id="3570604503180268064" at="33,68,34,20" />
+      <scope id="3570604503180268064" at="38,114,39,21" />
+      <scope id="3570604503180268064" at="45,26,46,56" />
+      <scope id="3570604503180268064" at="49,14,50,58" />
+      <scope id="3570604503180268064" at="57,26,58,56" />
+      <scope id="3570604503180268064" at="61,14,62,58" />
+      <scope id="3570604503180268064" at="68,48,69,22" />
+      <scope id="3570604503180268064" at="74,40,75,19" />
+      <scope id="3570604503180268064" at="28,0,31,0">
+        <var name="__thisNode__" id="3570604503180268064" />
+      </scope>
+      <scope id="3570604503180268064" at="33,0,36,0" />
+      <scope id="3570604503180268064" at="37,0,41,0">
+        <var name="constructor" id="3570604503180268064" />
+        <var name="node" id="3570604503180268064" />
+        <var name="parameters" id="3570604503180268064" />
+      </scope>
+      <scope id="3570604503180268064" at="66,0,71,0" />
+      <scope id="3570604503180268064" at="72,0,77,0" />
+      <scope id="3570604503180268064" at="43,114,51,5">
+        <var name="methodIndex" id="3570604503180268064" />
+      </scope>
+      <scope id="3570604503180268064" at="55,128,63,5">
+        <var name="methodIndex" id="3570604503180268064" />
+      </scope>
+      <scope id="3570604503180268064" at="42,0,53,0">
+        <var name="method" id="3570604503180268064" />
+        <var name="node" id="3570604503180268064" />
+        <var name="parameters" id="3570604503180268064" />
+      </scope>
+      <scope id="3570604503180268064" at="54,0,65,0">
+        <var name="concept" id="3570604503180268064" />
+        <var name="method" id="3570604503180268064" />
+        <var name="parameters" id="3570604503180268064" />
+      </scope>
+      <unit id="3570604503180268064" at="21,0,78,0" name="RatingRulesLanguage.behavior.BaseUDNamedCriteriaDeclaration__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/3570604503180297302">
+    <file name="BaseUDNamedIDCriteriaDefinition_Behavior.java">
+      <unit id="3570604503180297302" at="10,0,13,0" name="RatingRulesLanguage.behavior.BaseUDNamedIDCriteriaDefinition_Behavior" />
+    </file>
+    <file name="BaseUDNamedIDCriteriaDefinition__BehaviorDescriptor.java">
+      <node id="3570604503180297302" at="21,0,22,0" concept="8" trace="CONCEPT" />
+      <node id="3570604503180297302" at="22,0,23,0" concept="8" trace="REGISTRY" />
+      <node id="3570604503180297302" at="25,0,26,0" concept="8" trace="BH_METHODS" />
+      <node id="3570604503180297306" at="27,63,28,174" concept="1" />
+      <node id="3570604503180297302" at="32,69,33,20" concept="10" />
+      <node id="3570604503180297302" at="37,114,38,21" concept="1" />
+      <node id="3570604503180297302" at="42,114,43,49" concept="4" />
+      <node id="3570604503180297302" at="44,26,45,56" concept="12" />
+      <node id="3570604503180297302" at="48,14,49,58" concept="12" />
+      <node id="3570604503180297302" at="54,128,55,49" concept="4" />
+      <node id="3570604503180297302" at="56,26,57,56" concept="12" />
+      <node id="3570604503180297302" at="60,14,61,58" concept="12" />
+      <node id="3570604503180297302" at="67,48,68,22" concept="5" />
+      <node id="3570604503180297302" at="73,40,74,19" concept="5" />
+      <node id="3570604503180297302" at="27,0,30,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3570604503180297302" at="32,0,35,0" concept="0" trace="BaseUDNamedIDCriteriaDefinition__BehaviorDescriptor#()V" />
+      <node id="3570604503180297302" at="43,49,46,5" concept="2" />
+      <node id="3570604503180297302" at="55,49,58,5" concept="2" />
+      <node id="3570604503180297302" at="36,0,40,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="3570604503180297302" at="46,5,50,5" concept="11" />
+      <node id="3570604503180297302" at="58,5,62,5" concept="11" />
+      <node id="3570604503180297302" at="65,0,70,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="3570604503180297302" at="71,0,76,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3570604503180297302" at="41,0,52,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="3570604503180297302" at="53,0,64,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="3570604503180297302" at="27,63,28,174" />
+      <scope id="3570604503180297302" at="32,69,33,20" />
+      <scope id="3570604503180297302" at="37,114,38,21" />
+      <scope id="3570604503180297302" at="44,26,45,56" />
+      <scope id="3570604503180297302" at="48,14,49,58" />
+      <scope id="3570604503180297302" at="56,26,57,56" />
+      <scope id="3570604503180297302" at="60,14,61,58" />
+      <scope id="3570604503180297302" at="67,48,68,22" />
+      <scope id="3570604503180297302" at="73,40,74,19" />
+      <scope id="3570604503180297302" at="27,0,30,0">
+        <var name="__thisNode__" id="3570604503180297302" />
+      </scope>
+      <scope id="3570604503180297302" at="32,0,35,0" />
+      <scope id="3570604503180297302" at="36,0,40,0">
+        <var name="constructor" id="3570604503180297302" />
+        <var name="node" id="3570604503180297302" />
+        <var name="parameters" id="3570604503180297302" />
+      </scope>
+      <scope id="3570604503180297302" at="65,0,70,0" />
+      <scope id="3570604503180297302" at="71,0,76,0" />
+      <scope id="3570604503180297302" at="42,114,50,5">
+        <var name="methodIndex" id="3570604503180297302" />
+      </scope>
+      <scope id="3570604503180297302" at="54,128,62,5">
+        <var name="methodIndex" id="3570604503180297302" />
+      </scope>
+      <scope id="3570604503180297302" at="41,0,52,0">
+        <var name="method" id="3570604503180297302" />
+        <var name="node" id="3570604503180297302" />
+        <var name="parameters" id="3570604503180297302" />
+      </scope>
+      <scope id="3570604503180297302" at="53,0,64,0">
+        <var name="concept" id="3570604503180297302" />
+        <var name="method" id="3570604503180297302" />
+        <var name="parameters" id="3570604503180297302" />
+      </scope>
+      <unit id="3570604503180297302" at="20,0,77,0" name="RatingRulesLanguage.behavior.BaseUDNamedIDCriteriaDefinition__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/5468658957753380321">
+    <file name="LocationDeclaration_Behavior.java">
+      <unit id="5468658957753380321" at="10,0,13,0" name="RatingRulesLanguage.behavior.LocationDeclaration_Behavior" />
+    </file>
+    <file name="LocationDeclaration__BehaviorDescriptor.java">
+      <node id="5468658957753380321" at="22,0,23,0" concept="8" trace="CONCEPT" />
+      <node id="5468658957753380321" at="23,0,24,0" concept="8" trace="REGISTRY" />
+      <node id="5468658957753380321" at="26,0,27,0" concept="8" trace="BH_METHODS" />
+      <node id="5468658957753380324" at="28,63,29,349" concept="1" />
+      <node id="5468658957753380321" at="33,57,34,20" concept="10" />
+      <node id="5468658957753380321" at="38,114,39,21" concept="1" />
+      <node id="5468658957753380321" at="43,114,44,49" concept="4" />
+      <node id="5468658957753380321" at="45,26,46,56" concept="12" />
+      <node id="5468658957753380321" at="49,14,50,58" concept="12" />
+      <node id="5468658957753380321" at="55,128,56,49" concept="4" />
+      <node id="5468658957753380321" at="57,26,58,56" concept="12" />
+      <node id="5468658957753380321" at="61,14,62,58" concept="12" />
+      <node id="5468658957753380321" at="68,48,69,22" concept="5" />
+      <node id="5468658957753380321" at="74,40,75,19" concept="5" />
+      <node id="5468658957753380321" at="28,0,31,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5468658957753380321" at="33,0,36,0" concept="0" trace="LocationDeclaration__BehaviorDescriptor#()V" />
+      <node id="5468658957753380321" at="44,49,47,5" concept="2" />
+      <node id="5468658957753380321" at="56,49,59,5" concept="2" />
+      <node id="5468658957753380321" at="37,0,41,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="5468658957753380321" at="47,5,51,5" concept="11" />
+      <node id="5468658957753380321" at="59,5,63,5" concept="11" />
+      <node id="5468658957753380321" at="66,0,71,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="5468658957753380321" at="72,0,77,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5468658957753380321" at="42,0,53,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="5468658957753380321" at="54,0,65,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="5468658957753380321" at="28,63,29,349" />
+      <scope id="5468658957753380321" at="33,57,34,20" />
+      <scope id="5468658957753380321" at="38,114,39,21" />
+      <scope id="5468658957753380321" at="45,26,46,56" />
+      <scope id="5468658957753380321" at="49,14,50,58" />
+      <scope id="5468658957753380321" at="57,26,58,56" />
+      <scope id="5468658957753380321" at="61,14,62,58" />
+      <scope id="5468658957753380321" at="68,48,69,22" />
+      <scope id="5468658957753380321" at="74,40,75,19" />
+      <scope id="5468658957753380321" at="28,0,31,0">
+        <var name="__thisNode__" id="5468658957753380321" />
+      </scope>
+      <scope id="5468658957753380321" at="33,0,36,0" />
+      <scope id="5468658957753380321" at="37,0,41,0">
+        <var name="constructor" id="5468658957753380321" />
+        <var name="node" id="5468658957753380321" />
+        <var name="parameters" id="5468658957753380321" />
+      </scope>
+      <scope id="5468658957753380321" at="66,0,71,0" />
+      <scope id="5468658957753380321" at="72,0,77,0" />
+      <scope id="5468658957753380321" at="43,114,51,5">
+        <var name="methodIndex" id="5468658957753380321" />
+      </scope>
+      <scope id="5468658957753380321" at="55,128,63,5">
+        <var name="methodIndex" id="5468658957753380321" />
+      </scope>
+      <scope id="5468658957753380321" at="42,0,53,0">
+        <var name="method" id="5468658957753380321" />
+        <var name="node" id="5468658957753380321" />
+        <var name="parameters" id="5468658957753380321" />
+      </scope>
+      <scope id="5468658957753380321" at="54,0,65,0">
+        <var name="concept" id="5468658957753380321" />
+        <var name="method" id="5468658957753380321" />
+        <var name="parameters" id="5468658957753380321" />
+      </scope>
+      <unit id="5468658957753380321" at="21,0,78,0" name="RatingRulesLanguage.behavior.LocationDeclaration__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/5468658957753380569">
+    <file name="ModOfTransportation_Behavior.java">
+      <unit id="5468658957753380569" at="10,0,13,0" name="RatingRulesLanguage.behavior.ModOfTransportation_Behavior" />
+    </file>
+    <file name="ModOfTransportation__BehaviorDescriptor.java">
+      <node id="5468658957753380569" at="22,0,23,0" concept="8" trace="CONCEPT" />
+      <node id="5468658957753380569" at="23,0,24,0" concept="8" trace="REGISTRY" />
+      <node id="5468658957753380569" at="26,0,27,0" concept="8" trace="BH_METHODS" />
+      <node id="5468658957753380675" at="28,63,29,344" concept="1" />
+      <node id="5468658957753380569" at="33,57,34,20" concept="10" />
+      <node id="5468658957753380569" at="38,114,39,21" concept="1" />
+      <node id="5468658957753380569" at="43,114,44,49" concept="4" />
+      <node id="5468658957753380569" at="45,26,46,56" concept="12" />
+      <node id="5468658957753380569" at="49,14,50,58" concept="12" />
+      <node id="5468658957753380569" at="55,128,56,49" concept="4" />
+      <node id="5468658957753380569" at="57,26,58,56" concept="12" />
+      <node id="5468658957753380569" at="61,14,62,58" concept="12" />
+      <node id="5468658957753380569" at="68,48,69,22" concept="5" />
+      <node id="5468658957753380569" at="74,40,75,19" concept="5" />
+      <node id="5468658957753380569" at="28,0,31,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5468658957753380569" at="33,0,36,0" concept="0" trace="ModOfTransportation__BehaviorDescriptor#()V" />
+      <node id="5468658957753380569" at="44,49,47,5" concept="2" />
+      <node id="5468658957753380569" at="56,49,59,5" concept="2" />
+      <node id="5468658957753380569" at="37,0,41,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="5468658957753380569" at="47,5,51,5" concept="11" />
+      <node id="5468658957753380569" at="59,5,63,5" concept="11" />
+      <node id="5468658957753380569" at="66,0,71,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="5468658957753380569" at="72,0,77,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5468658957753380569" at="42,0,53,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="5468658957753380569" at="54,0,65,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="5468658957753380569" at="28,63,29,344" />
+      <scope id="5468658957753380569" at="33,57,34,20" />
+      <scope id="5468658957753380569" at="38,114,39,21" />
+      <scope id="5468658957753380569" at="45,26,46,56" />
+      <scope id="5468658957753380569" at="49,14,50,58" />
+      <scope id="5468658957753380569" at="57,26,58,56" />
+      <scope id="5468658957753380569" at="61,14,62,58" />
+      <scope id="5468658957753380569" at="68,48,69,22" />
+      <scope id="5468658957753380569" at="74,40,75,19" />
+      <scope id="5468658957753380569" at="28,0,31,0">
+        <var name="__thisNode__" id="5468658957753380569" />
+      </scope>
+      <scope id="5468658957753380569" at="33,0,36,0" />
+      <scope id="5468658957753380569" at="37,0,41,0">
+        <var name="constructor" id="5468658957753380569" />
+        <var name="node" id="5468658957753380569" />
+        <var name="parameters" id="5468658957753380569" />
+      </scope>
+      <scope id="5468658957753380569" at="66,0,71,0" />
+      <scope id="5468658957753380569" at="72,0,77,0" />
+      <scope id="5468658957753380569" at="43,114,51,5">
+        <var name="methodIndex" id="5468658957753380569" />
+      </scope>
+      <scope id="5468658957753380569" at="55,128,63,5">
+        <var name="methodIndex" id="5468658957753380569" />
+      </scope>
+      <scope id="5468658957753380569" at="42,0,53,0">
+        <var name="method" id="5468658957753380569" />
+        <var name="node" id="5468658957753380569" />
+        <var name="parameters" id="5468658957753380569" />
+      </scope>
+      <scope id="5468658957753380569" at="54,0,65,0">
+        <var name="concept" id="5468658957753380569" />
+        <var name="method" id="5468658957753380569" />
+        <var name="parameters" id="5468658957753380569" />
+      </scope>
+      <unit id="5468658957753380569" at="21,0,78,0" name="RatingRulesLanguage.behavior.ModOfTransportation__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/5468658957753380809">
+    <file name="Route_Behavior.java">
+      <unit id="5468658957753380809" at="10,0,13,0" name="RatingRulesLanguage.behavior.Route_Behavior" />
+    </file>
+    <file name="Route__BehaviorDescriptor.java">
+      <node id="5468658957753380809" at="22,0,23,0" concept="8" trace="CONCEPT" />
+      <node id="5468658957753380809" at="23,0,24,0" concept="8" trace="REGISTRY" />
+      <node id="5468658957753380809" at="26,0,27,0" concept="8" trace="BH_METHODS" />
+      <node id="5468658957753380812" at="28,63,29,346" concept="1" />
+      <node id="5468658957753380809" at="33,43,34,20" concept="10" />
+      <node id="5468658957753380809" at="38,114,39,21" concept="1" />
+      <node id="5468658957753380809" at="43,114,44,49" concept="4" />
+      <node id="5468658957753380809" at="45,26,46,56" concept="12" />
+      <node id="5468658957753380809" at="49,14,50,58" concept="12" />
+      <node id="5468658957753380809" at="55,128,56,49" concept="4" />
+      <node id="5468658957753380809" at="57,26,58,56" concept="12" />
+      <node id="5468658957753380809" at="61,14,62,58" concept="12" />
+      <node id="5468658957753380809" at="68,48,69,22" concept="5" />
+      <node id="5468658957753380809" at="74,40,75,19" concept="5" />
+      <node id="5468658957753380809" at="28,0,31,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5468658957753380809" at="33,0,36,0" concept="0" trace="Route__BehaviorDescriptor#()V" />
+      <node id="5468658957753380809" at="44,49,47,5" concept="2" />
+      <node id="5468658957753380809" at="56,49,59,5" concept="2" />
+      <node id="5468658957753380809" at="37,0,41,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="5468658957753380809" at="47,5,51,5" concept="11" />
+      <node id="5468658957753380809" at="59,5,63,5" concept="11" />
+      <node id="5468658957753380809" at="66,0,71,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="5468658957753380809" at="72,0,77,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5468658957753380809" at="42,0,53,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="5468658957753380809" at="54,0,65,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="5468658957753380809" at="28,63,29,346" />
+      <scope id="5468658957753380809" at="33,43,34,20" />
+      <scope id="5468658957753380809" at="38,114,39,21" />
+      <scope id="5468658957753380809" at="45,26,46,56" />
+      <scope id="5468658957753380809" at="49,14,50,58" />
+      <scope id="5468658957753380809" at="57,26,58,56" />
+      <scope id="5468658957753380809" at="61,14,62,58" />
+      <scope id="5468658957753380809" at="68,48,69,22" />
+      <scope id="5468658957753380809" at="74,40,75,19" />
+      <scope id="5468658957753380809" at="28,0,31,0">
+        <var name="__thisNode__" id="5468658957753380809" />
+      </scope>
+      <scope id="5468658957753380809" at="33,0,36,0" />
+      <scope id="5468658957753380809" at="37,0,41,0">
+        <var name="constructor" id="5468658957753380809" />
+        <var name="node" id="5468658957753380809" />
+        <var name="parameters" id="5468658957753380809" />
+      </scope>
+      <scope id="5468658957753380809" at="66,0,71,0" />
+      <scope id="5468658957753380809" at="72,0,77,0" />
+      <scope id="5468658957753380809" at="43,114,51,5">
+        <var name="methodIndex" id="5468658957753380809" />
+      </scope>
+      <scope id="5468658957753380809" at="55,128,63,5">
+        <var name="methodIndex" id="5468658957753380809" />
+      </scope>
+      <scope id="5468658957753380809" at="42,0,53,0">
+        <var name="method" id="5468658957753380809" />
+        <var name="node" id="5468658957753380809" />
+        <var name="parameters" id="5468658957753380809" />
+      </scope>
+      <scope id="5468658957753380809" at="54,0,65,0">
+        <var name="concept" id="5468658957753380809" />
+        <var name="method" id="5468658957753380809" />
+        <var name="parameters" id="5468658957753380809" />
+      </scope>
+      <unit id="5468658957753380809" at="21,0,78,0" name="RatingRulesLanguage.behavior.Route__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/5468658957753381238">
+    <file name="ServiceProvider_Behavior.java">
+      <unit id="5468658957753381238" at="10,0,13,0" name="RatingRulesLanguage.behavior.ServiceProvider_Behavior" />
+    </file>
+    <file name="ServiceProvider__BehaviorDescriptor.java">
+      <node id="5468658957753381238" at="22,0,23,0" concept="8" trace="CONCEPT" />
+      <node id="5468658957753381238" at="23,0,24,0" concept="8" trace="REGISTRY" />
+      <node id="5468658957753381238" at="26,0,27,0" concept="8" trace="BH_METHODS" />
+      <node id="5468658957753381241" at="28,63,29,356" concept="1" />
+      <node id="5468658957753381238" at="33,53,34,20" concept="10" />
+      <node id="5468658957753381238" at="38,114,39,21" concept="1" />
+      <node id="5468658957753381238" at="43,114,44,49" concept="4" />
+      <node id="5468658957753381238" at="45,26,46,56" concept="12" />
+      <node id="5468658957753381238" at="49,14,50,58" concept="12" />
+      <node id="5468658957753381238" at="55,128,56,49" concept="4" />
+      <node id="5468658957753381238" at="57,26,58,56" concept="12" />
+      <node id="5468658957753381238" at="61,14,62,58" concept="12" />
+      <node id="5468658957753381238" at="68,48,69,22" concept="5" />
+      <node id="5468658957753381238" at="74,40,75,19" concept="5" />
+      <node id="5468658957753381238" at="28,0,31,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5468658957753381238" at="33,0,36,0" concept="0" trace="ServiceProvider__BehaviorDescriptor#()V" />
+      <node id="5468658957753381238" at="44,49,47,5" concept="2" />
+      <node id="5468658957753381238" at="56,49,59,5" concept="2" />
+      <node id="5468658957753381238" at="37,0,41,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="5468658957753381238" at="47,5,51,5" concept="11" />
+      <node id="5468658957753381238" at="59,5,63,5" concept="11" />
+      <node id="5468658957753381238" at="66,0,71,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="5468658957753381238" at="72,0,77,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5468658957753381238" at="42,0,53,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="5468658957753381238" at="54,0,65,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="5468658957753381238" at="28,63,29,356" />
+      <scope id="5468658957753381238" at="33,53,34,20" />
+      <scope id="5468658957753381238" at="38,114,39,21" />
+      <scope id="5468658957753381238" at="45,26,46,56" />
+      <scope id="5468658957753381238" at="49,14,50,58" />
+      <scope id="5468658957753381238" at="57,26,58,56" />
+      <scope id="5468658957753381238" at="61,14,62,58" />
+      <scope id="5468658957753381238" at="68,48,69,22" />
+      <scope id="5468658957753381238" at="74,40,75,19" />
+      <scope id="5468658957753381238" at="28,0,31,0">
+        <var name="__thisNode__" id="5468658957753381238" />
+      </scope>
+      <scope id="5468658957753381238" at="33,0,36,0" />
+      <scope id="5468658957753381238" at="37,0,41,0">
+        <var name="constructor" id="5468658957753381238" />
+        <var name="node" id="5468658957753381238" />
+        <var name="parameters" id="5468658957753381238" />
+      </scope>
+      <scope id="5468658957753381238" at="66,0,71,0" />
+      <scope id="5468658957753381238" at="72,0,77,0" />
+      <scope id="5468658957753381238" at="43,114,51,5">
+        <var name="methodIndex" id="5468658957753381238" />
+      </scope>
+      <scope id="5468658957753381238" at="55,128,63,5">
+        <var name="methodIndex" id="5468658957753381238" />
+      </scope>
+      <scope id="5468658957753381238" at="42,0,53,0">
+        <var name="method" id="5468658957753381238" />
+        <var name="node" id="5468658957753381238" />
+        <var name="parameters" id="5468658957753381238" />
+      </scope>
+      <scope id="5468658957753381238" at="54,0,65,0">
+        <var name="concept" id="5468658957753381238" />
+        <var name="method" id="5468658957753381238" />
+        <var name="parameters" id="5468658957753381238" />
+      </scope>
+      <unit id="5468658957753381238" at="21,0,78,0" name="RatingRulesLanguage.behavior.ServiceProvider__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/5468658957753515641">
+    <file name="ConcessionDeclaration_Behavior.java">
+      <unit id="5468658957753515641" at="10,0,13,0" name="RatingRulesLanguage.behavior.ConcessionDeclaration_Behavior" />
+    </file>
+    <file name="ConcessionDeclaration__BehaviorDescriptor.java">
+      <node id="5468658957753515641" at="22,0,23,0" concept="8" trace="CONCEPT" />
+      <node id="5468658957753515641" at="23,0,24,0" concept="8" trace="REGISTRY" />
+      <node id="5468658957753515641" at="26,0,27,0" concept="8" trace="BH_METHODS" />
+      <node id="5468658957753515645" at="28,63,29,351" concept="1" />
+      <node id="5468658957753515641" at="33,59,34,20" concept="10" />
+      <node id="5468658957753515641" at="38,114,39,21" concept="1" />
+      <node id="5468658957753515641" at="43,114,44,49" concept="4" />
+      <node id="5468658957753515641" at="45,26,46,56" concept="12" />
+      <node id="5468658957753515641" at="49,14,50,58" concept="12" />
+      <node id="5468658957753515641" at="55,128,56,49" concept="4" />
+      <node id="5468658957753515641" at="57,26,58,56" concept="12" />
+      <node id="5468658957753515641" at="61,14,62,58" concept="12" />
+      <node id="5468658957753515641" at="68,48,69,22" concept="5" />
+      <node id="5468658957753515641" at="74,40,75,19" concept="5" />
+      <node id="5468658957753515641" at="28,0,31,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5468658957753515641" at="33,0,36,0" concept="0" trace="ConcessionDeclaration__BehaviorDescriptor#()V" />
+      <node id="5468658957753515641" at="44,49,47,5" concept="2" />
+      <node id="5468658957753515641" at="56,49,59,5" concept="2" />
+      <node id="5468658957753515641" at="37,0,41,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="5468658957753515641" at="47,5,51,5" concept="11" />
+      <node id="5468658957753515641" at="59,5,63,5" concept="11" />
+      <node id="5468658957753515641" at="66,0,71,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="5468658957753515641" at="72,0,77,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5468658957753515641" at="42,0,53,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="5468658957753515641" at="54,0,65,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="5468658957753515641" at="28,63,29,351" />
+      <scope id="5468658957753515641" at="33,59,34,20" />
+      <scope id="5468658957753515641" at="38,114,39,21" />
+      <scope id="5468658957753515641" at="45,26,46,56" />
+      <scope id="5468658957753515641" at="49,14,50,58" />
+      <scope id="5468658957753515641" at="57,26,58,56" />
+      <scope id="5468658957753515641" at="61,14,62,58" />
+      <scope id="5468658957753515641" at="68,48,69,22" />
+      <scope id="5468658957753515641" at="74,40,75,19" />
+      <scope id="5468658957753515641" at="28,0,31,0">
+        <var name="__thisNode__" id="5468658957753515641" />
+      </scope>
+      <scope id="5468658957753515641" at="33,0,36,0" />
+      <scope id="5468658957753515641" at="37,0,41,0">
+        <var name="constructor" id="5468658957753515641" />
+        <var name="node" id="5468658957753515641" />
+        <var name="parameters" id="5468658957753515641" />
+      </scope>
+      <scope id="5468658957753515641" at="66,0,71,0" />
+      <scope id="5468658957753515641" at="72,0,77,0" />
+      <scope id="5468658957753515641" at="43,114,51,5">
+        <var name="methodIndex" id="5468658957753515641" />
+      </scope>
+      <scope id="5468658957753515641" at="55,128,63,5">
+        <var name="methodIndex" id="5468658957753515641" />
+      </scope>
+      <scope id="5468658957753515641" at="42,0,53,0">
+        <var name="method" id="5468658957753515641" />
+        <var name="node" id="5468658957753515641" />
+        <var name="parameters" id="5468658957753515641" />
+      </scope>
+      <scope id="5468658957753515641" at="54,0,65,0">
+        <var name="concept" id="5468658957753515641" />
+        <var name="method" id="5468658957753515641" />
+        <var name="parameters" id="5468658957753515641" />
+      </scope>
+      <unit id="5468658957753515641" at="21,0,78,0" name="RatingRulesLanguage.behavior.ConcessionDeclaration__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/6459614163395002225">
+    <file name="BaseConstant_Behavior.java">
+      <unit id="6459614163395002225" at="10,0,13,0" name="RatingRulesLanguage.behavior.BaseConstant_Behavior" />
+    </file>
+    <file name="BaseConstant__BehaviorDescriptor.java">
+      <node id="6459614163395002225" at="20,0,21,0" concept="8" trace="CONCEPT" />
+      <node id="6459614163395002225" at="21,0,22,0" concept="8" trace="REGISTRY" />
+      <node id="6459614163395002225" at="24,0,25,0" concept="8" trace="BH_METHODS" />
+      <node id="6459614163395002225" at="30,50,31,20" concept="10" />
+      <node id="6459614163395002225" at="35,114,36,21" concept="1" />
+      <node id="6459614163395002225" at="40,114,41,49" concept="4" />
+      <node id="6459614163395002225" at="42,26,43,56" concept="12" />
+      <node id="6459614163395002225" at="46,14,47,58" concept="12" />
+      <node id="6459614163395002225" at="52,128,53,49" concept="4" />
+      <node id="6459614163395002225" at="54,26,55,56" concept="12" />
+      <node id="6459614163395002225" at="58,14,59,58" concept="12" />
+      <node id="6459614163395002225" at="65,48,66,22" concept="5" />
+      <node id="6459614163395002225" at="71,40,72,19" concept="5" />
+      <node id="6459614163395002225" at="26,0,28,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6459614163395002225" at="30,0,33,0" concept="0" trace="BaseConstant__BehaviorDescriptor#()V" />
+      <node id="6459614163395002225" at="41,49,44,5" concept="2" />
+      <node id="6459614163395002225" at="53,49,56,5" concept="2" />
+      <node id="6459614163395002225" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="6459614163395002225" at="44,5,48,5" concept="11" />
+      <node id="6459614163395002225" at="56,5,60,5" concept="11" />
+      <node id="6459614163395002225" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="6459614163395002225" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6459614163395002225" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="6459614163395002225" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="6459614163395002225" at="26,63,26,63" />
+      <scope id="6459614163395002225" at="30,50,31,20" />
+      <scope id="6459614163395002225" at="35,114,36,21" />
+      <scope id="6459614163395002225" at="42,26,43,56" />
+      <scope id="6459614163395002225" at="46,14,47,58" />
+      <scope id="6459614163395002225" at="54,26,55,56" />
+      <scope id="6459614163395002225" at="58,14,59,58" />
+      <scope id="6459614163395002225" at="65,48,66,22" />
+      <scope id="6459614163395002225" at="71,40,72,19" />
+      <scope id="6459614163395002225" at="26,0,28,0">
+        <var name="__thisNode__" id="6459614163395002225" />
+      </scope>
+      <scope id="6459614163395002225" at="30,0,33,0" />
+      <scope id="6459614163395002225" at="34,0,38,0">
+        <var name="constructor" id="6459614163395002225" />
+        <var name="node" id="6459614163395002225" />
+        <var name="parameters" id="6459614163395002225" />
+      </scope>
+      <scope id="6459614163395002225" at="63,0,68,0" />
+      <scope id="6459614163395002225" at="69,0,74,0" />
+      <scope id="6459614163395002225" at="40,114,48,5">
+        <var name="methodIndex" id="6459614163395002225" />
+      </scope>
+      <scope id="6459614163395002225" at="52,128,60,5">
+        <var name="methodIndex" id="6459614163395002225" />
+      </scope>
+      <scope id="6459614163395002225" at="39,0,50,0">
+        <var name="method" id="6459614163395002225" />
+        <var name="node" id="6459614163395002225" />
+        <var name="parameters" id="6459614163395002225" />
+      </scope>
+      <scope id="6459614163395002225" at="51,0,62,0">
+        <var name="concept" id="6459614163395002225" />
+        <var name="method" id="6459614163395002225" />
+        <var name="parameters" id="6459614163395002225" />
+      </scope>
+      <unit id="6459614163395002225" at="19,0,75,0" name="RatingRulesLanguage.behavior.BaseConstant__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/6459614163397402021">
+    <file name="ConstantFloatValue_Behavior.java">
+      <unit id="6459614163397402021" at="10,0,13,0" name="RatingRulesLanguage.behavior.ConstantFloatValue_Behavior" />
+    </file>
+    <file name="ConstantFloatValue__BehaviorDescriptor.java">
+      <node id="6459614163397402021" at="21,0,22,0" concept="8" trace="CONCEPT" />
+      <node id="6459614163397402021" at="22,0,23,0" concept="8" trace="REGISTRY" />
+      <node id="6459614163397402021" at="25,0,26,0" concept="8" trace="BH_METHODS" />
+      <node id="6459614163397402025" at="27,63,28,179" concept="1" />
+      <node id="6459614163397402021" at="32,56,33,20" concept="10" />
+      <node id="6459614163397402021" at="37,114,38,21" concept="1" />
+      <node id="6459614163397402021" at="42,114,43,49" concept="4" />
+      <node id="6459614163397402021" at="44,26,45,56" concept="12" />
+      <node id="6459614163397402021" at="48,14,49,58" concept="12" />
+      <node id="6459614163397402021" at="54,128,55,49" concept="4" />
+      <node id="6459614163397402021" at="56,26,57,56" concept="12" />
+      <node id="6459614163397402021" at="60,14,61,58" concept="12" />
+      <node id="6459614163397402021" at="67,48,68,22" concept="5" />
+      <node id="6459614163397402021" at="73,40,74,19" concept="5" />
+      <node id="6459614163397402021" at="27,0,30,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6459614163397402021" at="32,0,35,0" concept="0" trace="ConstantFloatValue__BehaviorDescriptor#()V" />
+      <node id="6459614163397402021" at="43,49,46,5" concept="2" />
+      <node id="6459614163397402021" at="55,49,58,5" concept="2" />
+      <node id="6459614163397402021" at="36,0,40,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="6459614163397402021" at="46,5,50,5" concept="11" />
+      <node id="6459614163397402021" at="58,5,62,5" concept="11" />
+      <node id="6459614163397402021" at="65,0,70,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="6459614163397402021" at="71,0,76,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6459614163397402021" at="41,0,52,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="6459614163397402021" at="53,0,64,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="6459614163397402021" at="27,63,28,179" />
+      <scope id="6459614163397402021" at="32,56,33,20" />
+      <scope id="6459614163397402021" at="37,114,38,21" />
+      <scope id="6459614163397402021" at="44,26,45,56" />
+      <scope id="6459614163397402021" at="48,14,49,58" />
+      <scope id="6459614163397402021" at="56,26,57,56" />
+      <scope id="6459614163397402021" at="60,14,61,58" />
+      <scope id="6459614163397402021" at="67,48,68,22" />
+      <scope id="6459614163397402021" at="73,40,74,19" />
+      <scope id="6459614163397402021" at="27,0,30,0">
+        <var name="__thisNode__" id="6459614163397402021" />
+      </scope>
+      <scope id="6459614163397402021" at="32,0,35,0" />
+      <scope id="6459614163397402021" at="36,0,40,0">
+        <var name="constructor" id="6459614163397402021" />
+        <var name="node" id="6459614163397402021" />
+        <var name="parameters" id="6459614163397402021" />
+      </scope>
+      <scope id="6459614163397402021" at="65,0,70,0" />
+      <scope id="6459614163397402021" at="71,0,76,0" />
+      <scope id="6459614163397402021" at="42,114,50,5">
+        <var name="methodIndex" id="6459614163397402021" />
+      </scope>
+      <scope id="6459614163397402021" at="54,128,62,5">
+        <var name="methodIndex" id="6459614163397402021" />
+      </scope>
+      <scope id="6459614163397402021" at="41,0,52,0">
+        <var name="method" id="6459614163397402021" />
+        <var name="node" id="6459614163397402021" />
+        <var name="parameters" id="6459614163397402021" />
+      </scope>
+      <scope id="6459614163397402021" at="53,0,64,0">
+        <var name="concept" id="6459614163397402021" />
+        <var name="method" id="6459614163397402021" />
+        <var name="parameters" id="6459614163397402021" />
+      </scope>
+      <unit id="6459614163397402021" at="20,0,77,0" name="RatingRulesLanguage.behavior.ConstantFloatValue__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/6459614163397746786">
+    <file name="ConstantFloatVarDeclaration_Behavior.java">
+      <unit id="6459614163397746786" at="10,0,13,0" name="RatingRulesLanguage.behavior.ConstantFloatVarDeclaration_Behavior" />
+    </file>
+    <file name="ConstantFloatVarDeclaration__BehaviorDescriptor.java">
+      <node id="6459614163397746786" at="22,0,23,0" concept="8" trace="CONCEPT" />
+      <node id="6459614163397746786" at="23,0,24,0" concept="8" trace="REGISTRY" />
+      <node id="6459614163397746786" at="26,0,27,0" concept="8" trace="BH_METHODS" />
+      <node id="6459614163397746790" at="28,63,29,350" concept="1" />
+      <node id="3479341316311591507" at="29,350,30,363" concept="1" />
+      <node id="6459614163397746786" at="34,65,35,20" concept="10" />
+      <node id="6459614163397746786" at="39,114,40,21" concept="1" />
+      <node id="6459614163397746786" at="44,114,45,49" concept="4" />
+      <node id="6459614163397746786" at="46,26,47,56" concept="12" />
+      <node id="6459614163397746786" at="50,14,51,58" concept="12" />
+      <node id="6459614163397746786" at="56,128,57,49" concept="4" />
+      <node id="6459614163397746786" at="58,26,59,56" concept="12" />
+      <node id="6459614163397746786" at="62,14,63,58" concept="12" />
+      <node id="6459614163397746786" at="69,48,70,22" concept="5" />
+      <node id="6459614163397746786" at="75,40,76,19" concept="5" />
+      <node id="6459614163397746786" at="34,0,37,0" concept="0" trace="ConstantFloatVarDeclaration__BehaviorDescriptor#()V" />
+      <node id="6459614163397746786" at="45,49,48,5" concept="2" />
+      <node id="6459614163397746786" at="57,49,60,5" concept="2" />
+      <node id="6459614163397746786" at="28,0,32,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6459614163397746786" at="38,0,42,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="6459614163397746786" at="48,5,52,5" concept="11" />
+      <node id="6459614163397746786" at="60,5,64,5" concept="11" />
+      <node id="6459614163397746786" at="67,0,72,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="6459614163397746786" at="73,0,78,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6459614163397746786" at="43,0,54,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="6459614163397746786" at="55,0,66,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="6459614163397746786" at="34,65,35,20" />
+      <scope id="6459614163397746786" at="39,114,40,21" />
+      <scope id="6459614163397746786" at="46,26,47,56" />
+      <scope id="6459614163397746786" at="50,14,51,58" />
+      <scope id="6459614163397746786" at="58,26,59,56" />
+      <scope id="6459614163397746786" at="62,14,63,58" />
+      <scope id="6459614163397746786" at="69,48,70,22" />
+      <scope id="6459614163397746786" at="75,40,76,19" />
+      <scope id="6459614163397746786" at="28,63,30,363" />
+      <scope id="6459614163397746786" at="34,0,37,0" />
+      <scope id="6459614163397746786" at="28,0,32,0">
+        <var name="__thisNode__" id="6459614163397746786" />
+      </scope>
+      <scope id="6459614163397746786" at="38,0,42,0">
+        <var name="constructor" id="6459614163397746786" />
+        <var name="node" id="6459614163397746786" />
+        <var name="parameters" id="6459614163397746786" />
+      </scope>
+      <scope id="6459614163397746786" at="67,0,72,0" />
+      <scope id="6459614163397746786" at="73,0,78,0" />
+      <scope id="6459614163397746786" at="44,114,52,5">
+        <var name="methodIndex" id="6459614163397746786" />
+      </scope>
+      <scope id="6459614163397746786" at="56,128,64,5">
+        <var name="methodIndex" id="6459614163397746786" />
+      </scope>
+      <scope id="6459614163397746786" at="43,0,54,0">
+        <var name="method" id="6459614163397746786" />
+        <var name="node" id="6459614163397746786" />
+        <var name="parameters" id="6459614163397746786" />
+      </scope>
+      <scope id="6459614163397746786" at="55,0,66,0">
+        <var name="concept" id="6459614163397746786" />
+        <var name="method" id="6459614163397746786" />
+        <var name="parameters" id="6459614163397746786" />
+      </scope>
+      <unit id="6459614163397746786" at="21,0,79,0" name="RatingRulesLanguage.behavior.ConstantFloatVarDeclaration__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/6459614163397979003">
+    <file name="ConstantPointToPointVarDeclaration_Behavior.java">
+      <unit id="6459614163397979003" at="10,0,13,0" name="RatingRulesLanguage.behavior.ConstantPointToPointVarDeclaration_Behavior" />
+    </file>
+    <file name="ConstantPointToPointVarDeclaration__BehaviorDescriptor.java">
+      <node id="6459614163397979003" at="22,0,23,0" concept="8" trace="CONCEPT" />
+      <node id="6459614163397979003" at="23,0,24,0" concept="8" trace="REGISTRY" />
+      <node id="6459614163397979003" at="26,0,27,0" concept="8" trace="BH_METHODS" />
+      <node id="6459614163397979007" at="28,63,29,367" concept="1" />
+      <node id="3479341316311731460" at="29,367,30,380" concept="1" />
+      <node id="3479341316311731369" at="30,380,31,0" concept="7" />
+      <node id="6459614163397979003" at="35,72,36,20" concept="10" />
+      <node id="6459614163397979003" at="40,114,41,21" concept="1" />
+      <node id="6459614163397979003" at="45,114,46,49" concept="4" />
+      <node id="6459614163397979003" at="47,26,48,56" concept="12" />
+      <node id="6459614163397979003" at="51,14,52,58" concept="12" />
+      <node id="6459614163397979003" at="57,128,58,49" concept="4" />
+      <node id="6459614163397979003" at="59,26,60,56" concept="12" />
+      <node id="6459614163397979003" at="63,14,64,58" concept="12" />
+      <node id="6459614163397979003" at="70,48,71,22" concept="5" />
+      <node id="6459614163397979003" at="76,40,77,19" concept="5" />
+      <node id="6459614163397979003" at="35,0,38,0" concept="0" trace="ConstantPointToPointVarDeclaration__BehaviorDescriptor#()V" />
+      <node id="6459614163397979003" at="46,49,49,5" concept="2" />
+      <node id="6459614163397979003" at="58,49,61,5" concept="2" />
+      <node id="6459614163397979003" at="39,0,43,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="6459614163397979003" at="49,5,53,5" concept="11" />
+      <node id="6459614163397979003" at="61,5,65,5" concept="11" />
+      <node id="6459614163397979003" at="28,0,33,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6459614163397979003" at="68,0,73,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="6459614163397979003" at="74,0,79,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6459614163397979003" at="44,0,55,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="6459614163397979003" at="56,0,67,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="6459614163397979003" at="35,72,36,20" />
+      <scope id="6459614163397979003" at="40,114,41,21" />
+      <scope id="6459614163397979003" at="47,26,48,56" />
+      <scope id="6459614163397979003" at="51,14,52,58" />
+      <scope id="6459614163397979003" at="59,26,60,56" />
+      <scope id="6459614163397979003" at="63,14,64,58" />
+      <scope id="6459614163397979003" at="70,48,71,22" />
+      <scope id="6459614163397979003" at="76,40,77,19" />
+      <scope id="6459614163397979003" at="28,63,31,0" />
+      <scope id="6459614163397979003" at="35,0,38,0" />
+      <scope id="6459614163397979003" at="39,0,43,0">
+        <var name="constructor" id="6459614163397979003" />
+        <var name="node" id="6459614163397979003" />
+        <var name="parameters" id="6459614163397979003" />
+      </scope>
+      <scope id="6459614163397979003" at="28,0,33,0">
+        <var name="__thisNode__" id="6459614163397979003" />
+      </scope>
+      <scope id="6459614163397979003" at="68,0,73,0" />
+      <scope id="6459614163397979003" at="74,0,79,0" />
+      <scope id="6459614163397979003" at="45,114,53,5">
+        <var name="methodIndex" id="6459614163397979003" />
+      </scope>
+      <scope id="6459614163397979003" at="57,128,65,5">
+        <var name="methodIndex" id="6459614163397979003" />
+      </scope>
+      <scope id="6459614163397979003" at="44,0,55,0">
+        <var name="method" id="6459614163397979003" />
+        <var name="node" id="6459614163397979003" />
+        <var name="parameters" id="6459614163397979003" />
+      </scope>
+      <scope id="6459614163397979003" at="56,0,67,0">
+        <var name="concept" id="6459614163397979003" />
+        <var name="method" id="6459614163397979003" />
+        <var name="parameters" id="6459614163397979003" />
+      </scope>
+      <unit id="6459614163397979003" at="21,0,80,0" name="RatingRulesLanguage.behavior.ConstantPointToPointVarDeclaration__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/7337838296291546327">
+    <file name="FloatFarePriceCalculationFct_Behavior.java">
+      <unit id="7337838296291546327" at="10,0,13,0" name="RatingRulesLanguage.behavior.FloatFarePriceCalculationFct_Behavior" />
+    </file>
+    <file name="FloatFarePriceCalculationFct__BehaviorDescriptor.java">
+      <node id="7337838296291546327" at="20,0,21,0" concept="8" trace="CONCEPT" />
+      <node id="7337838296291546327" at="21,0,22,0" concept="8" trace="REGISTRY" />
+      <node id="7337838296291546327" at="24,0,25,0" concept="8" trace="BH_METHODS" />
+      <node id="7337838296291546327" at="30,66,31,20" concept="10" />
+      <node id="7337838296291546327" at="35,114,36,21" concept="1" />
+      <node id="7337838296291546327" at="40,114,41,49" concept="4" />
+      <node id="7337838296291546327" at="42,26,43,56" concept="12" />
+      <node id="7337838296291546327" at="46,14,47,58" concept="12" />
+      <node id="7337838296291546327" at="52,128,53,49" concept="4" />
+      <node id="7337838296291546327" at="54,26,55,56" concept="12" />
+      <node id="7337838296291546327" at="58,14,59,58" concept="12" />
+      <node id="7337838296291546327" at="65,48,66,22" concept="5" />
+      <node id="7337838296291546327" at="71,40,72,19" concept="5" />
+      <node id="7337838296291546327" at="26,0,28,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7337838296291546327" at="30,0,33,0" concept="0" trace="FloatFarePriceCalculationFct__BehaviorDescriptor#()V" />
+      <node id="7337838296291546327" at="41,49,44,5" concept="2" />
+      <node id="7337838296291546327" at="53,49,56,5" concept="2" />
+      <node id="7337838296291546327" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="7337838296291546327" at="44,5,48,5" concept="11" />
+      <node id="7337838296291546327" at="56,5,60,5" concept="11" />
+      <node id="7337838296291546327" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="7337838296291546327" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7337838296291546327" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="7337838296291546327" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="7337838296291546327" at="26,63,26,63" />
+      <scope id="7337838296291546327" at="30,66,31,20" />
+      <scope id="7337838296291546327" at="35,114,36,21" />
+      <scope id="7337838296291546327" at="42,26,43,56" />
+      <scope id="7337838296291546327" at="46,14,47,58" />
+      <scope id="7337838296291546327" at="54,26,55,56" />
+      <scope id="7337838296291546327" at="58,14,59,58" />
+      <scope id="7337838296291546327" at="65,48,66,22" />
+      <scope id="7337838296291546327" at="71,40,72,19" />
+      <scope id="7337838296291546327" at="26,0,28,0">
+        <var name="__thisNode__" id="7337838296291546327" />
+      </scope>
+      <scope id="7337838296291546327" at="30,0,33,0" />
+      <scope id="7337838296291546327" at="34,0,38,0">
+        <var name="constructor" id="7337838296291546327" />
+        <var name="node" id="7337838296291546327" />
+        <var name="parameters" id="7337838296291546327" />
+      </scope>
+      <scope id="7337838296291546327" at="63,0,68,0" />
+      <scope id="7337838296291546327" at="69,0,74,0" />
+      <scope id="7337838296291546327" at="40,114,48,5">
+        <var name="methodIndex" id="7337838296291546327" />
+      </scope>
+      <scope id="7337838296291546327" at="52,128,60,5">
+        <var name="methodIndex" id="7337838296291546327" />
+      </scope>
+      <scope id="7337838296291546327" at="39,0,50,0">
+        <var name="method" id="7337838296291546327" />
+        <var name="node" id="7337838296291546327" />
+        <var name="parameters" id="7337838296291546327" />
+      </scope>
+      <scope id="7337838296291546327" at="51,0,62,0">
+        <var name="concept" id="7337838296291546327" />
+        <var name="method" id="7337838296291546327" />
+        <var name="parameters" id="7337838296291546327" />
+      </scope>
+      <unit id="7337838296291546327" at="19,0,75,0" name="RatingRulesLanguage.behavior.FloatFarePriceCalculationFct__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:fd23715e-9cb5-4f52-83df-b4c84eb19261(RatingRulesLanguage.behavior)/7337838296291823572">
+    <file name="CrtLifespanValidationCriteria_Behavior.java">
+      <unit id="7337838296291823572" at="10,0,13,0" name="RatingRulesLanguage.behavior.CrtLifespanValidationCriteria_Behavior" />
+    </file>
+    <file name="CrtLifespanValidationCriteria__BehaviorDescriptor.java">
+      <node id="7337838296291823572" at="21,0,22,0" concept="8" trace="CONCEPT" />
+      <node id="7337838296291823572" at="22,0,23,0" concept="8" trace="REGISTRY" />
+      <node id="7337838296291823572" at="25,0,26,0" concept="8" trace="BH_METHODS" />
+      <node id="7337838296291823576" at="27,63,28,194" concept="1" />
+      <node id="7337838296291824608" at="28,194,29,194" concept="1" />
+      <node id="7337838296291823572" at="33,67,34,20" concept="10" />
+      <node id="7337838296291823572" at="38,114,39,21" concept="1" />
+      <node id="7337838296291823572" at="43,114,44,49" concept="4" />
+      <node id="7337838296291823572" at="45,26,46,56" concept="12" />
+      <node id="7337838296291823572" at="49,14,50,58" concept="12" />
+      <node id="7337838296291823572" at="55,128,56,49" concept="4" />
+      <node id="7337838296291823572" at="57,26,58,56" concept="12" />
+      <node id="7337838296291823572" at="61,14,62,58" concept="12" />
+      <node id="7337838296291823572" at="68,48,69,22" concept="5" />
+      <node id="7337838296291823572" at="74,40,75,19" concept="5" />
+      <node id="7337838296291823572" at="33,0,36,0" concept="0" trace="CrtLifespanValidationCriteria__BehaviorDescriptor#()V" />
+      <node id="7337838296291823572" at="44,49,47,5" concept="2" />
+      <node id="7337838296291823572" at="56,49,59,5" concept="2" />
+      <node id="7337838296291823572" at="27,0,31,0" concept="9" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7337838296291823572" at="37,0,41,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="7337838296291823572" at="47,5,51,5" concept="11" />
+      <node id="7337838296291823572" at="59,5,63,5" concept="11" />
+      <node id="7337838296291823572" at="66,0,71,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="7337838296291823572" at="72,0,77,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7337838296291823572" at="42,0,53,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="7337838296291823572" at="54,0,65,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="7337838296291823572" at="33,67,34,20" />
+      <scope id="7337838296291823572" at="38,114,39,21" />
+      <scope id="7337838296291823572" at="45,26,46,56" />
+      <scope id="7337838296291823572" at="49,14,50,58" />
+      <scope id="7337838296291823572" at="57,26,58,56" />
+      <scope id="7337838296291823572" at="61,14,62,58" />
+      <scope id="7337838296291823572" at="68,48,69,22" />
+      <scope id="7337838296291823572" at="74,40,75,19" />
+      <scope id="7337838296291823572" at="27,63,29,194" />
+      <scope id="7337838296291823572" at="33,0,36,0" />
+      <scope id="7337838296291823572" at="27,0,31,0">
+        <var name="__thisNode__" id="7337838296291823572" />
+      </scope>
+      <scope id="7337838296291823572" at="37,0,41,0">
+        <var name="constructor" id="7337838296291823572" />
+        <var name="node" id="7337838296291823572" />
+        <var name="parameters" id="7337838296291823572" />
+      </scope>
+      <scope id="7337838296291823572" at="66,0,71,0" />
+      <scope id="7337838296291823572" at="72,0,77,0" />
+      <scope id="7337838296291823572" at="43,114,51,5">
+        <var name="methodIndex" id="7337838296291823572" />
+      </scope>
+      <scope id="7337838296291823572" at="55,128,63,5">
+        <var name="methodIndex" id="7337838296291823572" />
+      </scope>
+      <scope id="7337838296291823572" at="42,0,53,0">
+        <var name="method" id="7337838296291823572" />
+        <var name="node" id="7337838296291823572" />
+        <var name="parameters" id="7337838296291823572" />
+      </scope>
+      <scope id="7337838296291823572" at="54,0,65,0">
+        <var name="concept" id="7337838296291823572" />
+        <var name="method" id="7337838296291823572" />
+        <var name="parameters" id="7337838296291823572" />
+      </scope>
+      <unit id="7337838296291823572" at="20,0,78,0" name="RatingRulesLanguage.behavior.CrtLifespanValidationCriteria__BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+
