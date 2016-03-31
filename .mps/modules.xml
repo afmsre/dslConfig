@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/REPipelineConfigLanguage/REPipelineConfigLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/RatingRulesLanguage/RatingRulesLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/RatingRulesLanguage/sandbox/RatingRulesScripts.sandbox.msd" folder="" />
     </projectModules>

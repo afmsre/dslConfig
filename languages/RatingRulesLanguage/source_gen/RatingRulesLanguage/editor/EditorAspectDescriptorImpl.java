@@ -72,6 +72,9 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       if (SConceptOperations.isExactly(SNodeOperations.asSConcept(cncpt), MetaAdapterFactory.getConcept(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5b5e60L, "RatingRulesLanguage.structure.ConstantPointToPointVarDeclaration"))) {
         return Collections.<ConceptEditor>singletonList(new ConstantPointToPointVarDeclaration_Editor());
       }
+      if (SConceptOperations.isExactly(SNodeOperations.asSConcept(cncpt), MetaAdapterFactory.getConcept(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x1335dd9da4522718L, "RatingRulesLanguage.structure.ConstantStringVarDeclaration"))) {
+        return Collections.<ConceptEditor>singletonList(new ConstantStringVarDeclaration_Editor());
+      }
       if (SConceptOperations.isExactly(SNodeOperations.asSConcept(cncpt), MetaAdapterFactory.getConcept(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188cfL, "RatingRulesLanguage.structure.ConstantTypedVarDeclaration"))) {
         return Collections.<ConceptEditor>singletonList(new ConstantTypedVarDeclaration_Editor());
       }
@@ -332,6 +335,9 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       }
       if (SConceptOperations.isExactly(SNodeOperations.asSConcept(cncpt), MetaAdapterFactory.getConcept(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x6773d363de8e8fe0L, "RatingRulesLanguage.structure.UsesConcept"))) {
         return Collections.<ConceptEditor>singletonList(new UsesConcept_Editor());
+      }
+      if (SConceptOperations.isExactly(SNodeOperations.asSConcept(cncpt), MetaAdapterFactory.getConcept(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x1335dd9da4582f02L, "RatingRulesLanguage.structure.VirtualTunnelFunction"))) {
+        return Collections.<ConceptEditor>singletonList(new VirtualTunnelFunction_Editor());
       }
       if (SConceptOperations.isExactly(SNodeOperations.asSConcept(cncpt), MetaAdapterFactory.getConcept(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da5a58cL, "RatingRulesLanguage.structure.WeekDay"))) {
         return Collections.<ConceptEditor>singletonList(new WeekDay_Editor());

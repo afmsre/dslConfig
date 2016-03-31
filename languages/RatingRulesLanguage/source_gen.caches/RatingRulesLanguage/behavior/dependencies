@@ -649,6 +649,20 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
+  <dependency className="RatingRulesLanguage.behavior.ConstantStringValue_BehaviorDescriptor" file="ConstantStringValue_BehaviorDescriptor.java">
+    <classNode dependClassName="RatingRulesLanguage.behavior.BaseConstant_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="RatingRulesLanguage.behavior.ConstantStringVarDeclaration_BehaviorDescriptor" file="ConstantStringVarDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="RatingRulesLanguage.behavior.ConstantTypedVarDeclaration_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="RatingRulesLanguage.behavior.ConstantTypedVarDeclaration_Behavior" file="ConstantTypedVarDeclaration_Behavior.java">
     <classNode dependClassName="java.lang.Deprecated" />
   </dependency>
@@ -1663,6 +1677,13 @@
   </dependency>
   <dependency className="RatingRulesLanguage.behavior.Variable_BehaviorDescriptor" file="Variable_BehaviorDescriptor.java">
     <classNode dependClassName="RatingRulesLanguage.behavior.LValue_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="RatingRulesLanguage.behavior.VirtualTunnelFunction_BehaviorDescriptor" file="VirtualTunnelFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="RatingRulesLanguage.behavior.SystemFunction_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />

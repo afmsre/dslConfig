@@ -137,6 +137,12 @@
     <file name="ConstantPointToPointVarDeclaration_BehaviorDescriptor.java">
       <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConstantPointToPointVarDeclaration_BehaviorDescriptor" />
     </file>
+    <file name="ConstantStringValue_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConstantStringValue_BehaviorDescriptor" />
+    </file>
+    <file name="ConstantStringVarDeclaration_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConstantStringVarDeclaration_BehaviorDescriptor" />
+    </file>
     <file name="ConstantTypedVarDeclaration_BehaviorDescriptor.java">
       <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.ConstantTypedVarDeclaration_BehaviorDescriptor" />
     </file>
@@ -430,6 +436,9 @@
     </file>
     <file name="Variable_BehaviorDescriptor.java">
       <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.Variable_BehaviorDescriptor" />
+    </file>
+    <file name="VirtualTunnelFunction_BehaviorDescriptor.java">
+      <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.VirtualTunnelFunction_BehaviorDescriptor" />
     </file>
     <file name="WeekDay_BehaviorDescriptor.java">
       <unit at="11,0,20,0" name="RatingRulesLanguage.behavior.WeekDay_BehaviorDescriptor" />

@@ -1695,6 +1695,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5A_adHFmPTv" resolve="ConstantFloatVarDeclaration" />
     </node>
+    <node concept="1TJgyj" id="1cPRpQ$ltZo" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="strings" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1cPRpQ$kyso" resolve="ConstantStringVarDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5A_adHFkoz6">
     <property role="1pbfSe" value="990465631" />
@@ -2012,6 +2018,35 @@
     <property role="3GE5qa" value="BaseConcepts" />
     <property role="TrG5h" value="BaseConceptOrgCollectionBlock" />
     <ref role="1TJDcQ" node="ABfZGHDe9g" resolve="BaseCollectionOfConcepts" />
+  </node>
+  <node concept="1TIwiD" id="1cPRpQ$kyqc">
+    <property role="1pbfSe" value="1215822807" />
+    <property role="3GE5qa" value="Constants.ConstantValues" />
+    <property role="TrG5h" value="ConstantStringValue" />
+    <ref role="1TJDcQ" node="5A_adHFfpS9" resolve="BaseConstant" />
+    <node concept="1TJgyi" id="1cPRpQ$kyqd" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1cPRpQ$kyso">
+    <property role="1pbfSe" value="1215822667" />
+    <property role="3GE5qa" value="Constants.Declaration" />
+    <property role="TrG5h" value="ConstantStringVarDeclaration" />
+    <ref role="1TJDcQ" node="5A_adHFkozf" resolve="ConstantTypedVarDeclaration" />
+  </node>
+  <node concept="1TIwiD" id="1cPRpQ$m2W2">
+    <property role="1pbfSe" value="1215427425" />
+    <property role="3GE5qa" value="RulesEngine.FareRules.Functions.SystemFunctions" />
+    <property role="TrG5h" value="VirtualTunnelFunction" />
+    <property role="34LRSv" value="System.Fct.VirtualTunnelPrice" />
+    <ref role="1TJDcQ" node="6nlfgQdHnJ6" resolve="SystemFunction" />
+    <node concept="1TJgyj" id="1cPRpQ$m2W7" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="Matrix" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5A_adHFmPTw" resolve="ConstantPointToPointVarDeclaration" />
+    </node>
   </node>
 </model>
 

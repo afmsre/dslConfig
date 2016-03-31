@@ -12,7 +12,7 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.WhileStatement" />
   <root>
     <file name="StructureAspectDescriptor.java">
-      <unit at="13,0,457,0" name="RatingRulesLanguage.structure.StructureAspectDescriptor" />
+      <unit at="13,0,466,0" name="RatingRulesLanguage.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:002b54ef-273e-4b18-ba68-fc206731d641(RatingRulesLanguage.structure)/3570604503180132601">

@@ -3538,5 +3538,55 @@
       <ref role="1k5W1q" node="5A_adHFkteA" resolve="MyTypeName" />
     </node>
   </node>
+  <node concept="24kQdi" id="1cPRpQ$m2CR">
+    <property role="3GE5qa" value="Constants.Declaration" />
+    <ref role="1XX52x" to="1hg6:1cPRpQ$kyso" resolve="ConstantStringVarDeclaration" />
+    <node concept="3EZMnI" id="1cPRpQ$m2UX" role="2wV5jI">
+      <node concept="3F0ifn" id="1cPRpQ$m2V4" role="3EZMnx">
+        <property role="3F0ifm" value="Const" />
+      </node>
+      <node concept="3F1sOY" id="1cPRpQ$m2Va" role="3EZMnx">
+        <ref role="1NtTu8" to="1hg6:5A_adHFkozg" />
+      </node>
+      <node concept="3F0A7n" id="1cPRpQ$m2Vi" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="1cPRpQ$m2Vs" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F1sOY" id="1cPRpQ$m2VV" role="3EZMnx">
+        <ref role="1NtTu8" to="1hg6:5A_adHFkozb" />
+      </node>
+      <node concept="l2Vlx" id="1cPRpQ$m2V0" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1cPRpQ$m2Wz">
+    <property role="3GE5qa" value="RulesEngine.FareRules.Functions.SystemFunctions" />
+    <ref role="1XX52x" to="1hg6:1cPRpQ$m2W2" resolve="VirtualTunnelFunction" />
+    <node concept="3EZMnI" id="1cPRpQ$m2W_" role="2wV5jI">
+      <node concept="l2Vlx" id="1cPRpQ$m2WC" role="2iSdaV" />
+      <node concept="PMmxH" id="1cPRpQ$m2WL" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="1cPRpQ$m2WQ" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0ifn" id="1cPRpQ$m2WY" role="3EZMnx">
+        <property role="3F0ifm" value="Matrix :" />
+      </node>
+      <node concept="1iCGBv" id="1cPRpQ$m2X8" role="3EZMnx">
+        <ref role="1NtTu8" to="1hg6:1cPRpQ$m2W7" />
+        <node concept="1sVBvm" id="1cPRpQ$m2Xa" role="1sWHZn">
+          <node concept="3F0A7n" id="1cPRpQ$m2Xk" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1cPRpQ$m2XH" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+    </node>
+  </node>
 </model>
 

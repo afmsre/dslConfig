@@ -52,10 +52,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptConstantFloatVarDeclaration = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.ConstantFloatVarDeclaration", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5b5e5fL)).super_("RatingRulesLanguage.structure.ConstantTypedVarDeclaration").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188cfL)).parents("RatingRulesLanguage.structure.ConstantTypedVarDeclaration").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188cfL)).create();
   /*package*/ final ConceptDescriptor myConceptConstantPointToPointFareMatrixValue = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.ConstantPointToPointFareMatrixValue", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db57cabL)).super_("RatingRulesLanguage.structure.BaseConstant").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b3d9e09L)).parents("RatingRulesLanguage.structure.BaseConstant").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b3d9e09L)).propertyDescriptors(new ConceptDescriptorBuilder.Prop(6459614163396327735L, "isSymmetric")).properties("isSymmetric").referenceDescriptors(new ConceptDescriptorBuilder.Ref(6459614163396327727L, "listOfStops", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2db09c6eL), true)).references("listOfStops").childDescriptors(new ConceptDescriptorBuilder.Link(6459614163396327739L, "elements", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b3d9dfaL), true, true, false)).children(new String[]{"elements"}, new boolean[]{true}).create();
   /*package*/ final ConceptDescriptor myConceptConstantPointToPointVarDeclaration = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.ConstantPointToPointVarDeclaration", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5b5e60L)).super_("RatingRulesLanguage.structure.ConstantTypedVarDeclaration").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188cfL)).parents("RatingRulesLanguage.structure.ConstantTypedVarDeclaration").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188cfL)).create();
+  /*package*/ final ConceptDescriptor myConceptConstantStringValue = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.ConstantStringValue", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x1335dd9da452268cL)).super_("RatingRulesLanguage.structure.BaseConstant").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b3d9e09L)).parents("RatingRulesLanguage.structure.BaseConstant").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b3d9e09L)).propertyDescriptors(new ConceptDescriptorBuilder.Prop(1384256129622746765L, "value")).properties("value").create();
+  /*package*/ final ConceptDescriptor myConceptConstantStringVarDeclaration = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.ConstantStringVarDeclaration", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x1335dd9da4522718L)).super_("RatingRulesLanguage.structure.ConstantTypedVarDeclaration").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188cfL)).parents("RatingRulesLanguage.structure.ConstantTypedVarDeclaration").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188cfL)).create();
   /*package*/ final ConceptDescriptor myConceptConstantTypedVarDeclaration = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.ConstantTypedVarDeclaration", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188cfL)).super_("RatingRulesLanguage.structure.ConstantVarDeclaration").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188c6L)).parents("RatingRulesLanguage.structure.ConstantVarDeclaration").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188c6L)).childDescriptors(new ConceptDescriptorBuilder.Link(6459614163396298960L, "type", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188d5L), false, false, false)).children(new String[]{"type"}, new boolean[]{false}).abstract_().create();
   /*package*/ final ConceptDescriptor myConceptConstantVarDeclaration = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.ConstantVarDeclaration", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188c6L)).super_("RatingRulesLanguage.structure.RValue").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db56f54L)).parents("RatingRulesLanguage.structure.RValue", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db56f54L), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).childDescriptors(new ConceptDescriptorBuilder.Link(6459614163396298955L, "initializer", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b3d9e09L), false, false, false)).children(new String[]{"initializer"}, new boolean[]{false}).abstract_().alias("const var", "").create();
   /*package*/ final ConceptDescriptor myConceptConstantVarReference = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.ConstantVarReference", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188d7L)).super_("RatingRulesLanguage.structure.RValue").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db56f54L)).parents("RatingRulesLanguage.structure.RValue").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db56f54L)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(6459614163396298968L, "declaration", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5188c6L), false)).references("declaration").create();
-  /*package*/ final ConceptDescriptor myConceptConstantsDeclarationBlock = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.ConstantsDeclarationBlock", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b3d9e81L)).super_("RatingRulesLanguage.structure.BaseRootNamedConceptOrg").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x6773d363de8e8fd1L)).parents("RatingRulesLanguage.structure.BaseRootNamedConceptOrg").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x6773d363de8e8fd1L)).childDescriptors(new ConceptDescriptorBuilder.Link(6459614163394993794L, "list", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5b5e5fL), true, true, false)).children(new String[]{"list"}, new boolean[]{true}).alias("Constants Definition Script", "").create();
+  /*package*/ final ConceptDescriptor myConceptConstantsDeclarationBlock = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.ConstantsDeclarationBlock", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b3d9e81L)).super_("RatingRulesLanguage.structure.BaseRootNamedConceptOrg").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x6773d363de8e8fd1L)).parents("RatingRulesLanguage.structure.BaseRootNamedConceptOrg").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x6773d363de8e8fd1L)).childDescriptors(new ConceptDescriptorBuilder.Link(6459614163394993794L, "list", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5b5e5fL), true, true, false), new ConceptDescriptorBuilder.Link(1384256129622990808L, "strings", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x1335dd9da4522718L), true, true, false)).children(new String[]{"list", "strings"}, new boolean[]{true, true}).alias("Constants Definition Script", "").create();
   /*package*/ final ConceptDescriptor myConceptCreateTransferProductAction = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.CreateTransferProductAction", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db571ffL)).super_("RatingRulesLanguage.structure.BaseAction").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db571f3L)).parents("RatingRulesLanguage.structure.BaseAction").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db571f3L)).alias("CreateTransferProduct", "").create();
   /*package*/ final ConceptDescriptor myConceptCrtAgeVerificationCriteria = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.CrtAgeVerificationCriteria", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x7627b8e69aaa7ff1L)).super_("RatingRulesLanguage.structure.BaseSystemDefinedCriteriaFunction").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x262992164485742aL)).parents("RatingRulesLanguage.structure.BaseSystemDefinedCriteriaFunction").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x262992164485742aL)).propertyDescriptors(new ConceptDescriptorBuilder.Prop(8513976921144066034L, "MinAge"), new ConceptDescriptorBuilder.Prop(8513976921144066038L, "MaxAge"), new ConceptDescriptorBuilder.Prop(8513976921144066045L, "ValidateDateType")).properties("MinAge", "MaxAge", "ValidateDateType").alias("System.Criteria.CrtAgeVerification", "").create();
   /*package*/ final ConceptDescriptor myConceptCrtEPurseGreatesThanValueCriteria = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.CrtEPurseGreatesThanValueCriteria", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x26299216448414fdL)).super_("RatingRulesLanguage.structure.BaseSystemDefinedCriteriaFunction").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x262992164485742aL)).parents("RatingRulesLanguage.structure.BaseSystemDefinedCriteriaFunction").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x262992164485742aL)).propertyDescriptors(new ConceptDescriptorBuilder.Prop(2749889671822931334L, "MinValue")).properties("MinValue").alias("System.Criteria.CrtEPurseGreaterThanValue", "").create();
@@ -150,6 +152,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptUserDefinedCriteriasBlock = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.UserDefinedCriteriasBlock", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2db612fdL)).super_("jetbrains.mps.lang.core.structure.BaseConcept").super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).childDescriptors(new ConceptDescriptorBuilder.Link(695595015488279321L, "LocationCriterias", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da04dbbL), true, false, false), new ConceptDescriptorBuilder.Link(695595015488279324L, "RecurrenceCriterias", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da5e284L), true, false, false), new ConceptDescriptorBuilder.Link(8513976921144128458L, "ConcessionSelectionCriterias", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x7627b8e69aab7381L), true, false, false), new ConceptDescriptorBuilder.Link(8513976921144128702L, "ProductSelectionCriterias", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x7627b8e69aab7477L), true, false, false), new ConceptDescriptorBuilder.Link(7337838296291438376L, "TransferAgreementSelectionCriterias", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db43fecL), true, false, false)).children(new String[]{"LocationCriterias", "RecurrenceCriterias", "ConcessionSelectionCriterias", "ProductSelectionCriterias", "TransferAgreementSelectionCriterias"}, new boolean[]{false, false, false, false, false}).alias("//User Defined Criterias Definition Block", "").create();
   /*package*/ final ConceptDescriptor myConceptUsesConcept = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.UsesConcept", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x6773d363de8e8fe0L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(7454534234117410785L, "definitionBloc", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x6773d363de8e8fd1L), false)).references("definitionBloc").alias("Uses", "").create();
   /*package*/ final ConceptDescriptor myConceptVariable = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.Variable", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b3d9e12L)).super_("RatingRulesLanguage.structure.LValue").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db571bfL)).parents("RatingRulesLanguage.structure.LValue").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db571bfL)).create();
+  /*package*/ final ConceptDescriptor myConceptVirtualTunnelFunction = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.VirtualTunnelFunction", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x1335dd9da4582f02L)).super_("RatingRulesLanguage.structure.SystemFunction").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db57bc6L)).parents("RatingRulesLanguage.structure.SystemFunction").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x65d53d0d8db57bc6L)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(1384256129623142151L, "Matrix", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x59a528db6b5b5e60L), false)).references("Matrix").alias("System.Fct.VirtualTunnelPrice", "").create();
   /*package*/ final ConceptDescriptor myConceptWeekDay = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.WeekDay", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da5a58cL)).super_("RatingRulesLanguage.structure.BaseDataType").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da14029L)).parents("RatingRulesLanguage.structure.BaseDataType").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da14029L)).propertyDescriptors(new ConceptDescriptorBuilder.Prop(695595015487202734L, "day")).properties("day").childDescriptors(new ConceptDescriptorBuilder.Link(8728336944408006005L, "timeIntervals", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da5a615L), true, false, false)).children(new String[]{"timeIntervals"}, new boolean[]{false}).create();
   /*package*/ final ConceptDescriptor myConceptWeeklyOccurencePattern = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.WeeklyOccurencePattern", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da55054L)).super_("RatingRulesLanguage.structure.BaseOccurencePatternCriteriaExpression").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da5a824L)).parents("RatingRulesLanguage.structure.BaseOccurencePatternCriteriaExpression").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da5a824L)).childDescriptors(new ConceptDescriptorBuilder.Link(695595015487202697L, "daysList", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da5a58cL), false, true, false), new ConceptDescriptorBuilder.Link(695595015487202737L, "timeIntervals", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da5a615L), true, false, false)).children(new String[]{"daysList", "timeIntervals"}, new boolean[]{true, false}).alias("WeeklyOccurence", "").create();
   /*package*/ final ConceptDescriptor myConceptYearlyDateOccurencePattern = new ConceptDescriptorBuilder("RatingRulesLanguage.structure.YearlyDateOccurencePattern", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2daf1794L)).super_("RatingRulesLanguage.structure.BaseOccurencePatternCriteriaExpression").super_(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da5a824L)).parents("RatingRulesLanguage.structure.BaseOccurencePatternCriteriaExpression").parentIds(MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da5a824L)).propertyDescriptors(new ConceptDescriptorBuilder.Prop(695595015487821744L, "day"), new ConceptDescriptorBuilder.Prop(695595015487821747L, "month")).properties("day", "month").childDescriptors(new ConceptDescriptorBuilder.Link(8728336944408006008L, "timeIntervals", MetaIdFactory.conceptId(0xfffd25317c948b3L, 0x9419ce44b0a40631L, 0x9a73ffb2da5a615L), true, false, false)).children(new String[]{"timeIntervals"}, new boolean[]{false}).alias("YearlyDateOccurence", "").create();
@@ -157,13 +160,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptActions, myConceptAnd, myConceptAndNL, myConceptAssignmentOperator, myConceptBaseAction, myConceptBaseAssignmentOperator, myConceptBaseAttributeType, myConceptBaseCollectionOfConcepts, myConceptBaseConceptOrgCollectionBlock, myConceptBaseConceptOrgCollectionWithUniqueID, myConceptBaseConstant, myConceptBaseCriteriaDeclaration, myConceptBaseCriteriaExpression, myConceptBaseDataType, myConceptBaseFloatFunctionDefinition, myConceptBaseNamedFunction, myConceptBaseNumericFunctionDef, myConceptBaseOccurencePatternCriteriaExpression, myConceptBaseOperator, myConceptBaseProductDataType, myConceptBaseReferenceConcept, myConceptBaseRootNamedConceptOrg, myConceptBaseSystemDefinedCriteriaFunction, myConceptBaseSystemDefinedLocationRelatedCriteriaFunction, myConceptBaseSystemDefinedTransferRelatedCriteria, myConceptBaseUDNamedCriteriaDeclaration, myConceptBaseUDNamedIDCriteriaDefinition, myConceptBaseUDTCriteriaRef, myConceptBaseUnaryOperator, myConceptBaseVarDataType, myConceptBooleanType, myConceptConcessionDeclaration, myConceptConcessionSelectionCriteriaDef, myConceptConcessionSelectionCriterias, myConceptConcessionType, myConceptConcessions, myConceptConstantFloatValue, myConceptConstantFloatVarDeclaration, myConceptConstantPointToPointFareMatrixValue, myConceptConstantPointToPointVarDeclaration, myConceptConstantTypedVarDeclaration, myConceptConstantVarDeclaration, myConceptConstantVarReference, myConceptConstantsDeclarationBlock, myConceptCreateTransferProductAction, myConceptCrtAgeVerificationCriteria, myConceptCrtEPurseGreatesThanValueCriteria, myConceptCrtLifespanValidationCriteria, myConceptCrtLocationEqualsCriteria, myConceptCrtMOTEqualsCriteria, myConceptCrtRouteEqualsCriteria, myConceptCrtServiceProviderEqualsCriteria, myConceptCrtTapIsOfTypeCriteria, myConceptCrtTapTransferCriteria, myConceptDivisionNLOperator, myConceptDivisionOperator, myConceptElementVarType, myConceptFareRuleDefinition, myConceptFareRuleType, myConceptFareRulesDefinitionBlock, myConceptFloatFarePriceCalculationFct, myConceptFloatUDTFarePriceCalculationFct, myConceptFloatVarType, myConceptGenerateTransactionAction, myConceptIntType, myConceptLValue, myConceptLimitedPassbackCheckCriteria, myConceptLocationDeclaration, myConceptLocationGroupCriteras, myConceptLocationGroupCriteriaDef, myConceptLocationReference, myConceptLocationType, myConceptLocations, myConceptLogicalExpression, myConceptLogicalOperator, myConceptMOTReference, myConceptMOTType, myConceptMediaTypeEqualsCriteria, myConceptMinusNLOperator, myConceptMinusOperator, myConceptModOfTransportation, myConceptModesOfTransportation, myConceptMultiplyNLOperator, myConceptMultiplyOperator, myConceptNameIDPairTypedVarDeclaration, myConceptNot, myConceptNumericVarType, myConceptOr, myConceptOrNL, myConceptParenthisizedExpression, myConceptPlusNLOperator, myConceptPlusOperator, myConceptPointToPointDataDefinitoinBlock, myConceptPointToPointDataType, myConceptPointToPointFareMatrixVarType, myConceptPontToPointFarePriceFuction, myConceptProductAttribute, myConceptProductAttributes, myConceptProductDeclaration, myConceptProductFamilyDeclaration, myConceptProductFamilyType, myConceptProductInstanceAttribute, myConceptProductInstanceAttributes, myConceptProductSelectionCriteriaDef, myConceptProductSelectionCriterias, myConceptProductType, myConceptProductsDefinitionBlock, myConceptRValue, myConceptRecurrenceCriteriaDef, myConceptRecurrencesCriterias, myConceptRefConcessionCriteria, myConceptRefLocationGroupCriteria, myConceptRefProductSelectionCriteria, myConceptRefRecurrenceCriteria, myConceptRefTransferAgreementSelectionCriteria, myConceptReturnOperator, myConceptRoute, myConceptRouteReference, myConceptRouteType, myConceptRoutes, myConceptRulesEngineScript, myConceptSPReference, myConceptServiceProvider, myConceptServiceProviderType, myConceptServiceProviders, myConceptSystemFunction, myConceptTierRounding, myConceptTimeInterval, myConceptTimeIntervals, myConceptTopologyDefinitionBlock, myConceptTransferAgreementSelectionCriteriaDef, myConceptTransferAgreementSelectionCriterias, myConceptUDCReference, myConceptUDFReference, myConceptUDTFunctionsDefinitionBlock, myConceptUserDefinedCriteriasBlock, myConceptUsesConcept, myConceptVariable, myConceptWeekDay, myConceptWeeklyOccurencePattern, myConceptYearlyDateOccurencePattern, myConceptYearlyOccurrencePattern);
+    return Arrays.asList(myConceptActions, myConceptAnd, myConceptAndNL, myConceptAssignmentOperator, myConceptBaseAction, myConceptBaseAssignmentOperator, myConceptBaseAttributeType, myConceptBaseCollectionOfConcepts, myConceptBaseConceptOrgCollectionBlock, myConceptBaseConceptOrgCollectionWithUniqueID, myConceptBaseConstant, myConceptBaseCriteriaDeclaration, myConceptBaseCriteriaExpression, myConceptBaseDataType, myConceptBaseFloatFunctionDefinition, myConceptBaseNamedFunction, myConceptBaseNumericFunctionDef, myConceptBaseOccurencePatternCriteriaExpression, myConceptBaseOperator, myConceptBaseProductDataType, myConceptBaseReferenceConcept, myConceptBaseRootNamedConceptOrg, myConceptBaseSystemDefinedCriteriaFunction, myConceptBaseSystemDefinedLocationRelatedCriteriaFunction, myConceptBaseSystemDefinedTransferRelatedCriteria, myConceptBaseUDNamedCriteriaDeclaration, myConceptBaseUDNamedIDCriteriaDefinition, myConceptBaseUDTCriteriaRef, myConceptBaseUnaryOperator, myConceptBaseVarDataType, myConceptBooleanType, myConceptConcessionDeclaration, myConceptConcessionSelectionCriteriaDef, myConceptConcessionSelectionCriterias, myConceptConcessionType, myConceptConcessions, myConceptConstantFloatValue, myConceptConstantFloatVarDeclaration, myConceptConstantPointToPointFareMatrixValue, myConceptConstantPointToPointVarDeclaration, myConceptConstantStringValue, myConceptConstantStringVarDeclaration, myConceptConstantTypedVarDeclaration, myConceptConstantVarDeclaration, myConceptConstantVarReference, myConceptConstantsDeclarationBlock, myConceptCreateTransferProductAction, myConceptCrtAgeVerificationCriteria, myConceptCrtEPurseGreatesThanValueCriteria, myConceptCrtLifespanValidationCriteria, myConceptCrtLocationEqualsCriteria, myConceptCrtMOTEqualsCriteria, myConceptCrtRouteEqualsCriteria, myConceptCrtServiceProviderEqualsCriteria, myConceptCrtTapIsOfTypeCriteria, myConceptCrtTapTransferCriteria, myConceptDivisionNLOperator, myConceptDivisionOperator, myConceptElementVarType, myConceptFareRuleDefinition, myConceptFareRuleType, myConceptFareRulesDefinitionBlock, myConceptFloatFarePriceCalculationFct, myConceptFloatUDTFarePriceCalculationFct, myConceptFloatVarType, myConceptGenerateTransactionAction, myConceptIntType, myConceptLValue, myConceptLimitedPassbackCheckCriteria, myConceptLocationDeclaration, myConceptLocationGroupCriteras, myConceptLocationGroupCriteriaDef, myConceptLocationReference, myConceptLocationType, myConceptLocations, myConceptLogicalExpression, myConceptLogicalOperator, myConceptMOTReference, myConceptMOTType, myConceptMediaTypeEqualsCriteria, myConceptMinusNLOperator, myConceptMinusOperator, myConceptModOfTransportation, myConceptModesOfTransportation, myConceptMultiplyNLOperator, myConceptMultiplyOperator, myConceptNameIDPairTypedVarDeclaration, myConceptNot, myConceptNumericVarType, myConceptOr, myConceptOrNL, myConceptParenthisizedExpression, myConceptPlusNLOperator, myConceptPlusOperator, myConceptPointToPointDataDefinitoinBlock, myConceptPointToPointDataType, myConceptPointToPointFareMatrixVarType, myConceptPontToPointFarePriceFuction, myConceptProductAttribute, myConceptProductAttributes, myConceptProductDeclaration, myConceptProductFamilyDeclaration, myConceptProductFamilyType, myConceptProductInstanceAttribute, myConceptProductInstanceAttributes, myConceptProductSelectionCriteriaDef, myConceptProductSelectionCriterias, myConceptProductType, myConceptProductsDefinitionBlock, myConceptRValue, myConceptRecurrenceCriteriaDef, myConceptRecurrencesCriterias, myConceptRefConcessionCriteria, myConceptRefLocationGroupCriteria, myConceptRefProductSelectionCriteria, myConceptRefRecurrenceCriteria, myConceptRefTransferAgreementSelectionCriteria, myConceptReturnOperator, myConceptRoute, myConceptRouteReference, myConceptRouteType, myConceptRoutes, myConceptRulesEngineScript, myConceptSPReference, myConceptServiceProvider, myConceptServiceProviderType, myConceptServiceProviders, myConceptSystemFunction, myConceptTierRounding, myConceptTimeInterval, myConceptTimeIntervals, myConceptTopologyDefinitionBlock, myConceptTransferAgreementSelectionCriteriaDef, myConceptTransferAgreementSelectionCriterias, myConceptUDCReference, myConceptUDFReference, myConceptUDTFunctionsDefinitionBlock, myConceptUserDefinedCriteriasBlock, myConceptUsesConcept, myConceptVariable, myConceptVirtualTunnelFunction, myConceptWeekDay, myConceptWeeklyOccurencePattern, myConceptYearlyDateOccurencePattern, myConceptYearlyOccurrencePattern);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(String conceptFqName) {
-    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0qf, conceptFqName)) {
+    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0tf, conceptFqName)) {
       case 0:
         return myConceptActions;
       case 1:
@@ -245,212 +248,218 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
       case 39:
         return myConceptConstantPointToPointVarDeclaration;
       case 40:
-        return myConceptConstantTypedVarDeclaration;
+        return myConceptConstantStringValue;
       case 41:
-        return myConceptConstantVarDeclaration;
+        return myConceptConstantStringVarDeclaration;
       case 42:
-        return myConceptConstantVarReference;
+        return myConceptConstantTypedVarDeclaration;
       case 43:
-        return myConceptConstantsDeclarationBlock;
+        return myConceptConstantVarDeclaration;
       case 44:
-        return myConceptCreateTransferProductAction;
+        return myConceptConstantVarReference;
       case 45:
-        return myConceptCrtAgeVerificationCriteria;
+        return myConceptConstantsDeclarationBlock;
       case 46:
-        return myConceptCrtEPurseGreatesThanValueCriteria;
+        return myConceptCreateTransferProductAction;
       case 47:
-        return myConceptCrtLifespanValidationCriteria;
+        return myConceptCrtAgeVerificationCriteria;
       case 48:
-        return myConceptCrtLocationEqualsCriteria;
+        return myConceptCrtEPurseGreatesThanValueCriteria;
       case 49:
-        return myConceptCrtMOTEqualsCriteria;
+        return myConceptCrtLifespanValidationCriteria;
       case 50:
-        return myConceptCrtRouteEqualsCriteria;
+        return myConceptCrtLocationEqualsCriteria;
       case 51:
-        return myConceptCrtServiceProviderEqualsCriteria;
+        return myConceptCrtMOTEqualsCriteria;
       case 52:
-        return myConceptCrtTapIsOfTypeCriteria;
+        return myConceptCrtRouteEqualsCriteria;
       case 53:
-        return myConceptCrtTapTransferCriteria;
+        return myConceptCrtServiceProviderEqualsCriteria;
       case 54:
-        return myConceptDivisionNLOperator;
+        return myConceptCrtTapIsOfTypeCriteria;
       case 55:
-        return myConceptDivisionOperator;
+        return myConceptCrtTapTransferCriteria;
       case 56:
-        return myConceptElementVarType;
+        return myConceptDivisionNLOperator;
       case 57:
-        return myConceptFareRuleDefinition;
+        return myConceptDivisionOperator;
       case 58:
-        return myConceptFareRuleType;
+        return myConceptElementVarType;
       case 59:
-        return myConceptFareRulesDefinitionBlock;
+        return myConceptFareRuleDefinition;
       case 60:
-        return myConceptFloatFarePriceCalculationFct;
+        return myConceptFareRuleType;
       case 61:
-        return myConceptFloatUDTFarePriceCalculationFct;
+        return myConceptFareRulesDefinitionBlock;
       case 62:
-        return myConceptFloatVarType;
+        return myConceptFloatFarePriceCalculationFct;
       case 63:
-        return myConceptGenerateTransactionAction;
+        return myConceptFloatUDTFarePriceCalculationFct;
       case 64:
-        return myConceptIntType;
+        return myConceptFloatVarType;
       case 65:
-        return myConceptLValue;
+        return myConceptGenerateTransactionAction;
       case 66:
-        return myConceptLimitedPassbackCheckCriteria;
+        return myConceptIntType;
       case 67:
-        return myConceptLocationDeclaration;
+        return myConceptLValue;
       case 68:
-        return myConceptLocationGroupCriteras;
+        return myConceptLimitedPassbackCheckCriteria;
       case 69:
-        return myConceptLocationGroupCriteriaDef;
+        return myConceptLocationDeclaration;
       case 70:
-        return myConceptLocationReference;
+        return myConceptLocationGroupCriteras;
       case 71:
-        return myConceptLocationType;
+        return myConceptLocationGroupCriteriaDef;
       case 72:
-        return myConceptLocations;
+        return myConceptLocationReference;
       case 73:
-        return myConceptLogicalExpression;
+        return myConceptLocationType;
       case 74:
-        return myConceptLogicalOperator;
+        return myConceptLocations;
       case 75:
-        return myConceptMOTReference;
+        return myConceptLogicalExpression;
       case 76:
-        return myConceptMOTType;
+        return myConceptLogicalOperator;
       case 77:
-        return myConceptMediaTypeEqualsCriteria;
+        return myConceptMOTReference;
       case 78:
-        return myConceptMinusNLOperator;
+        return myConceptMOTType;
       case 79:
-        return myConceptMinusOperator;
+        return myConceptMediaTypeEqualsCriteria;
       case 80:
-        return myConceptModOfTransportation;
+        return myConceptMinusNLOperator;
       case 81:
-        return myConceptModesOfTransportation;
+        return myConceptMinusOperator;
       case 82:
-        return myConceptMultiplyNLOperator;
+        return myConceptModOfTransportation;
       case 83:
-        return myConceptMultiplyOperator;
+        return myConceptModesOfTransportation;
       case 84:
-        return myConceptNameIDPairTypedVarDeclaration;
+        return myConceptMultiplyNLOperator;
       case 85:
-        return myConceptNot;
+        return myConceptMultiplyOperator;
       case 86:
-        return myConceptNumericVarType;
+        return myConceptNameIDPairTypedVarDeclaration;
       case 87:
-        return myConceptOr;
+        return myConceptNot;
       case 88:
-        return myConceptOrNL;
+        return myConceptNumericVarType;
       case 89:
-        return myConceptParenthisizedExpression;
+        return myConceptOr;
       case 90:
-        return myConceptPlusNLOperator;
+        return myConceptOrNL;
       case 91:
-        return myConceptPlusOperator;
+        return myConceptParenthisizedExpression;
       case 92:
-        return myConceptPointToPointDataDefinitoinBlock;
+        return myConceptPlusNLOperator;
       case 93:
-        return myConceptPointToPointDataType;
+        return myConceptPlusOperator;
       case 94:
-        return myConceptPointToPointFareMatrixVarType;
+        return myConceptPointToPointDataDefinitoinBlock;
       case 95:
-        return myConceptPontToPointFarePriceFuction;
+        return myConceptPointToPointDataType;
       case 96:
-        return myConceptProductAttribute;
+        return myConceptPointToPointFareMatrixVarType;
       case 97:
-        return myConceptProductAttributes;
+        return myConceptPontToPointFarePriceFuction;
       case 98:
-        return myConceptProductDeclaration;
+        return myConceptProductAttribute;
       case 99:
-        return myConceptProductFamilyDeclaration;
+        return myConceptProductAttributes;
       case 100:
-        return myConceptProductFamilyType;
+        return myConceptProductDeclaration;
       case 101:
-        return myConceptProductInstanceAttribute;
+        return myConceptProductFamilyDeclaration;
       case 102:
-        return myConceptProductInstanceAttributes;
+        return myConceptProductFamilyType;
       case 103:
-        return myConceptProductSelectionCriteriaDef;
+        return myConceptProductInstanceAttribute;
       case 104:
-        return myConceptProductSelectionCriterias;
+        return myConceptProductInstanceAttributes;
       case 105:
-        return myConceptProductType;
+        return myConceptProductSelectionCriteriaDef;
       case 106:
-        return myConceptProductsDefinitionBlock;
+        return myConceptProductSelectionCriterias;
       case 107:
-        return myConceptRValue;
+        return myConceptProductType;
       case 108:
-        return myConceptRecurrenceCriteriaDef;
+        return myConceptProductsDefinitionBlock;
       case 109:
-        return myConceptRecurrencesCriterias;
+        return myConceptRValue;
       case 110:
-        return myConceptRefConcessionCriteria;
+        return myConceptRecurrenceCriteriaDef;
       case 111:
-        return myConceptRefLocationGroupCriteria;
+        return myConceptRecurrencesCriterias;
       case 112:
-        return myConceptRefProductSelectionCriteria;
+        return myConceptRefConcessionCriteria;
       case 113:
-        return myConceptRefRecurrenceCriteria;
+        return myConceptRefLocationGroupCriteria;
       case 114:
-        return myConceptRefTransferAgreementSelectionCriteria;
+        return myConceptRefProductSelectionCriteria;
       case 115:
-        return myConceptReturnOperator;
+        return myConceptRefRecurrenceCriteria;
       case 116:
-        return myConceptRoute;
+        return myConceptRefTransferAgreementSelectionCriteria;
       case 117:
-        return myConceptRouteReference;
+        return myConceptReturnOperator;
       case 118:
-        return myConceptRouteType;
+        return myConceptRoute;
       case 119:
-        return myConceptRoutes;
+        return myConceptRouteReference;
       case 120:
-        return myConceptRulesEngineScript;
+        return myConceptRouteType;
       case 121:
-        return myConceptSPReference;
+        return myConceptRoutes;
       case 122:
-        return myConceptServiceProvider;
+        return myConceptRulesEngineScript;
       case 123:
-        return myConceptServiceProviderType;
+        return myConceptSPReference;
       case 124:
-        return myConceptServiceProviders;
+        return myConceptServiceProvider;
       case 125:
-        return myConceptSystemFunction;
+        return myConceptServiceProviderType;
       case 126:
-        return myConceptTierRounding;
+        return myConceptServiceProviders;
       case 127:
-        return myConceptTimeInterval;
+        return myConceptSystemFunction;
       case 128:
-        return myConceptTimeIntervals;
+        return myConceptTierRounding;
       case 129:
-        return myConceptTopologyDefinitionBlock;
+        return myConceptTimeInterval;
       case 130:
-        return myConceptTransferAgreementSelectionCriteriaDef;
+        return myConceptTimeIntervals;
       case 131:
-        return myConceptTransferAgreementSelectionCriterias;
+        return myConceptTopologyDefinitionBlock;
       case 132:
-        return myConceptUDCReference;
+        return myConceptTransferAgreementSelectionCriteriaDef;
       case 133:
-        return myConceptUDFReference;
+        return myConceptTransferAgreementSelectionCriterias;
       case 134:
-        return myConceptUDTFunctionsDefinitionBlock;
+        return myConceptUDCReference;
       case 135:
-        return myConceptUserDefinedCriteriasBlock;
+        return myConceptUDFReference;
       case 136:
-        return myConceptUsesConcept;
+        return myConceptUDTFunctionsDefinitionBlock;
       case 137:
-        return myConceptVariable;
+        return myConceptUserDefinedCriteriasBlock;
       case 138:
-        return myConceptWeekDay;
+        return myConceptUsesConcept;
       case 139:
-        return myConceptWeeklyOccurencePattern;
+        return myConceptVariable;
       case 140:
-        return myConceptYearlyDateOccurencePattern;
+        return myConceptVirtualTunnelFunction;
       case 141:
+        return myConceptWeekDay;
+      case 142:
+        return myConceptWeeklyOccurencePattern;
+      case 143:
+        return myConceptYearlyDateOccurencePattern;
+      case 144:
         return myConceptYearlyOccurrencePattern;
       default:
         return null;
     }
   }
-  private static String[] stringSwitchCases_1htk8d_a0a0qf = new String[]{"RatingRulesLanguage.structure.Actions", "RatingRulesLanguage.structure.And", "RatingRulesLanguage.structure.AndNL", "RatingRulesLanguage.structure.AssignmentOperator", "RatingRulesLanguage.structure.BaseAction", "RatingRulesLanguage.structure.BaseAssignmentOperator", "RatingRulesLanguage.structure.BaseAttributeType", "RatingRulesLanguage.structure.BaseCollectionOfConcepts", "RatingRulesLanguage.structure.BaseConceptOrgCollectionBlock", "RatingRulesLanguage.structure.BaseConceptOrgCollectionWithUniqueID", "RatingRulesLanguage.structure.BaseConstant", "RatingRulesLanguage.structure.BaseCriteriaDeclaration", "RatingRulesLanguage.structure.BaseCriteriaExpression", "RatingRulesLanguage.structure.BaseDataType", "RatingRulesLanguage.structure.BaseFloatFunctionDefinition", "RatingRulesLanguage.structure.BaseNamedFunction", "RatingRulesLanguage.structure.BaseNumericFunctionDef", "RatingRulesLanguage.structure.BaseOccurencePatternCriteriaExpression", "RatingRulesLanguage.structure.BaseOperator", "RatingRulesLanguage.structure.BaseProductDataType", "RatingRulesLanguage.structure.BaseReferenceConcept", "RatingRulesLanguage.structure.BaseRootNamedConceptOrg", "RatingRulesLanguage.structure.BaseSystemDefinedCriteriaFunction", "RatingRulesLanguage.structure.BaseSystemDefinedLocationRelatedCriteriaFunction", "RatingRulesLanguage.structure.BaseSystemDefinedTransferRelatedCriteria", "RatingRulesLanguage.structure.BaseUDNamedCriteriaDeclaration", "RatingRulesLanguage.structure.BaseUDNamedIDCriteriaDefinition", "RatingRulesLanguage.structure.BaseUDTCriteriaRef", "RatingRulesLanguage.structure.BaseUnaryOperator", "RatingRulesLanguage.structure.BaseVarDataType", "RatingRulesLanguage.structure.BooleanType", "RatingRulesLanguage.structure.ConcessionDeclaration", "RatingRulesLanguage.structure.ConcessionSelectionCriteriaDef", "RatingRulesLanguage.structure.ConcessionSelectionCriterias", "RatingRulesLanguage.structure.ConcessionType", "RatingRulesLanguage.structure.Concessions", "RatingRulesLanguage.structure.ConstantFloatValue", "RatingRulesLanguage.structure.ConstantFloatVarDeclaration", "RatingRulesLanguage.structure.ConstantPointToPointFareMatrixValue", "RatingRulesLanguage.structure.ConstantPointToPointVarDeclaration", "RatingRulesLanguage.structure.ConstantTypedVarDeclaration", "RatingRulesLanguage.structure.ConstantVarDeclaration", "RatingRulesLanguage.structure.ConstantVarReference", "RatingRulesLanguage.structure.ConstantsDeclarationBlock", "RatingRulesLanguage.structure.CreateTransferProductAction", "RatingRulesLanguage.structure.CrtAgeVerificationCriteria", "RatingRulesLanguage.structure.CrtEPurseGreatesThanValueCriteria", "RatingRulesLanguage.structure.CrtLifespanValidationCriteria", "RatingRulesLanguage.structure.CrtLocationEqualsCriteria", "RatingRulesLanguage.structure.CrtMOTEqualsCriteria", "RatingRulesLanguage.structure.CrtRouteEqualsCriteria", "RatingRulesLanguage.structure.CrtServiceProviderEqualsCriteria", "RatingRulesLanguage.structure.CrtTapIsOfTypeCriteria", "RatingRulesLanguage.structure.CrtTapTransferCriteria", "RatingRulesLanguage.structure.DivisionNLOperator", "RatingRulesLanguage.structure.DivisionOperator", "RatingRulesLanguage.structure.ElementVarType", "RatingRulesLanguage.structure.FareRuleDefinition", "RatingRulesLanguage.structure.FareRuleType", "RatingRulesLanguage.structure.FareRulesDefinitionBlock", "RatingRulesLanguage.structure.FloatFarePriceCalculationFct", "RatingRulesLanguage.structure.FloatUDTFarePriceCalculationFct", "RatingRulesLanguage.structure.FloatVarType", "RatingRulesLanguage.structure.GenerateTransactionAction", "RatingRulesLanguage.structure.IntType", "RatingRulesLanguage.structure.LValue", "RatingRulesLanguage.structure.LimitedPassbackCheckCriteria", "RatingRulesLanguage.structure.LocationDeclaration", "RatingRulesLanguage.structure.LocationGroupCriteras", "RatingRulesLanguage.structure.LocationGroupCriteriaDef", "RatingRulesLanguage.structure.LocationReference", "RatingRulesLanguage.structure.LocationType", "RatingRulesLanguage.structure.Locations", "RatingRulesLanguage.structure.LogicalExpression", "RatingRulesLanguage.structure.LogicalOperator", "RatingRulesLanguage.structure.MOTReference", "RatingRulesLanguage.structure.MOTType", "RatingRulesLanguage.structure.MediaTypeEqualsCriteria", "RatingRulesLanguage.structure.MinusNLOperator", "RatingRulesLanguage.structure.MinusOperator", "RatingRulesLanguage.structure.ModOfTransportation", "RatingRulesLanguage.structure.ModesOfTransportation", "RatingRulesLanguage.structure.MultiplyNLOperator", "RatingRulesLanguage.structure.MultiplyOperator", "RatingRulesLanguage.structure.NameIDPairTypedVarDeclaration", "RatingRulesLanguage.structure.Not", "RatingRulesLanguage.structure.NumericVarType", "RatingRulesLanguage.structure.Or", "RatingRulesLanguage.structure.OrNL", "RatingRulesLanguage.structure.ParenthisizedExpression", "RatingRulesLanguage.structure.PlusNLOperator", "RatingRulesLanguage.structure.PlusOperator", "RatingRulesLanguage.structure.PointToPointDataDefinitoinBlock", "RatingRulesLanguage.structure.PointToPointDataType", "RatingRulesLanguage.structure.PointToPointFareMatrixVarType", "RatingRulesLanguage.structure.PontToPointFarePriceFuction", "RatingRulesLanguage.structure.ProductAttribute", "RatingRulesLanguage.structure.ProductAttributes", "RatingRulesLanguage.structure.ProductDeclaration", "RatingRulesLanguage.structure.ProductFamilyDeclaration", "RatingRulesLanguage.structure.ProductFamilyType", "RatingRulesLanguage.structure.ProductInstanceAttribute", "RatingRulesLanguage.structure.ProductInstanceAttributes", "RatingRulesLanguage.structure.ProductSelectionCriteriaDef", "RatingRulesLanguage.structure.ProductSelectionCriterias", "RatingRulesLanguage.structure.ProductType", "RatingRulesLanguage.structure.ProductsDefinitionBlock", "RatingRulesLanguage.structure.RValue", "RatingRulesLanguage.structure.RecurrenceCriteriaDef", "RatingRulesLanguage.structure.RecurrencesCriterias", "RatingRulesLanguage.structure.RefConcessionCriteria", "RatingRulesLanguage.structure.RefLocationGroupCriteria", "RatingRulesLanguage.structure.RefProductSelectionCriteria", "RatingRulesLanguage.structure.RefRecurrenceCriteria", "RatingRulesLanguage.structure.RefTransferAgreementSelectionCriteria", "RatingRulesLanguage.structure.ReturnOperator", "RatingRulesLanguage.structure.Route", "RatingRulesLanguage.structure.RouteReference", "RatingRulesLanguage.structure.RouteType", "RatingRulesLanguage.structure.Routes", "RatingRulesLanguage.structure.RulesEngineScript", "RatingRulesLanguage.structure.SPReference", "RatingRulesLanguage.structure.ServiceProvider", "RatingRulesLanguage.structure.ServiceProviderType", "RatingRulesLanguage.structure.ServiceProviders", "RatingRulesLanguage.structure.SystemFunction", "RatingRulesLanguage.structure.TierRounding", "RatingRulesLanguage.structure.TimeInterval", "RatingRulesLanguage.structure.TimeIntervals", "RatingRulesLanguage.structure.TopologyDefinitionBlock", "RatingRulesLanguage.structure.TransferAgreementSelectionCriteriaDef", "RatingRulesLanguage.structure.TransferAgreementSelectionCriterias", "RatingRulesLanguage.structure.UDCReference", "RatingRulesLanguage.structure.UDFReference", "RatingRulesLanguage.structure.UDTFunctionsDefinitionBlock", "RatingRulesLanguage.structure.UserDefinedCriteriasBlock", "RatingRulesLanguage.structure.UsesConcept", "RatingRulesLanguage.structure.Variable", "RatingRulesLanguage.structure.WeekDay", "RatingRulesLanguage.structure.WeeklyOccurencePattern", "RatingRulesLanguage.structure.YearlyDateOccurencePattern", "RatingRulesLanguage.structure.YearlyOccurrencePattern"};
+  private static String[] stringSwitchCases_1htk8d_a0a0tf = new String[]{"RatingRulesLanguage.structure.Actions", "RatingRulesLanguage.structure.And", "RatingRulesLanguage.structure.AndNL", "RatingRulesLanguage.structure.AssignmentOperator", "RatingRulesLanguage.structure.BaseAction", "RatingRulesLanguage.structure.BaseAssignmentOperator", "RatingRulesLanguage.structure.BaseAttributeType", "RatingRulesLanguage.structure.BaseCollectionOfConcepts", "RatingRulesLanguage.structure.BaseConceptOrgCollectionBlock", "RatingRulesLanguage.structure.BaseConceptOrgCollectionWithUniqueID", "RatingRulesLanguage.structure.BaseConstant", "RatingRulesLanguage.structure.BaseCriteriaDeclaration", "RatingRulesLanguage.structure.BaseCriteriaExpression", "RatingRulesLanguage.structure.BaseDataType", "RatingRulesLanguage.structure.BaseFloatFunctionDefinition", "RatingRulesLanguage.structure.BaseNamedFunction", "RatingRulesLanguage.structure.BaseNumericFunctionDef", "RatingRulesLanguage.structure.BaseOccurencePatternCriteriaExpression", "RatingRulesLanguage.structure.BaseOperator", "RatingRulesLanguage.structure.BaseProductDataType", "RatingRulesLanguage.structure.BaseReferenceConcept", "RatingRulesLanguage.structure.BaseRootNamedConceptOrg", "RatingRulesLanguage.structure.BaseSystemDefinedCriteriaFunction", "RatingRulesLanguage.structure.BaseSystemDefinedLocationRelatedCriteriaFunction", "RatingRulesLanguage.structure.BaseSystemDefinedTransferRelatedCriteria", "RatingRulesLanguage.structure.BaseUDNamedCriteriaDeclaration", "RatingRulesLanguage.structure.BaseUDNamedIDCriteriaDefinition", "RatingRulesLanguage.structure.BaseUDTCriteriaRef", "RatingRulesLanguage.structure.BaseUnaryOperator", "RatingRulesLanguage.structure.BaseVarDataType", "RatingRulesLanguage.structure.BooleanType", "RatingRulesLanguage.structure.ConcessionDeclaration", "RatingRulesLanguage.structure.ConcessionSelectionCriteriaDef", "RatingRulesLanguage.structure.ConcessionSelectionCriterias", "RatingRulesLanguage.structure.ConcessionType", "RatingRulesLanguage.structure.Concessions", "RatingRulesLanguage.structure.ConstantFloatValue", "RatingRulesLanguage.structure.ConstantFloatVarDeclaration", "RatingRulesLanguage.structure.ConstantPointToPointFareMatrixValue", "RatingRulesLanguage.structure.ConstantPointToPointVarDeclaration", "RatingRulesLanguage.structure.ConstantStringValue", "RatingRulesLanguage.structure.ConstantStringVarDeclaration", "RatingRulesLanguage.structure.ConstantTypedVarDeclaration", "RatingRulesLanguage.structure.ConstantVarDeclaration", "RatingRulesLanguage.structure.ConstantVarReference", "RatingRulesLanguage.structure.ConstantsDeclarationBlock", "RatingRulesLanguage.structure.CreateTransferProductAction", "RatingRulesLanguage.structure.CrtAgeVerificationCriteria", "RatingRulesLanguage.structure.CrtEPurseGreatesThanValueCriteria", "RatingRulesLanguage.structure.CrtLifespanValidationCriteria", "RatingRulesLanguage.structure.CrtLocationEqualsCriteria", "RatingRulesLanguage.structure.CrtMOTEqualsCriteria", "RatingRulesLanguage.structure.CrtRouteEqualsCriteria", "RatingRulesLanguage.structure.CrtServiceProviderEqualsCriteria", "RatingRulesLanguage.structure.CrtTapIsOfTypeCriteria", "RatingRulesLanguage.structure.CrtTapTransferCriteria", "RatingRulesLanguage.structure.DivisionNLOperator", "RatingRulesLanguage.structure.DivisionOperator", "RatingRulesLanguage.structure.ElementVarType", "RatingRulesLanguage.structure.FareRuleDefinition", "RatingRulesLanguage.structure.FareRuleType", "RatingRulesLanguage.structure.FareRulesDefinitionBlock", "RatingRulesLanguage.structure.FloatFarePriceCalculationFct", "RatingRulesLanguage.structure.FloatUDTFarePriceCalculationFct", "RatingRulesLanguage.structure.FloatVarType", "RatingRulesLanguage.structure.GenerateTransactionAction", "RatingRulesLanguage.structure.IntType", "RatingRulesLanguage.structure.LValue", "RatingRulesLanguage.structure.LimitedPassbackCheckCriteria", "RatingRulesLanguage.structure.LocationDeclaration", "RatingRulesLanguage.structure.LocationGroupCriteras", "RatingRulesLanguage.structure.LocationGroupCriteriaDef", "RatingRulesLanguage.structure.LocationReference", "RatingRulesLanguage.structure.LocationType", "RatingRulesLanguage.structure.Locations", "RatingRulesLanguage.structure.LogicalExpression", "RatingRulesLanguage.structure.LogicalOperator", "RatingRulesLanguage.structure.MOTReference", "RatingRulesLanguage.structure.MOTType", "RatingRulesLanguage.structure.MediaTypeEqualsCriteria", "RatingRulesLanguage.structure.MinusNLOperator", "RatingRulesLanguage.structure.MinusOperator", "RatingRulesLanguage.structure.ModOfTransportation", "RatingRulesLanguage.structure.ModesOfTransportation", "RatingRulesLanguage.structure.MultiplyNLOperator", "RatingRulesLanguage.structure.MultiplyOperator", "RatingRulesLanguage.structure.NameIDPairTypedVarDeclaration", "RatingRulesLanguage.structure.Not", "RatingRulesLanguage.structure.NumericVarType", "RatingRulesLanguage.structure.Or", "RatingRulesLanguage.structure.OrNL", "RatingRulesLanguage.structure.ParenthisizedExpression", "RatingRulesLanguage.structure.PlusNLOperator", "RatingRulesLanguage.structure.PlusOperator", "RatingRulesLanguage.structure.PointToPointDataDefinitoinBlock", "RatingRulesLanguage.structure.PointToPointDataType", "RatingRulesLanguage.structure.PointToPointFareMatrixVarType", "RatingRulesLanguage.structure.PontToPointFarePriceFuction", "RatingRulesLanguage.structure.ProductAttribute", "RatingRulesLanguage.structure.ProductAttributes", "RatingRulesLanguage.structure.ProductDeclaration", "RatingRulesLanguage.structure.ProductFamilyDeclaration", "RatingRulesLanguage.structure.ProductFamilyType", "RatingRulesLanguage.structure.ProductInstanceAttribute", "RatingRulesLanguage.structure.ProductInstanceAttributes", "RatingRulesLanguage.structure.ProductSelectionCriteriaDef", "RatingRulesLanguage.structure.ProductSelectionCriterias", "RatingRulesLanguage.structure.ProductType", "RatingRulesLanguage.structure.ProductsDefinitionBlock", "RatingRulesLanguage.structure.RValue", "RatingRulesLanguage.structure.RecurrenceCriteriaDef", "RatingRulesLanguage.structure.RecurrencesCriterias", "RatingRulesLanguage.structure.RefConcessionCriteria", "RatingRulesLanguage.structure.RefLocationGroupCriteria", "RatingRulesLanguage.structure.RefProductSelectionCriteria", "RatingRulesLanguage.structure.RefRecurrenceCriteria", "RatingRulesLanguage.structure.RefTransferAgreementSelectionCriteria", "RatingRulesLanguage.structure.ReturnOperator", "RatingRulesLanguage.structure.Route", "RatingRulesLanguage.structure.RouteReference", "RatingRulesLanguage.structure.RouteType", "RatingRulesLanguage.structure.Routes", "RatingRulesLanguage.structure.RulesEngineScript", "RatingRulesLanguage.structure.SPReference", "RatingRulesLanguage.structure.ServiceProvider", "RatingRulesLanguage.structure.ServiceProviderType", "RatingRulesLanguage.structure.ServiceProviders", "RatingRulesLanguage.structure.SystemFunction", "RatingRulesLanguage.structure.TierRounding", "RatingRulesLanguage.structure.TimeInterval", "RatingRulesLanguage.structure.TimeIntervals", "RatingRulesLanguage.structure.TopologyDefinitionBlock", "RatingRulesLanguage.structure.TransferAgreementSelectionCriteriaDef", "RatingRulesLanguage.structure.TransferAgreementSelectionCriterias", "RatingRulesLanguage.structure.UDCReference", "RatingRulesLanguage.structure.UDFReference", "RatingRulesLanguage.structure.UDTFunctionsDefinitionBlock", "RatingRulesLanguage.structure.UserDefinedCriteriasBlock", "RatingRulesLanguage.structure.UsesConcept", "RatingRulesLanguage.structure.Variable", "RatingRulesLanguage.structure.VirtualTunnelFunction", "RatingRulesLanguage.structure.WeekDay", "RatingRulesLanguage.structure.WeeklyOccurencePattern", "RatingRulesLanguage.structure.YearlyDateOccurencePattern", "RatingRulesLanguage.structure.YearlyOccurrencePattern"};
 }

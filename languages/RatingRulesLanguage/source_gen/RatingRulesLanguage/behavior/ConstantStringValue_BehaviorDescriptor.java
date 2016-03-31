@@ -9,11 +9,11 @@ package RatingRulesLanguage.behavior;
  * This class is not involved in the actual method invocation
  */
 @Deprecated
-public class FareRule_BehaviorDescriptor extends NameIDPairTypedVarDeclaration_BehaviorDescriptor {
+public class ConstantStringValue_BehaviorDescriptor extends BaseConstant_BehaviorDescriptor {
 
   @Override
   public String getConceptFqName() {
-    return "RatingRulesLanguage.structure.FareRule";
+    return "RatingRulesLanguage.structure.ConstantStringValue";
   }
 
 }

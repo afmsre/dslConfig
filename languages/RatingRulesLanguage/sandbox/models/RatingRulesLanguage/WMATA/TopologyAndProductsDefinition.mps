@@ -319,6 +319,14 @@
         <property role="MAbk_" value="0.0" />
       </node>
     </node>
+    <node concept="MZBq4" id="1cPRpQ$m2P0" role="MAbpp">
+      <property role="TrG5h" value="var_notfree" />
+      <node concept="MXa0d" id="1cPRpQ$m2P1" role="MXa0b" />
+      <node concept="MAbkx" id="1cPRpQ$m2P2" role="MXa0g">
+        <property role="MSCAz" value="$" />
+        <property role="MAbk_" value="1.00" />
+      </node>
+    </node>
   </node>
 </model>
 

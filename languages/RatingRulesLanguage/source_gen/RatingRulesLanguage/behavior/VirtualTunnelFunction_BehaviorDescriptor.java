@@ -9,11 +9,11 @@ package RatingRulesLanguage.behavior;
  * This class is not involved in the actual method invocation
  */
 @Deprecated
-public class BaseCollectionwithUniqueID_BehaviorDescriptor extends BaseCollectionDataType_BehaviorDescriptor {
+public class VirtualTunnelFunction_BehaviorDescriptor extends SystemFunction_BehaviorDescriptor {
 
   @Override
   public String getConceptFqName() {
-    return "RatingRulesLanguage.structure.BaseCollectionwithUniqueID";
+    return "RatingRulesLanguage.structure.VirtualTunnelFunction";
   }
 
 }
