@@ -2047,6 +2047,10 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5A_adHFmPTw" resolve="ConstantPointToPointVarDeclaration" />
     </node>
+    <node concept="1TJgyi" id="1cPRpQ$m_xY" role="1TKVEl">
+      <property role="TrG5h" value="TestProperty" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
 </model>
 
